@@ -1,0 +1,147 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FTCDisclosure from '../../components/FTCDisclosure.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Diving Indonesia', url: '/diving-indonesia/' },
+];
+
+const pageTitle = 'Diving Indonesia — Best Dive Sites & Liveaboards 2026';
+const pageDescription = "Indonesia has more marine biodiversity than anywhere on earth. From Raja Ampat's manta rays to Komodo's ripping currents and Bali's USAT Liberty wreck — the complete guide to diving Indonesia.";
+
+const diveSites = [
+  {
+    name: 'Raja Ampat',
+    slug: 'raja-ampat',
+    region: 'West Papua',
+    highlight: 'Most biodiverse marine waters on the planet',
+    bestTime: 'Oct–Apr',
+    difficulty: 'Intermediate–Advanced',
+    topSite: 'Misool, Wayag, Cape Kri',
+    bestFor: 'Biodiversity, mantas, pygmy seahorses',
+    icon: '🐠',
+  },
+  {
+    name: 'Komodo',
+    slug: 'komodo',
+    region: 'Nusa Tenggara Timur',
+    highlight: 'Manta rays, sharks, strong drift dives',
+    bestTime: 'Apr–Nov',
+    difficulty: 'Intermediate–Advanced',
+    topSite: 'Batu Bolong, Crystal Rock, Manta Point',
+    bestFor: 'Manta rays, schooling fish, drift diving',
+    icon: '🦈',
+  },
+  {
+    name: 'Bali',
+    slug: 'bali',
+    region: 'Bali',
+    highlight: 'USAT Liberty wreck, mola mola season',
+    bestTime: 'Jul–Sep (mola), year-round (wreck)',
+    difficulty: 'Beginner–Advanced',
+    topSite: 'Tulamben, Nusa Penida, Amed',
+    bestFor: 'Wreck diving, mola mola, macro',
+    icon: '🚢',
+  },
+  {
+    name: 'Nusa Penida',
+    slug: 'nusa-penida',
+    region: 'Bali',
+    highlight: 'Manta rays at Manta Point, cold upwellings',
+    bestTime: 'Apr–Oct',
+    difficulty: 'Intermediate',
+    topSite: 'Manta Point, Crystal Bay, Toyapakeh',
+    bestFor: 'Manta rays, mola mola, strong current dives',
+    icon: '🐋',
+  },
+  {
+    name: 'Lombok & Gili Islands',
+    slug: 'gili-islands',
+    region: 'Nusa Tenggara Barat',
+    highlight: 'Easy reef diving, sea turtles guaranteed',
+    bestTime: 'May–Sep',
+    difficulty: 'Beginner–Intermediate',
+    topSite: 'Turtle Point, Shark Point, Gili Trawangan',
+    bestFor: 'Sea turtles, beginners, shallow reefs',
+    icon: '🐢',
+  },
+  {
+    name: 'Flores',
+    slug: 'flores',
+    region: 'Nusa Tenggara Timur',
+    highlight: 'Remote reefs, thresher sharks at Maumere',
+    bestTime: 'Apr–Nov',
+    difficulty: 'Intermediate',
+    topSite: 'Riung, Maumere, Kelimutu area reefs',
+    bestFor: 'Untouched reefs, macro life, less crowds',
+    icon: '🌊',
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath="/diving-indonesia/"
+>
+  <div style="max-width:900px;margin:0 auto;padding:40px 20px;">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 style="font-size:2rem;color:#1A2332;margin:24px 0 8px;">{pageTitle}</h1>
+    <p style="color:#4A5568;font-size:1.1rem;line-height:1.65;margin-bottom:32px;">{pageDescription}</p>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:20px;">Best Dive Sites in Indonesia</h2>
+      <div style="display:grid;gap:20px;">
+        {diveSites.map((site) => (
+          <div style="background:white;border:1px solid #E2E8F0;border-radius:12px;padding:24px;">
+            <div style="display:flex;align-items:flex-start;gap:16px;">
+              <div style="font-size:2rem;">{site.icon}</div>
+              <div style="flex:1;">
+                <h3 style="font-size:1.15rem;color:#1A2332;margin:0 0 4px;">
+                  <a href={`/destinations/${site.slug}/`} style="color:#0D7377;text-decoration:none;">{site.name}</a>
+                </h3>
+                <div style="font-size:0.85rem;color:#94A3B8;margin-bottom:8px;">{site.region}</div>
+                <p style="color:#4A5568;font-size:0.95rem;margin:0 0 12px;">{site.highlight}</p>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:0.85rem;">
+                  <div><strong style="color:#1A2332;">Best time:</strong> <span style="color:#4A5568;">{site.bestTime}</span></div>
+                  <div><strong style="color:#1A2332;">Level:</strong> <span style="color:#4A5568;">{site.difficulty}</span></div>
+                  <div><strong style="color:#1A2332;">Top sites:</strong> <span style="color:#4A5568;">{site.topSite}</span></div>
+                  <div><strong style="color:#1A2332;">Best for:</strong> <span style="color:#4A5568;">{site.bestFor}</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:16px;">Liveaboards</h2>
+      <p style="color:#4A5568;line-height:1.65;margin-bottom:16px;">
+        Raja Ampat and Komodo are best explored by liveaboard — the remote sites are inaccessible from shore. A typical 7-day Raja Ampat liveaboard costs $2,000–$4,500 per person all-inclusive. Komodo liveaboards run $600–$2,000 for 3–7 days.
+      </p>
+      <p style="color:#4A5568;line-height:1.65;">
+        Book 3–6 months ahead for peak season (Oct–Apr for Raja Ampat, Apr–Nov for Komodo). The most reliable operators are found through <a href="https://www.klook.com/en-ID/search/result/?query=Indonesia+liveaboard+diving&aid=112015&sub_id=discoverindonesia" style="color:#0D7377;">Klook</a> or direct with operators like Dewi Nusantara and Kararu.
+      </p>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:16px;">When to Dive Indonesia</h2>
+      <p style="color:#4A5568;line-height:1.65;margin-bottom:12px;">
+        Indonesia straddles the equator, so conditions vary significantly by region. The dry season (May–September) brings calmer seas to Bali, Lombok, and Komodo. Raja Ampat's peak season is October–April, when strong winds stay north and visibility is best.
+      </p>
+      <p style="color:#4A5568;line-height:1.65;">
+        Mola mola (ocean sunfish) appear at Nusa Penida and Bali between July and September during cold upwellings. Manta rays are year-round at Raja Ampat and Komodo's Manta Point.
+      </p>
+    </section>
+
+    <div style="margin-bottom:40px;">
+      <EmailCapture leadMagnet="Indonesia Diving Guide" />
+    </div>
+
+    <FTCDisclosure placement="inline" />
+  </div>
+</BaseLayout>

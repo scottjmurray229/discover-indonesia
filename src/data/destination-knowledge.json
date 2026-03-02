@@ -1,0 +1,274 @@
+{
+  "destinations": {
+    "bali": {
+      "title": "Bali",
+      "tagline": "Island of the Gods",
+      "name": "Bali",
+      "description": "Indonesia's most famous island, known for its forested volcanic mountains, iconic rice paddies, beaches, and coral reefs. A spiritual heartland with thousands of ancient temples.",
+      "airport": "Ngurah Rai International Airport (DPS)",
+      "currency": "IDR (Indonesian Rupiah). 1 USD ≈ 16,000 IDR. Credit cards accepted at tourist areas; carry cash for markets and warungs.",
+      "language": "Bahasa Indonesia (official), Balinese (local). English widely spoken in tourist areas.",
+      "visa": "Visa on Arrival (VoA) available for most nationalities at DPS airport — USD 35, valid 30 days, extendable once for another 30 days.",
+      "bestTime": "April–October (dry season). Avoid January–March for the interior — wet season brings daily rain.",
+      "localTips": [
+        "Dress modestly when visiting temples — a sarong is required. Many temples provide them at the entrance.",
+        "Negotiate at markets — starting price is usually 2-3x the fair price.",
+        "Rent a scooter (IDR 70,000–100,000/day) or hire a private driver (IDR 450,000–600,000/day).",
+        "Avoid Kuta and Seminyak if you want authentic Bali — stay in Ubud, Sidemen, or Amed.",
+        "The Bali Spirit Festival (April) and Nyepi (Balinese New Year, March) are unmissable cultural events."
+      ]
+    },
+    "jakarta": {
+      "title": "Jakarta",
+      "tagline": "The City That Never Stops",
+      "name": "Jakarta",
+      "description": "Indonesia's sprawling capital and economic hub, home to 10 million people, world-class malls, vibrant street food scene, and colonial Dutch architecture in Kota Tua.",
+      "airport": "Soekarno-Hatta International Airport (CGK)",
+      "currency": "IDR. ATMs everywhere. Most hotels and malls accept Visa/Mastercard.",
+      "language": "Bahasa Indonesia. English spoken in business districts and upscale restaurants.",
+      "visa": "Visa on Arrival (VoA) for most nationalities — USD 35, valid 30 days.",
+      "bestTime": "May–September (dry season). Jakarta is hot and humid year-round.",
+      "localTips": [
+        "Traffic is legendary — use the MRT or TransJakarta BRT to get around.",
+        "Kota Tua (Old Town) is worth half a day — Dutch colonial buildings, Wayang Museum, and Café Batavia.",
+        "Street food around Menteng and Glodok is outstanding — try soto betawi and kerak telor.",
+        "The National Museum is excellent for understanding Indonesian history and culture.",
+        "Grab and Gojek apps are essential for transport and food delivery."
+      ]
+    },
+    "yogyakarta": {
+      "title": "Yogyakarta",
+      "tagline": "Heart of Javanese Culture",
+      "name": "Yogyakarta",
+      "description": "The cultural heart of Java, home to the ancient temples of Borobudur and Prambanan, the Sultan's Palace (Kraton), and a thriving batik and wayang puppet tradition.",
+      "airport": "Yogyakarta International Airport (YIA)",
+      "currency": "IDR. Carry cash — many warungs and local markets are cash-only.",
+      "language": "Bahasa Indonesia, Javanese. English spoken at tourist sites.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–October. Borobudur sunrise visits (May–September) offer clear mountain views.",
+      "localTips": [
+        "Wake up at 4am for the Borobudur sunrise tour — it's the most magical experience in Java.",
+        "Rent a bicycle in the city — Yogyakarta's downtown is flat and bike-friendly.",
+        "Buy batik from Beringharjo Market, not tourist shops — prices are a fraction of the cost.",
+        "Visit Prambanan at sunset for dramatic photos of the Hindu temple complex.",
+        "The Kraton has free cultural performances on certain mornings."
+      ]
+    },
+    "ubud": {
+      "title": "Ubud",
+      "tagline": "Bali's Cultural Soul",
+      "name": "Ubud",
+      "description": "Bali's cultural capital, set amid jungle-covered hills and terraced rice paddies. Famous for its vibrant arts scene, cooking classes, yoga retreats, and access to sacred temples.",
+      "airport": "Ngurah Rai International Airport (DPS) — approximately 1 hour by car.",
+      "currency": "IDR. Most restaurants and shops accept cards; carry cash for market shopping.",
+      "language": "Balinese, Bahasa Indonesia. English widely spoken in tourist establishments.",
+      "visa": "Visa on Arrival (VoA) at DPS — USD 35, valid 30 days.",
+      "bestTime": "April–October. Rice paddies are most lush in November–December.",
+      "localTips": [
+        "The Campuhan Ridge Walk at sunrise is free and spectacular — start before 7am.",
+        "Attend a Kecak fire dance at Uluwatu Temple (sunset) — one of the most theatrical performances in Asia.",
+        "Tegallalang Rice Terraces are beautiful but crowded — visit before 8am or after 4pm.",
+        "Cooking classes at Casa Luna or Paon are outstanding — half-day classes include market visits.",
+        "Side streets near the Monkey Forest are quieter and cheaper than Jalan Raya Ubud."
+      ]
+    },
+    "lombok": {
+      "title": "Lombok",
+      "tagline": "Bali's Quieter Neighbor",
+      "name": "Lombok",
+      "description": "Bali's quieter neighbor, offering pristine beaches, the sacred volcano Mount Rinjani, and the laid-back Gili Islands just offshore. Sasak culture distinct from Bali.",
+      "airport": "Lombok International Airport (LOP)",
+      "currency": "IDR. ATMs in Mataram and Senggigi; carry cash for beach areas.",
+      "language": "Bahasa Indonesia, Sasak. English in tourist areas.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "May–October. Rinjani treks best April–November.",
+      "localTips": [
+        "The Rinjani crater rim trek (2–3 days) is one of Southeast Asia's best hikes.",
+        "Kuta Lombok has excellent surf breaks and is far less developed than Kuta Bali.",
+        "Try ayam taliwang — Lombok's famous chili chicken — at any local warung.",
+        "Fast boats to the Gili Islands depart from Bangsal Harbor.",
+        "Friday Mosque prayers in Mataram are a beautiful cultural experience."
+      ]
+    },
+    "komodo": {
+      "title": "Komodo",
+      "tagline": "Dragons, Pink Beaches & World-Class Diving",
+      "name": "Komodo",
+      "description": "Home to the world's largest lizard, Komodo National Park encompasses volcanic islands, pristine coral reefs, and pink sand beaches rarely found elsewhere on Earth.",
+      "airport": "Komodo Airport (LBJ) in Labuan Bajo, Flores",
+      "currency": "IDR. Very limited ATMs in Labuan Bajo — withdraw cash in Bali before arriving.",
+      "language": "Bahasa Indonesia. Limited English outside Labuan Bajo town.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–November. Peak diving season July–August.",
+      "localTips": [
+        "You must pay a Komodo National Park fee — rangers accompany all Komodo dragon viewing.",
+        "Pink Beach (Pantai Merah) is genuinely pink — best colors in morning light.",
+        "Liveaboard diving trips are the best way to experience the park's remote dive sites.",
+        "Budget IDR 600,000–1,500,000 per person for a day boat tour from Labuan Bajo.",
+        "Book accommodation in Labuan Bajo well in advance for June to September."
+      ]
+    },
+    "raja-ampat": {
+      "title": "Raja Ampat",
+      "tagline": "The World's Greatest Diving Destination",
+      "name": "Raja Ampat",
+      "description": "The crown jewel of Indonesian diving, Raja Ampat's 1,500 islands contain the highest marine biodiversity on Earth. Hidden lagoons, overwater bungalows, and absolute silence.",
+      "airport": "DEO Airport in Sorong, West Papua — then 2–4 hour speedboat to Waisai.",
+      "currency": "IDR. Very limited banking — bring all cash from Sorong.",
+      "language": "Bahasa Indonesia. Limited English.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days. Entry permit for Raja Ampat (IDR 500,000) required.",
+      "bestTime": "October–April (best visibility). May–September for pelagic encounters.",
+      "localTips": [
+        "Pay the Raja Ampat Marine Park entry fee (IDR 500,000/person, valid 1 year) at Waisai.",
+        "The Pianemo viewpoint hike offers the iconic Raja Ampat vista — go at 7am before day-trippers.",
+        "Resorts handle all boat logistics — do not navigate independently without local knowledge.",
+        "Bring reef-safe sunscreen only — the marine park is strictly monitored.",
+        "Misool, Wayag, and Dampier Strait are the three must-do areas."
+      ]
+    },
+    "bandung": {
+      "title": "Bandung",
+      "tagline": "Java's Fashion Capital & Cool Climate Escape",
+      "name": "Bandung",
+      "description": "Java's fashion capital and a cool-climate escape from Jakarta's heat. Known for its factory outlets, creative food scene, Dutch colonial architecture, and volcanic landscapes nearby.",
+      "airport": "Husein Sastranegara Airport (BDO) or Bandung Kertajati Airport (KJT)",
+      "currency": "IDR. Cards accepted at malls; cash for street food and factory outlets.",
+      "language": "Bahasa Indonesia, Sundanese. English in commercial areas.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–October. Bandung is pleasantly cool (18–28°C) year-round.",
+      "localTips": [
+        "Factory outlets on Jalan Cihampelas offer brand-name clothing at 30–70% off retail.",
+        "The Tangkuban Perahu volcanic crater is 30km north — best visited in the morning before mist rolls in.",
+        "Bandung's café culture is exceptional — the Dago area has dozens of themed specialty coffee shops.",
+        "Travel Jakarta to Bandung by KAI Intercity train — faster and more comfortable than driving.",
+        "Try nasi timbel and batagor at the Braga area food stalls."
+      ]
+    },
+    "surabaya": {
+      "title": "Surabaya",
+      "tagline": "Gateway to Java's Volcanic Wonders",
+      "name": "Surabaya",
+      "description": "Indonesia's second-largest city, a gritty, energetic port town with historic Arab Quarter, impressive colonial architecture, and gateway to Mount Bromo and Ijen Crater.",
+      "airport": "Juanda International Airport (SUB)",
+      "currency": "IDR. Full banking infrastructure. Cards accepted widely.",
+      "language": "Bahasa Indonesia, Javanese. English in business districts.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–October. Mount Bromo is accessible year-round.",
+      "localTips": [
+        "Surabaya is best used as a base for Mount Bromo (4-hour drive) and Ijen Crater (6-hour drive).",
+        "The Arab Quarter (Ampel) near Sunan Ampel Mosque is atmospheric — visit in the afternoon.",
+        "Rawon (black beef soup) and lontong balap are Surabayan street food classics.",
+        "The House of Sampoerna tobacco museum is free and fascinating.",
+        "Arrange private drivers for Bromo and Ijen through your hotel."
+      ]
+    },
+    "malang": {
+      "title": "Malang",
+      "tagline": "Java's Highland Gem",
+      "name": "Malang",
+      "description": "A charming colonial town in East Java's highlands, with a cool climate, Dutch-era mansions, colorful painted villages, and easy access to Mount Bromo and Semeru.",
+      "airport": "Abdul Rachman Saleh Airport (MLG)",
+      "currency": "IDR. ATMs plentiful. Cash preferred at local warungs.",
+      "language": "Bahasa Indonesia, Javanese.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–October. Cool highland climate makes it comfortable year-round.",
+      "localTips": [
+        "Kampung Warna-Warni (colorful village) is photogenic — visit in the afternoon light.",
+        "The Ijen Blue Fire (best seen 2–4am) is one of the world's most otherworldly natural phenomena.",
+        "Malang's Kasin area has some of the best colonial architecture outside of Bandung.",
+        "Apple orchards in the nearby Batu area offer pick-your-own experiences from April–July.",
+        "Bakso (meatball soup) is a Malang specialty — try it at Bakso President."
+      ]
+    },
+    "flores": {
+      "title": "Flores",
+      "tagline": "The Undiscovered Heart of Indonesia",
+      "name": "Flores",
+      "description": "A rugged volcanic island of extraordinary beauty, from the tri-colored crater lakes of Kelimutu to traditional Ngada villages, whale watching, and gateway to Komodo.",
+      "airport": "Komodo Airport (LBJ) in Labuan Bajo; H. Hasan Aroeboesman Airport (ENE) in Ende.",
+      "currency": "IDR. Very limited ATMs outside major towns — carry cash.",
+      "language": "Bahasa Indonesia. Multiple local languages (Manggarai, Ngada, Ende).",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "May–October. Dry conditions needed for the Trans-Flores Highway.",
+      "localTips": [
+        "The Trans-Flores Highway is one of Indonesia's great overland journeys — allow 4–5 days minimum.",
+        "Kelimutu's three crater lakes change color unpredictably — arrive before 6am.",
+        "Bena Village near Bajawa is one of Flores' best-preserved traditional villages.",
+        "Whale sharks and manta rays are seen year-round in Labuan Bajo's bay.",
+        "Ikat weaving is Flores' most prized handicraft — each village has its own distinct patterns."
+      ]
+    },
+    "gili-islands": {
+      "title": "Gili Islands",
+      "tagline": "No Cars, Just Coral and Cocktails",
+      "name": "Gili Islands",
+      "description": "Three tiny coral-fringed islands off Lombok's northwest coast — famous for sea turtles, no motorized vehicles, and sunset cocktails on Gili Trawangan.",
+      "airport": "Lombok International Airport (LOP) — then 45-minute boat from Bangsal.",
+      "currency": "IDR. ATMs on Gili Trawangan only; carry cash.",
+      "language": "Bahasa Indonesia, Sasak. English widely spoken.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "May–October. Sea is calmest and visibility best for snorkeling.",
+      "localTips": [
+        "Gili T is the party island. Gili Air is the social-but-calm middle ground. Gili Meno is for honeymooners.",
+        "Snorkeling with turtles is virtually guaranteed at Turtle Point between Gili Meno and Gili Air.",
+        "No motorbikes or cars on any of the Gilis — cidomos and bicycles only.",
+        "The western beach strip on Gili T is the best sunset spot — arrive 30 minutes early.",
+        "Fast boats from Bali connect directly to the Gilis — book through Gili Getaway or Scoot."
+      ]
+    },
+    "nusa-penida": {
+      "title": "Nusa Penida",
+      "tagline": "Bali's Wild and Rugged Neighbor",
+      "name": "Nusa Penida",
+      "description": "Bali's dramatic southern neighbor, known for sheer clifftop viewpoints, crystal-clear snorkeling with manta rays, and raw beauty in sharp contrast to polished Bali.",
+      "airport": "Ngurah Rai International Airport (DPS) — then 45-minute fast boat from Sanur.",
+      "currency": "IDR. Limited ATMs — bring sufficient cash from Bali.",
+      "language": "Balinese, Bahasa Indonesia. Limited English outside tourist areas.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "April–October. Roads are rough — 4WD or confident scooter riding necessary.",
+      "localTips": [
+        "Kelingking Beach viewpoint is stunning but the descent is extremely steep — only attempt with good fitness.",
+        "Manta Point snorkeling (year-round mantas) and Crystal Bay are must-dos.",
+        "Hire a driver (IDR 400,000–600,000/day) unless you're confident on rough roads.",
+        "Bring all medications and supplies from Bali — healthcare on the island is very limited.",
+        "Diamond Beach and Atuh Beach on the south coast reward those who venture beyond the Instagram spots."
+      ]
+    },
+    "lake-toba": {
+      "title": "Lake Toba",
+      "tagline": "The World's Largest Volcanic Lake",
+      "name": "Lake Toba",
+      "description": "The world's largest volcanic lake, formed by a supervolcanic eruption 74,000 years ago. At its center sits Samosir Island, home to Batak culture and extraordinary traditional architecture.",
+      "airport": "Silangit International Airport (DTB) or Kualanamu International Airport (KNO) near Medan.",
+      "currency": "IDR. ATMs in Parapat and Samosir towns. Carry cash for villages.",
+      "language": "Bahasa Indonesia, Batak. Limited English.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "May–September. The lake region is cooler than coastal Sumatra.",
+      "localTips": [
+        "Stay on Samosir Island (accessible by ferry from Parapat) for the best cultural experience.",
+        "Tomok Village has ancient Batak kings' tombs and a traditional market.",
+        "Batak music performances at local restaurants in Tuk Tuk are authentic and wonderful.",
+        "Rent a motorbike and circumnavigate Samosir Island in a day — the road is flat and views spectacular.",
+        "Huta Siallagan stone chairs (tribal court site) are genuinely fascinating."
+      ]
+    },
+    "medan": {
+      "title": "Medan",
+      "tagline": "Sumatra's Culinary Capital",
+      "name": "Medan",
+      "description": "Sumatra's largest city and gateway to Lake Toba, Bukit Lawang orangutan sanctuary, and the Acehnese highlands. Famous for its extraordinary multi-ethnic food scene.",
+      "airport": "Kualanamu International Airport (KNO)",
+      "currency": "IDR. Full banking infrastructure. Cards accepted widely in the city.",
+      "language": "Bahasa Indonesia, Batak, Malay, Chinese dialects. Some English in business areas.",
+      "visa": "Visa on Arrival (VoA) — USD 35, valid 30 days.",
+      "bestTime": "Year-round. May–September slightly drier. Always hot and humid (25–33°C).",
+      "localTips": [
+        "Medan's food scene is arguably Indonesia's best — must-try: soto Medan, bihun bebek, and nasi goreng Acehnese.",
+        "The Grand Mosque (Masjid Raya) and Maimun Palace are Medan's finest landmarks.",
+        "Bukit Lawang (4 hours by road) offers ethical orangutan trekking in Gunung Leuser National Park.",
+        "Tjong A Fie Mansion is a beautifully preserved Chinese merchant's home — guided tours available.",
+        "Medan is genuinely gritty and chaotic — embrace it."
+      ]
+    }
+  }
+}

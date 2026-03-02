@@ -1,0 +1,154 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FTCDisclosure from '../../components/FTCDisclosure.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Indonesian Cuisine', url: '/indonesian-cuisine/' },
+];
+
+const pageTitle = 'Indonesian Cuisine Guide — What to Eat & Where';
+const pageDescription = 'Indonesia has one of the most diverse food cultures in Asia. From Bali\'s suckling pig to Yogyakarta\'s gudeg and Sumatran rendang — a region-by-region guide to eating Indonesia.';
+
+const dishes = [
+  {
+    name: 'Nasi Goreng',
+    region: 'Nationwide',
+    description: 'Fried rice with egg, vegetables, kecap manis (sweet soy sauce), and usually chicken or prawns. The national dish. Every warung does it. The best versions are wok-fried over high heat at proper Indonesian warungs, not tourist restaurants.',
+    price: 'Rp20,000–50,000 ($1.25–3) at a warung; Rp80,000+ at tourist restaurants',
+    icon: '🍳',
+  },
+  {
+    name: 'Rendang',
+    region: 'West Sumatra (Padang)',
+    description: 'Slow-braised beef in coconut milk and spices until dry and intensely caramelized. Padang restaurants (found everywhere in Indonesia) serve it on a "all the food comes out at once" basis — you pay only for what you eat.',
+    price: 'Rp35,000–60,000 ($2–4) per portion at Padang restaurants',
+    icon: '🥩',
+  },
+  {
+    name: 'Satay (Sate)',
+    region: 'Nationwide (Madura, Java)',
+    description: 'Skewered meat — chicken, goat, beef, or lamb — grilled over charcoal and served with peanut sauce or kecap manis. Sate Madura and Sate Ponorogo are the most famous styles. Found at every night market.',
+    price: 'Rp15,000–30,000 ($1–2) for 10 skewers at street stalls',
+    icon: '🍢',
+  },
+  {
+    name: 'Gado-Gado',
+    region: 'Java (Jakarta, Bandung)',
+    description: 'Vegetable salad with peanut sauce — blanched vegetables, tofu, tempeh, hard-boiled egg, and rice cakes, all drowned in a rich peanut dressing. One of the best vegetarian options in Indonesian food.',
+    price: 'Rp25,000–45,000 ($1.50–3)',
+    icon: '🥗',
+  },
+  {
+    name: 'Babi Guling',
+    region: 'Bali',
+    description: 'Balinese suckling pig — whole pig stuffed with turmeric, galangal, and lemongrass, then roasted on a spit. A ceremonial food that\'s now available in specialist warungs. Ibu Oka in Ubud is the most famous — arrive by 11am, it sells out.',
+    price: 'Rp60,000–120,000 ($4–7.50) for a portion at specialist warungs',
+    icon: '🐷',
+  },
+  {
+    name: 'Gudeg',
+    region: 'Yogyakarta',
+    description: 'Young jackfruit braised in coconut milk and palm sugar until sweet and tender. Yogyakarta\'s signature dish, sold in gudeg restaurants (warung gudeg) throughout the city, often from midnight as an early breakfast.',
+    price: 'Rp20,000–40,000 ($1.25–2.50) for a full portion with rice',
+    icon: '🍲',
+  },
+  {
+    name: 'Mie Goreng',
+    region: 'Nationwide',
+    description: 'Fried noodles with vegetables, egg, and your choice of protein. The street food twin to nasi goreng. Best eaten at a kaki lima (mobile cart) late at night when the charcoal heat is at its most intense.',
+    price: 'Rp20,000–45,000 ($1.25–3) depending on additions',
+    icon: '🍜',
+  },
+  {
+    name: 'Soto',
+    region: 'Nationwide (regional variations)',
+    description: 'Clear or coconut milk-based soup with chicken, vegetables, and noodles or rice. Dozens of regional versions: Soto Ayam (chicken, clear broth), Soto Betawi (Jakarta, rich coconut/milk broth with beef), Soto Banjar (Kalimantan, aromatic). A staple breakfast food.',
+    price: 'Rp20,000–50,000 ($1.25–3)',
+    icon: '🍵',
+  },
+];
+
+const where = [
+  {
+    type: 'Warung',
+    description: 'Small family-owned restaurants, often open-air. The best food in Indonesia is served at warungs, not tourist restaurants. Look for busy local clientele, not English menus. Prices are 50–80% lower than tourist spots for the same or better food.',
+  },
+  {
+    type: 'Padang Restaurant (Rumah Makan Padang)',
+    description: 'Recognizable by the stacks of dishes in the window. Dozens of dishes come to your table; you pay only for what you eat. The food has been sitting in spices all day, which makes it better. Rendang, curry, sambal, and coconut-braised vegetables are the stars.',
+  },
+  {
+    type: 'Night Market (Pasar Malam)',
+    description: 'Every Indonesian city has a night market. The best for food: Pasar Malioboro in Yogyakarta, Pasar Loak in Jakarta, and Ubud\'s Pasar Seni. Arrive between 6–8pm when grills are at full heat and everything is fresh.',
+  },
+  {
+    type: 'Kaki Lima',
+    description: 'Mobile food carts (the name means "five legs" — two wheels + three legs of the cart). The satay, mie goreng, and nasi goreng at good kaki lima carts is often better than restaurants. Ask locals where they eat.',
+  },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath="/indonesian-cuisine/"
+>
+  <div style="max-width:900px;margin:0 auto;padding:40px 20px;">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 style="font-size:2rem;color:#1A2332;margin:24px 0 8px;">{pageTitle}</h1>
+    <p style="color:#4A5568;font-size:1.1rem;line-height:1.65;margin-bottom:32px;">{pageDescription}</p>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:20px;">Dishes to Eat in Indonesia</h2>
+      <div style="display:grid;gap:16px;">
+        {dishes.map((dish) => (
+          <div style="background:white;border:1px solid #E2E8F0;border-radius:12px;padding:20px;">
+            <div style="display:flex;gap:14px;align-items:flex-start;">
+              <div style="font-size:1.8rem;">{dish.icon}</div>
+              <div style="flex:1;">
+                <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px;">
+                  <h3 style="font-size:1.05rem;color:#1A2332;margin:0;">{dish.name}</h3>
+                  <span style="font-size:0.8rem;color:#94A3B8;background:#F1F5F9;padding:2px 8px;border-radius:100px;">{dish.region}</span>
+                </div>
+                <p style="color:#4A5568;font-size:0.95rem;line-height:1.6;margin:0 0 8px;">{dish.description}</p>
+                <div style="font-size:0.85rem;color:#64748B;"><strong>Price:</strong> {dish.price}</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:20px;">Where to Eat in Indonesia</h2>
+      <div style="display:grid;gap:16px;">
+        {where.map((item) => (
+          <div style="background:white;border:1px solid #E2E8F0;border-radius:10px;padding:20px;">
+            <h3 style="font-size:1rem;color:#1A2332;margin:0 0 8px;">{item.type}</h3>
+            <p style="color:#4A5568;font-size:0.95rem;line-height:1.6;margin:0;">{item.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:16px;">Food Safety Tips</h2>
+      <ul style="color:#4A5568;line-height:1.8;padding-left:20px;">
+        <li><strong>Water:</strong> Drink bottled water only. Ice at tourist restaurants is usually from filtered water — at street stalls, skip the ice.</li>
+        <li><strong>Fresh fruit:</strong> Safe if you peel it yourself. Pre-cut fruit at markets carries more risk.</li>
+        <li><strong>Busy stalls:</strong> High turnover means fresher food. The busiest warung on the street is almost always the safest bet.</li>
+        <li><strong>Spice level:</strong> Indonesian food ranges from mild to extremely spicy. "Tidak pedas" (not spicy) or "sedikit pedas" (a little spicy) will get you the right heat level. Sambal is always on the side — add it yourself.</li>
+        <li><strong>Pork:</strong> Indonesia is predominantly Muslim, so pork is rare except in Bali (Hindu) and Chinese restaurants. Babi guling warungs in Bali are clearly labeled.</li>
+      </ul>
+    </section>
+
+    <div style="margin-bottom:40px;">
+      <EmailCapture leadMagnet="Indonesian Cuisine Guide" />
+    </div>
+
+    <FTCDisclosure placement="inline" />
+  </div>
+</BaseLayout>

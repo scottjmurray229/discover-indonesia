@@ -1,0 +1,134 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FTCDisclosure from '../../components/FTCDisclosure.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Bali Guide', url: '/bali-guide/' },
+];
+
+const pageTitle = 'The Complete Bali Travel Guide 2026';
+const pageDescription = 'Everything you need to plan a Bali trip — where to stay, what to skip, how to get around, and the experiences worth the money. From 20+ trips since 2003.';
+
+const areas = [
+  {
+    name: 'Ubud',
+    tagline: 'Culture, rice paddies, and arts',
+    why: 'The best base for a first Bali trip. Ubud puts you in the cultural heart of the island — Balinese dance, cooking classes, jungle walks, the iconic rice terraces.',
+    stay: 'Stay on the side streets off Jalan Bisma or Jalan Hanoman, not the main Jalan Raya Ubud. Puri Wisata (mid-range) and Komaneka at Bisma (splurge) are consistently excellent.',
+    skip: 'The Monkey Forest. Overpriced, the monkeys are aggressive, and the "forest" is tiny.',
+    doThis: 'Campuhan Ridge Walk at 6am before breakfast. Tegallalang Rice Terraces before 9am. Kecak fire dance at Ubud Palace.',
+    link: '/destinations/ubud/',
+    icon: '🌾',
+  },
+  {
+    name: 'Seminyak & Canggu',
+    tagline: 'Beach clubs, surf, and restaurants',
+    why: 'Bali\'s most developed beach strip. International food scene, beach clubs, surf breaks. It\'s pleasant but doesn\'t show you what makes Bali extraordinary.',
+    stay: 'Fine for a few nights if you want beach access and nightlife. Villa rentals via Airbnb offer good value in Canggu.',
+    skip: 'Kuta. It\'s loud, crowded, and represents the worst of mass tourism. Legian is marginally better.',
+    doThis: 'Sunset at Potato Head Beach Club. Morning surf lesson at Canggu. Echo Beach for a quieter crowd.',
+    link: '/destinations/bali/',
+    icon: '🏄',
+  },
+  {
+    name: 'South Bali (Bukit Peninsula)',
+    tagline: 'Uluwatu, cliff temples, and empty beaches',
+    why: 'The limestone headland south of Kuta has the best beaches near the airport — Balangan, Bingin, and Padang Padang are all worth it. Uluwatu Temple and its Kecak dance are highlights.',
+    stay: 'Ulu Segara (budget-mid) or villas on the cliffs above Bingin.',
+    skip: 'GWK Cultural Park. The giant Garuda Wisnu Kencana statue is impressive from a distance — the park itself is touristy filler.',
+    doThis: 'Uluwatu Temple at sunset + Kecak dance. Jimbaran Bay seafood dinner. Morning swim at Balangan beach.',
+    link: '/destinations/bali/',
+    icon: '🌅',
+  },
+  {
+    name: 'Nusa Penida',
+    tagline: 'Day trips, dramatic cliffs, and marine life',
+    why: 'Just 45 minutes by fast boat from Sanur. Kelingking cliff viewpoint is the most dramatic landscape in Bali, and Manta Point delivers near-guaranteed manta ray encounters.',
+    stay: 'Most visitors do a day trip. If staying overnight: Penida Bambu Green or similar simple guesthouses.',
+    skip: 'Crystal Bay for swimming — the current is dangerous. Go for the viewpoint.',
+    doThis: 'West coast circuit: Kelingking, Angel\'s Billabong, Broken Beach. Morning snorkel at Manta Point.',
+    link: '/destinations/nusa-penida/',
+    icon: '🦅',
+  },
+];
+
+const essentials = [
+  { q: 'Do I need a visa for Bali?', a: 'Most nationalities get a free Visa on Arrival (VoA) at Bali\'s Ngurah Rai airport for stays up to 30 days. It can be extended once for another 30 days. US, UK, Australian, Canadian, and EU passport holders all qualify.' },
+  { q: 'What currency does Bali use?', a: 'Indonesian Rupiah (IDR). $1 USD ≈ Rp16,000. Withdraw from ATMs at major banks (BCA, Mandiri, BRI) — avoid airport ATMs which charge high fees. Some tourist areas accept USD but rates are unfavorable.' },
+  { q: 'How do I get around Bali?', a: 'Grab (the regional Uber equivalent) works well in Ubud and south Bali. For day trips, hire a private driver for the day (Rp400,000–600,000) — cheaper than a series of Grabs and more flexible. Motorbike rental is easy but the roads and traffic make it risky for inexperienced riders.' },
+  { q: 'When is the best time to visit Bali?', a: 'April–October is dry season, with July–August being peak tourist season (book everything 2–3 months ahead). May–June and September are ideal — good weather and smaller crowds. November–March is wet season, but rain usually comes as afternoon showers, not all-day rain.' },
+  { q: 'Is Bali safe?', a: 'Yes, for general travel. Common issues: bag snatching on motorbikes (keep bags on the side away from traffic), temple touts, and aggressive taxi drivers at the airport. Use Grab instead of taxis, be alert with belongings, and you\'ll have few issues.' },
+  { q: 'How much does a trip to Bali cost?', a: 'Budget: $50–80/day (guesthouses, warungs, public transport). Mid-range: $120–200/day (boutique hotels, restaurants, private drivers). Comfort: $250–500/day (villas, beach clubs, private tours). Bali is remarkably affordable by Western standards.' },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath="/bali-guide/"
+>
+  <div style="max-width:900px;margin:0 auto;padding:40px 20px;">
+    <Breadcrumb items={breadcrumbs} />
+
+    <h1 style="font-size:2rem;color:#1A2332;margin:24px 0 8px;">{pageTitle}</h1>
+    <p style="color:#4A5568;font-size:1.1rem;line-height:1.65;margin-bottom:32px;">{pageDescription}</p>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:20px;">Where to Stay in Bali</h2>
+      <div style="display:grid;gap:24px;">
+        {areas.map((area) => (
+          <div style="background:white;border:1px solid #E2E8F0;border-radius:12px;padding:24px;">
+            <div style="display:flex;gap:16px;align-items:flex-start;">
+              <div style="font-size:2rem;">{area.icon}</div>
+              <div style="flex:1;">
+                <h3 style="font-size:1.15rem;color:#1A2332;margin:0 0 2px;">
+                  <a href={area.link} style="color:#0D7377;text-decoration:none;">{area.name}</a>
+                </h3>
+                <div style="font-size:0.85rem;color:#94A3B8;margin-bottom:10px;">{area.tagline}</div>
+                <p style="color:#4A5568;font-size:0.95rem;line-height:1.6;margin:0 0 10px;">{area.why}</p>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.9rem;">
+                  <div style="background:#F0FDF4;border-radius:6px;padding:10px;">
+                    <div style="font-weight:700;color:#065F46;margin-bottom:4px;">Do This</div>
+                    <div style="color:#4A5568;">{area.doThis}</div>
+                  </div>
+                  <div style="background:#FFF7ED;border-radius:6px;padding:10px;">
+                    <div style="font-weight:700;color:#92400E;margin-bottom:4px;">Skip This</div>
+                    <div style="color:#4A5568;">{area.skip}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:20px;">Bali Essentials — FAQ</h2>
+      <div style="display:grid;gap:16px;">
+        {essentials.map((item) => (
+          <div style="background:white;border:1px solid #E2E8F0;border-radius:10px;padding:20px;">
+            <h3 style="font-size:1rem;color:#1A2332;margin:0 0 8px;">{item.q}</h3>
+            <p style="color:#4A5568;font-size:0.95rem;line-height:1.6;margin:0;">{item.a}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin-bottom:48px;">
+      <h2 style="font-size:1.4rem;color:#0D7377;margin-bottom:16px;">Plan Your Bali Itinerary</h2>
+      <p style="color:#4A5568;line-height:1.65;margin-bottom:16px;">
+        Use our <a href="/plan/" style="color:#0D7377;">AI Trip Planner</a> to build a day-by-day Bali itinerary based on your dates, budget, and interests. It knows the flight connections from Bali, seasonal timing, and can include Nusa Penida, the Gili Islands, or Yogyakarta as extensions.
+      </p>
+      <a href="/plan/" style="display:inline-block;background:#0D7377;color:white;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:600;">Build My Bali Itinerary &rarr;</a>
+    </section>
+
+    <div style="margin-bottom:40px;">
+      <EmailCapture leadMagnet="Bali Travel Guide" />
+    </div>
+
+    <FTCDisclosure placement="inline" />
+  </div>
+</BaseLayout>

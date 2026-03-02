@@ -1,0 +1,282 @@
+{
+  "name": "Bali to Yogyakarta Adventure",
+  "subtitle": "Bali → Ubud → Yogyakarta → Komodo",
+  "dates": "Jul 5, 2027 – Jul 18, 2027",
+  "weather": [
+    {"day": "Sat", "icon": "☀️", "high": 30, "low": 24, "rain": 5},
+    {"day": "Sun", "icon": "⛅", "high": 29, "low": 23, "rain": 10},
+    {"day": "Mon", "icon": "☀️", "high": 31, "low": 24, "rain": 5},
+    {"day": "Tue", "icon": "☀️", "high": 30, "low": 23, "rain": 5},
+    {"day": "Wed", "icon": "⛅", "high": 29, "low": 22, "rain": 15},
+    {"day": "Thu", "icon": "☀️", "high": 28, "low": 21, "rain": 5},
+    {"day": "Fri", "icon": "☀️", "high": 31, "low": 24, "rain": 5}
+  ],
+  "group": [
+    {"id": "scott", "name": "Scott", "avatar": "🧔", "role": "host", "color": "#0D7377"},
+    {"id": "jenice", "name": "Jenice", "avatar": "👩", "role": "editor", "color": "#E8654A"}
+  ],
+  "contacts": [
+    {"icon": "🚨", "name": "Indonesian Emergency", "role": "Emergency Services", "phone": "112"},
+    {"icon": "🏥", "name": "BIMC Hospital Bali", "role": "International Hospital, Bali", "phone": "+62-361-761263"},
+    {"icon": "🇺🇸", "name": "US Embassy Jakarta", "role": "US Embassy", "phone": "+62-21-5083-1000"},
+    {"icon": "🏨", "name": "Komaneka at Bisma, Ubud", "role": "Resort Concierge", "phone": "+62-361-971933"}
+  ],
+  "notifications": [
+    {"id": 1, "type": "weather", "text": "Dry season confirmed July 5–18. Excellent conditions for Borobudur sunrise and Komodo diving.", "time": "1 day ago", "read": false},
+    {"id": 2, "type": "reminder", "text": "Borobudur sunrise tickets must be pre-booked — limited to 128 visitors per session. Book at least 2 weeks ahead.", "time": "3 days ago", "read": false}
+  ],
+  "changeLog": [
+    {"id": 1, "type": "added", "by": "scott", "time": "3 days ago", "title": "Nusa Penida day trip added", "detail": "Added a day trip from Bali to Nusa Penida for Kelingking Beach and manta ray snorkeling at Manta Point."},
+    {"id": 2, "type": "updated", "by": "jenice", "time": "1 week ago", "title": "Komodo extended to 3 nights", "detail": "Changed Komodo from 2 to 3 nights to include a liveaboard dive day and Pink Beach visit."}
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "Sat, Jul 5",
+      "title": "Arrive Bali",
+      "location": "Bali",
+      "items": [
+        {
+          "id": "d1-1",
+          "time": "2:00 PM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Arrive Ngurah Rai International Airport (DPS)",
+          "detail": "Visa on Arrival (VoA) queue at immigration — USD 35 cash, valid 30 days. Can extend once for 30 more days.",
+          "directions": "International arrivals, Terminal 2. VoA counter before immigration. Pick up Grab from designated rideshare zone outside arrivals.",
+          "status": "confirmed",
+          "lat": -8.7467,
+          "lng": 115.1667
+        },
+        {
+          "id": "d1-2",
+          "time": "4:00 PM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check In — Kerobokan Villa",
+          "detail": "Private villa with pool in Kerobokan — quieter than Seminyak, easy access to both. IDR 1,200,000–2,000,000/night.",
+          "directions": "Villa complex off Jalan Bumbak Dauh. 45 minutes from airport via Bypass Ngurah Rai.",
+          "status": "confirmed",
+          "lat": -8.6742,
+          "lng": 115.1589
+        },
+        {
+          "id": "d1-3",
+          "time": "7:00 PM",
+          "icon": "🍽️",
+          "type": "food",
+          "title": "Dinner at Sarong Restaurant",
+          "detail": "Award-winning Pan-Asian cuisine in a stunning Indonesian heritage building. Mains IDR 180,000–350,000 ($11–22 USD). Reserve ahead.",
+          "directions": "Jalan Petitenget 19X, Kerobokan. 10-minute walk or short Grab ride from villa.",
+          "status": "confirmed",
+          "lat": -8.6778,
+          "lng": 115.1603
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Sun, Jul 6",
+      "title": "Nusa Penida Day Trip",
+      "location": "Nusa Penida",
+      "items": [
+        {
+          "id": "d2-1",
+          "time": "7:00 AM",
+          "icon": "⛵",
+          "type": "transport",
+          "title": "Fast Boat to Nusa Penida from Sanur",
+          "detail": "Fast boat crossing 45 minutes. Book round-trip through Rocky Fast Cruise — IDR 150,000/person each way. Multiple departures from 7am.",
+          "directions": "Sanur Beach harbor. Take Grab from villa to Sanur (30 min). Board at designated pier, confirm return time with operator.",
+          "status": "confirmed",
+          "lat": -8.7278,
+          "lng": 115.5444
+        },
+        {
+          "id": "d2-2",
+          "time": "9:00 AM",
+          "icon": "🏖️",
+          "type": "activity",
+          "title": "Kelingking Beach Viewpoint",
+          "detail": "One of Bali's most dramatic clifftop viewpoints — a T-Rex-shaped peninsula with turquoise water below. The descent to the beach is extremely steep (not for everyone). The viewpoint alone is worth the visit.",
+          "directions": "Hire a driver from Toyapakeh harbor — IDR 400,000–600,000 for a full day. Kelingking is 45 min drive west.",
+          "status": "confirmed",
+          "lat": -8.7674,
+          "lng": 115.4513
+        },
+        {
+          "id": "d2-3",
+          "time": "12:00 PM",
+          "icon": "🤿",
+          "type": "activity",
+          "title": "Manta Point Snorkeling",
+          "detail": "Year-round manta ray encounters in crystal clear water. Giant oceanic mantas with 3–5m wingspan. Book through Crystal Divers in Toyapakeh — IDR 250,000/person includes snorkel gear.",
+          "directions": "Manta Point is 20 minutes by boat from Toyapakeh. Dive shop arranges boat transfer.",
+          "status": "confirmed",
+          "lat": -8.7764,
+          "lng": 115.4586
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Mon, Jul 7",
+      "title": "Ubud Arrival",
+      "location": "Ubud, Bali",
+      "items": [
+        {
+          "id": "d3-1",
+          "time": "9:00 AM",
+          "icon": "🚗",
+          "type": "transport",
+          "title": "Private Transfer to Ubud",
+          "detail": "Hire private driver for Bali → Ubud transfer (1.5 hrs). Book through villa. IDR 250,000–350,000 per vehicle.",
+          "directions": "Driver picks up from villa. Route via Bypass and Ubud Road. Traffic can add 30 minutes on weekdays.",
+          "status": "confirmed",
+          "lat": -8.5069,
+          "lng": 115.2625
+        },
+        {
+          "id": "d3-2",
+          "time": "11:00 AM",
+          "icon": "🏨",
+          "type": "accommodation",
+          "title": "Check In — Komaneka at Bisma",
+          "detail": "Luxury resort in the Bisma Valley with infinity pool views over the jungle. From IDR 3,500,000/night. Breakfast included.",
+          "directions": "Jalan Bisma, Ubud. 5 minutes from Ubud central market by foot.",
+          "status": "confirmed",
+          "lat": -8.5078,
+          "lng": 115.2617
+        },
+        {
+          "id": "d3-3",
+          "time": "4:00 PM",
+          "icon": "🌿",
+          "type": "activity",
+          "title": "Campuhan Ridge Walk",
+          "detail": "Free 9km jungle ridge walk with rice paddy and valley views. Start from the Pura Gunung Lebah temple. Best in afternoon light.",
+          "directions": "Walk or take Grab to Jalan Raya Campuhan. Follow the ridge path north. Returns to Ubud center via Jalan Raya Campuhan.",
+          "status": "confirmed",
+          "lat": -8.5011,
+          "lng": 115.2587
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Wed, Jul 9",
+      "title": "Fly to Yogyakarta",
+      "location": "Yogyakarta, Java",
+      "items": [
+        {
+          "id": "d5-1",
+          "time": "8:00 AM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Flight: Bali (DPS) → Yogyakarta (YIA)",
+          "detail": "Lion Air or Batik Air, ~1 hour. From IDR 400,000 one-way. Yogyakarta International Airport is 45km from the city center.",
+          "directions": "DPS international terminal. Check in 90 minutes before departure. Take Damri shuttle bus or Grab from YIA to city center (45 min).",
+          "status": "confirmed",
+          "lat": -7.7956,
+          "lng": 110.3695
+        },
+        {
+          "id": "d5-2",
+          "time": "3:00 PM",
+          "icon": "🛕",
+          "type": "activity",
+          "title": "Prambanan Temple at Sunset",
+          "detail": "UNESCO World Heritage Site — spectacular 9th-century Hindu temple complex dedicated to the Trimurti. Admission IDR 350,000 ($22 USD). Sunset visits are magical — arrive at 4pm.",
+          "directions": "17km east of Yogyakarta center. Take Grab (IDR 40,000–60,000) or Trans-Jogja Bus route 1A.",
+          "status": "confirmed",
+          "lat": -7.7520,
+          "lng": 110.4914
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "Thu, Jul 10",
+      "title": "Borobudur Sunrise",
+      "location": "Borobudur, Java",
+      "items": [
+        {
+          "id": "d6-1",
+          "time": "4:00 AM",
+          "icon": "🏛️",
+          "type": "activity",
+          "title": "Borobudur Sunrise Tour",
+          "detail": "The world's largest Buddhist temple, built in the 9th century. Sunrise access limited to 128 visitors — pre-booking essential. Admission IDR 750,000 with sunrise access. Mist burns off by 8am revealing stunning volcanic panorama.",
+          "directions": "40km northwest of Yogyakarta. Guided tour van picks up at hotel at 4am. Temple opens for sunrise access at 6am.",
+          "status": "confirmed",
+          "lat": -7.6079,
+          "lng": 110.2038
+        },
+        {
+          "id": "d6-2",
+          "time": "10:00 AM",
+          "icon": "🎨",
+          "type": "activity",
+          "title": "Batik Making Workshop, Yogyakarta",
+          "detail": "Half-day batik workshop at a family-run studio near Beringharjo Market. IDR 150,000–250,000 includes materials and a piece to take home. Learn the traditional wax-resist dyeing technique.",
+          "directions": "Book through your hotel or directly at workshops on Jalan Tirtodipuran. Walk or take becak (cycle rickshaw) from the Kraton area.",
+          "status": "confirmed",
+          "lat": -7.8014,
+          "lng": 110.3650
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "Mon, Jul 14",
+      "title": "Fly to Labuan Bajo",
+      "location": "Komodo, Flores",
+      "items": [
+        {
+          "id": "d10-1",
+          "time": "6:00 AM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Flight: Yogyakarta → Labuan Bajo (LBJ)",
+          "detail": "Garuda or Lion Air via Bali, ~3.5 hours total. From IDR 800,000. Labuan Bajo Airport is 2km from town.",
+          "directions": "Book connecting flight or direct if available. Grab taxi from LBJ airport to hotel (IDR 50,000).",
+          "status": "confirmed",
+          "lat": -8.5500,
+          "lng": 119.4800
+        },
+        {
+          "id": "d10-2",
+          "time": "2:00 PM",
+          "icon": "🦎",
+          "type": "activity",
+          "title": "Komodo Dragon Viewing Tour",
+          "detail": "Guided boat tour to Komodo Island or Rinca Island. Komodo National Park entrance fee IDR 250,000 (weekday) / IDR 500,000 (weekend). Rangers accompany all visits — do not stray from the path. Dragons can move surprisingly fast.",
+          "directions": "Book through hotel or Labuan Bajo harbor tour operators. Day boats depart 8am–2pm from the main harbor. Includes Komodo, Pink Beach, and snorkeling.",
+          "status": "confirmed",
+          "lat": -8.5611,
+          "lng": 119.4492
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "date": "Fri, Jul 18",
+      "title": "Depart Labuan Bajo",
+      "location": "Bali (Transit)",
+      "items": [
+        {
+          "id": "d14-1",
+          "time": "10:00 AM",
+          "icon": "✈️",
+          "type": "transport",
+          "title": "Flight: Labuan Bajo → Bali (DPS) → Onward",
+          "detail": "Connecting flight via Bali. Minimum 2-hour connection at DPS. Pre-arrange luggage storage at DPS if needed.",
+          "directions": "LBJ airport is 2km from Labuan Bajo center — take Grab or arrange through hotel. International departures from DPS Terminal 2.",
+          "status": "confirmed",
+          "lat": -8.7467,
+          "lng": 115.1667
+        }
+      ]
+    }
+  ]
+}

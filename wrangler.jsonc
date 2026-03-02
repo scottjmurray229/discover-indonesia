@@ -1,0 +1,23 @@
+{
+	"main": "dist/_worker.js/index.js",
+	"name": "discover-indonesia",
+  "compatibility_date": "2026-02-04",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./dist"
+	},
+	"observability": {
+    "enabled": true
+  },
+"d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "discover-indonesia-db",
+      "database_id": "a95e704a-f122-4e61-8f27-361e97ed22cc"
+    }
+  ]
+}
