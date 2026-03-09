@@ -3,6 +3,14 @@ title: "Manado"
 description: "The gateway to the Bunaken Marine National Park — some of the world's most biodiverse coral reef diving, with visibility exceeding 40 metres and walls dropping 500 metres into the deep. Manado itself is a lively Sulawesi city famous for its extreme cuisine (dog, bat, and rat are on menus here alongside some of the finest fresh seafood in Indonesia), its unique North Sulawesi Christian culture, and the Minahasan highland villages surrounding the city. For divers, Bunaken is a pilgrimage destination — the number of species in these waters rivals the Coral Triangle's most famous sites."
 region: "sulawesi"
 heroImage: "/images/destinations/manado-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Bunaken coral wall dive and Tangkoko nature reserve, Manado, North Sulawesi, Indonesia"
 lat: 1.4748
 lng: 124.8421

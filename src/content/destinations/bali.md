@@ -3,6 +3,14 @@ title: "Bali"
 description: "Indonesia's Island of the Gods — ancient temples, terraced rice paddies, world-class surfing, and a spiritual culture unlike anywhere else on Earth."
 region: "bali"
 heroImage: "/images/destinations/bali-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Pura Ulun Danu Bratan water temple floating on Lake Beratan, Bali, Indonesia"
 lat: -8.3405
 lng: 115.0920
@@ -65,7 +73,7 @@ Bali has over 10,000 temples — puras — and they are central to daily life, n
 
 Dress codes at temples are strict — you'll need a sarong and a sash around your waist. Many temples provide rentals at the entrance for IDR 20,000–30,000. Temple odalan (anniversary festivals) happen on a 210-day Balinese calendar cycle — if you happen to arrive during one, consider yourself incredibly lucky.
 
-## Food and Drink
+## What Should I Eat and Drink in Bali?
 
 Balinese cuisine differs distinctly from Indonesian food broadly. Babi guling (suckling pig spit-roasted with spices) is a Balinese specialty found everywhere in Ubud — Ibu Oka near the Ubud Palace is the most famous warung but lines form by 11am. Bebek betutu (slow-cooked duck wrapped in banana leaves) requires ordering a day in advance at most warungs. Nasi campur (rice with small portions of multiple dishes) is the everyday meal — IDR 20,000–40,000 at local spots.
 

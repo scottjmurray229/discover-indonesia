@@ -3,6 +3,14 @@ title: "Ijen"
 description: "The Ijen crater is the most otherworldly natural spectacle in Indonesia — an active volcanic complex where sulphur miners carry 70-kilogram loads up from a turquoise acid lake in pre-dawn darkness, and where at night the burning sulphur emits an ethereal electric-blue flame visible only in darkness. The blue fire of Kawah Ijen is one of the rarest geological phenomena on Earth, and the sunrise from the 2,799-metre crater rim — looking down over the opaque turquoise lake and across to a dozen volcanic peaks — rivals anything in Southeast Asia."
 region: "java"
 heroImage: "/images/destinations/ijen-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Blue fire sulfur crater lake glowing at night in Ijen volcano, East Java, Indonesia"
 lat: -8.0580
 lng: 114.2422

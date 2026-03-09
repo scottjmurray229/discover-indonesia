@@ -3,6 +3,14 @@ title: "Bandung"
 description: "Java's creative capital — a cool highland escape with factory outlet fashion, exceptional coffee culture, volcanic craters, and the best Sundanese cuisine in Indonesia."
 region: "java"
 heroImage: "/images/destinations/bandung-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Kawah Putih turquoise crater lake and pine forests of Bandung, West Java, Indonesia"
 lat: -6.9175
 lng: 107.6191

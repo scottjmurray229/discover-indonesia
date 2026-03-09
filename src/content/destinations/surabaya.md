@@ -3,6 +3,14 @@ title: "Surabaya"
 description: "Java's second city and gateway to Indonesia's most dramatic volcanic landscapes — Mount Bromo, Ijen Crater's blue fire, and an underrated colonial city center."
 region: "java"
 heroImage: "/images/destinations/surabaya-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Suramadu Bridge and Old Dutch Quarter of Surabaya, East Java, Indonesia"
 lat: -7.2575
 lng: 112.7521

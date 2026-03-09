@@ -3,6 +3,14 @@ title: "Nusa Penida"
 description: "Bali's wild neighbor — dramatic sea cliffs, world-class manta ray snorkeling, and landscapes so raw they feel like a different island entirely."
 region: "bali"
 heroImage: "/images/destinations/nusa-penida-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Kelingking Beach T-Rex cliff and turquoise sea, Nusa Penida, Bali, Indonesia"
 lat: -8.7278
 lng: 115.5444

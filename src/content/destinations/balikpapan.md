@@ -3,6 +3,14 @@ title: "Balikpapan"
 description: "The gateway to Indonesian Borneo — a modern oil city on the Makassar Strait that serves as the jumping-off point for the most extraordinary wildlife encounters in Southeast Asia. Day trips from Balikpapan reach the Sungai Wain Conservation Area and Samboja Lestari orangutan rehabilitation centre, while river expeditions up the Mahakam reach proboscis monkey communities, pygmy elephant territory, and the ancient Dayak longhouse culture of the Kalimantan interior. Balikpapan itself is comfortable, affordable, and underrated as a seafood city."
 region: "kalimantan"
 heroImage: "/images/destinations/balikpapan-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Mangrove boardwalk and proboscis monkey in East Kalimantan, Balikpapan, Indonesia"
 lat: -1.2654
 lng: 116.8310

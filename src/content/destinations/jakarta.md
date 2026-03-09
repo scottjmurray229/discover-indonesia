@@ -3,6 +3,14 @@ title: "Jakarta"
 description: "Indonesia's sprawling megacity — a collision of colonial history, world-class street food, gleaming malls, and 10 million stories playing out at once."
 region: "java"
 heroImage: "/images/destinations/jakarta-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "National Monument (Monas) obelisk and glassy Jakarta skyline at night, Indonesia"
 lat: -6.2088
 lng: 106.8456

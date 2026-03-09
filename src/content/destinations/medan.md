@@ -3,6 +3,14 @@ title: "Medan"
 description: "Sumatra's gritty, chaotic, and utterly fascinating capital — Indonesia's most underrated food city and gateway to Lake Toba and Bukit Lawang's orangutans."
 region: "sumatra"
 heroImage: "/images/destinations/medan-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Maimoon Palace gold-roofed facade and Tjong A Fie Mansion, Medan, Sumatra, Indonesia"
 lat: 3.5952
 lng: 98.6722

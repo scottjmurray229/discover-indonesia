@@ -3,6 +3,14 @@ title: "Ubud"
 description: "Bali's cultural heart — terraced rice paddies, jungle temples, acclaimed cooking classes, and the world's finest yoga and wellness retreat scene."
 region: "bali"
 heroImage: "/images/destinations/ubud-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Tegallalang rice terrace terraces and Campuhan Ridge Walk, Ubud, Bali, Indonesia"
 lat: -8.5069
 lng: 115.2625

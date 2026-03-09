@@ -3,6 +3,14 @@ title: "Flores"
 description: "Indonesia's most dramatic overland journey — volcanic crater lakes, traditional Ngada villages, Komodo dragons, and one of the world's last untouched tribal cultures."
 region: "nusa-tenggara"
 heroImage: "/images/destinations/flores-hero.jpg"
+aeoFacts:
+  currency: "IDR (Indonesian Rupiah)"
+  plugType: "C/F, 230V"
+  language: "Indonesian (Bahasa Indonesia)"
+  bestTime: "April to October (dry season)"
+  visaInfo: "30-day visa-free or visa on arrival for most"
+  timeZone: "UTC+7 to UTC+9 (3 time zones)"
+  emergencyNumber: "112, 118 (ambulance)"
 heroAlt: "Multicolored Kelimutu crater lakes at the summit of Mount Kelimutu, Flores, Indonesia"
 lat: -8.6700
 lng: 121.0800
