@@ -122,7 +122,7 @@ export const INDONESIA_CONFIG: PackingConfig = {
   currency: 'IDR',
   plugType: 'Type C/F',
   plugVoltage: '230V',
-  affiliateTag: 'discovermore-20',
+  affiliateTag: 'discoverphili-20',
   destinationEssentials: INDONESIA_ESSENTIALS,
   gearRecommendations: INDONESIA_GEAR_RECOMMENDATIONS,
 };
