@@ -37,6 +37,17 @@ faqs:
     answer: "2–3 days covers all main sights: west coast (Kelingking, Angel's Billabong, Broken Beach) one day; east coast (Diamond Beach, Atuh Beach, Peguyangan Waterfall) one day; snorkeling and underwater sites one day."
   - question: "Is Nusa Penida good for diving?"
     answer: "Excellent — Crystal Bay is one of Bali's top dive sites for visibility (often 30m+). The Mola Mola sunfish (world's heaviest bony fish, up to 2 tons) appears at Crystal Bay July–October in El Niño years. Dive courses available at Penida Dive World from IDR 3,500,000 for PADI Open Water."
+scottTips:
+  - topic: "Hire a Driver — Not a Scooter"
+    tip: "The roads on Nusa Penida are genuinely hazardous — steep, narrow, potholed, and wet after rain. Multiple scooter accidents involving tourists happen every week. Hire a driver (IDR 400,000-600,000/day) rather than renting a scooter. You'll cover more ground, have someone to carry equipment, and arrive at viewpoints intact."
+  - topic: "West Coast Early"
+    tip: "Kelingking, Angel's Billabong, and Broken Beach are all best before 9am — tour boats from Sanur start arriving from 9:30am and the main viewpoints become congested by 10am. Stay overnight on the island (IDR 150,000-300,000 at guesthouses in Toyapakeh) rather than doing a day trip from Bali to get the morning light and quiet to yourself."
+  - topic: "Manta Point Caution"
+    tip: "Manta Point's currents are strong and conditions can change quickly. If your snorkel guide tells you to stay near the boat, do it. The manta rays are large (3-4m wingspan) and move quickly — they're not dangerous to humans but the current that flows through the channel where they feed is. Wear fins and stay close to your guide."
+  - topic: "Kelingking Descent Decision"
+    tip: "The descent from Kelingking viewpoint to the beach below involves 500 meters of loose cliff scramble with rope assist. People have been seriously injured and killed on this descent. The beach is beautiful but the view from the top is spectacular in its own right. Only attempt the descent if you are genuinely fit and comfortable on exposed scrambling terrain — and never attempt it in wet conditions."
+  - topic: "Bring Everything"
+    tip: "Nusa Penida has minimal pharmacy and medical facilities — the nearest hospital is back in Bali. Bring reef-safe sunscreen (standard sunscreen is banned in the marine protected area), anti-histamines, stomach medications, any prescription drugs, and enough cash in IDR. ATMs are present but unreliable on weekends."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Nusa Penida hit us like a physical force — the sea cliffs rising sheer from turquoise water, the complete absence of the development that now defines Bali's south, and the sheer drama of a coastline that looks like it was designed for a Planet Earth sequence. We came on a day trip and returned three more times over two subsequent Bali visits.
 
 The island sits 25km south of Denpasar and covers 200 square kilometers — large enough that covering all its highlights requires at least three days. What distinguishes it from Nusa Lembongan (its smaller, more developed neighbor) is the rawness: the road infrastructure is still catching up to the tourism demand, many viewpoints require hikes on rough trails, and the locals have been farming seaweed and fishing here for generations before anyone heard of Instagram. That rawness is precisely the appeal.
+
+<ImmersiveBreak videoSrc="/videos/destinations/nusa-penida-hero.mp4" />
 
 ## The West Coast
 

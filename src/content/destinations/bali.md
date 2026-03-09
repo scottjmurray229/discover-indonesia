@@ -37,6 +37,17 @@ faqs:
     answer: "10–14 days lets you cover Seminyak or Canggu (beaches), Ubud (culture), and a volcano or Nusa Penida day trip. Even 5–7 days allows a solid introduction to either the south coast or the cultural center."
   - question: "What is the average cost per day in Bali?"
     answer: "Budget: $30–50/day (guesthouse, local warungs, scooter rental). Mid-range: $60–120/day (villa, restaurants, driver). Luxury: $200+/day (private pool villa, spa, fine dining). Bali offers excellent value at every level."
+scottTips:
+  - topic: "Avoid Kuta"
+    tip: "Kuta is convenient to the airport but has been thoroughly commercialized — traffic is terrible and the beach atmosphere is chaotic. Stay in Seminyak (more upscale), Canggu (surf and digital nomad vibe), or Ubud (culture) instead."
+  - topic: "Temple Etiquette"
+    tip: "A sarong and sash are required at every temple — many entrances rent them for IDR 20,000-30,000. Women should not enter during menstruation (signs are posted). Never turn your back on shrines inside temples."
+  - topic: "Motorbike vs Driver"
+    tip: "Renting a motorbike (IDR 70,000-100,000/day) gives freedom but Bali traffic is genuinely dangerous. Hiring a driver with car (IDR 400,000-600,000/day) is safer and more practical for touring multiple sites. For short distances within towns, use Gojek (rideshare app)."
+  - topic: "Money"
+    tip: "Use the official money changers with rotating exchange board displays — not the ones offering suspiciously good rates (they use counting tricks). ATMs are everywhere; withdraw IDR 1,500,000-2,000,000 at a time to minimize fees."
+  - topic: "Best Month"
+    tip: "June and July offer the best weather (dry, clear, less humid than May) without the absolute peak of August crowds. September and October are excellent. Avoid January-March for the main Ubud/temple circuit due to rain — surf beaches on the south coast are fine year-round."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 We first came to Bali expecting a crowded tourist island and left completely disarmed by its extraordinary spiritual depth. Our first morning in Ubud, we woke to the sound of temple bells and found offerings of frangipani, incense, and rice on every doorstep — the daily Canang Sari ritual that Balinese Hindus perform before sunrise regardless of whether tourists are watching. That devotion to ceremony, performed so naturally amid the chaos of modern tourism, sets Bali apart from every other destination we've visited.
 
 The geography alone is staggering. In an area the size of Delaware, Bali packs active volcanoes, ancient UNESCO-protected terraced rice paddies, tropical rainforest, coral reefs, and some of the world's best surf breaks. The north is dominated by the twin volcanoes Batur and Agung — Agung last erupted in 2018 and remains active. The south holds the tourist infrastructure everyone knows: Kuta, Seminyak, Canggu, Uluwatu. The cultural center is Ubud, elevated in the hills above the coast, where gamelan music drifts through the streets each evening.
+
+<ImmersiveBreak videoSrc="/videos/destinations/bali-hero.mp4" />
 
 ## Temples and Ceremony
 

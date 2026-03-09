@@ -37,6 +37,17 @@ faqs:
     answer: "3–4 days is ideal: one day for Borobudur (including sunrise), one day for Prambanan and the Kraton, one day for batik workshops and Beringharjo Market, and an optional day for Mount Merapi."
   - question: "How do I book Borobudur sunrise access?"
     answer: "Sunrise access (6–7:30am) is limited to 128 visitors and costs IDR 750,000. Book through the official Taman Wisata Candi website at least 2 weeks ahead — it sells out weeks in advance during July–August peak season."
+scottTips:
+  - topic: "Borobudur Sunrise Booking"
+    tip: "The Borobudur sunrise slot (128 people maximum, 6am entry) sells out weeks in advance during July-August. Book directly through the Taman Wisata Candi website — do not use third-party vendors who add 30-50% markup. If you've missed the booking window, the 7:30am general entry is still beautiful; just expect more visitors."
+  - topic: "Becak Touts"
+    tip: "Becak (cycle rickshaw) drivers near the Kraton and Malioboro will quote IDR 100,000+ for a short ride then claim miscommunication at the end. Always agree on an explicit fare before boarding — IDR 20,000-30,000 is fair for most Kraton-area trips. Grab works well in Yogyakarta and eliminates negotiation entirely."
+  - topic: "Batik Shopping"
+    tip: "Jalan Malioboro is full of tourist-grade printed batik. The real hand-stamped (batik cap) and hand-drawn (batik tulis) work is on Jalan Tirtodipuran, where the workshops are. A half-day batik class (IDR 150,000-250,000) is the best way to understand the difference and produces something genuinely worth bringing home."
+  - topic: "Prambanan Sunset Trick"
+    tip: "The standard Prambanan visit goes morning or midday. But the temples face west and the volcano Merapi provides a backdrop to the east — late afternoon light from 4pm-6pm makes the stonework glow orange and Merapi appears in clear silhouette behind the central shrine. Full moon Ramayana Ballet performances (May-October) are worth a separate evening entirely."
+  - topic: "Gojek for Everything"
+    tip: "Yogyakarta is one of Indonesia's most Gojek-saturated cities — use it for all transport. GoFood delivers excellent local meals to your hotel for IDR 15,000-40,000 including delivery. The Damri bus from the airport (IDR 20,000) is cheaper than Grab for airport arrivals, but Grab is more convenient for everything else."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 We arrived in Yogyakarta on a night train from Jakarta, stepping out into the warm air at 5am to find becak drivers waiting in the dark and the smell of kretek clove cigarettes and jasmine offerings drifting together. This is a city that operates on its own time, at its own pace, still visibly shaped by the royal Sultanate that has governed it since 1755.
 
 The Kraton (Sultan's Palace) is not a museum — it's a living royal court where the Sultan still resides, court gamelan music still plays on designated mornings, and court dancers still perform ancient Javanese pieces that have barely changed in 300 years. Entry is IDR 15,000; gamelan practice is free on selected mornings and draws as many locals as tourists.
+
+<ImmersiveBreak videoSrc="/videos/destinations/yogyakarta-hero.mp4" />
 
 ## Borobudur
 

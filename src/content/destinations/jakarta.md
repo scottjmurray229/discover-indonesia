@@ -37,6 +37,17 @@ faqs:
     answer: "2–3 days is sufficient to see Jakarta's highlights. Most visitors use it as a transit point to Java's interior (Yogyakarta, Bandung) or a short stopover on international connections."
   - question: "What is the food scene like in Jakarta?"
     answer: "Exceptional and underrated. Jakarta's soto betawi (coconut milk beef soup), nasi Padang (West Sumatran rice tables), gado-gado (peanut sauce salad), and Chinese-Indonesian hybrids in Glodok make it one of Asia's most underappreciated food cities."
+scottTips:
+  - topic: "MRT + Grab Combo"
+    tip: "Jakarta traffic is genuinely brutal — a 10km cab ride can take 90 minutes at the wrong hour. Use the MRT for north-south movement (it's fast, clean, and air-conditioned) and Grab for everywhere else. Load a Jakcard for MRT single-trip cards. Never flag a street taxi — always Grab or Blue Bird metered."
+  - topic: "Kota Tua Timing"
+    tip: "Fatahillah Square is atmospheric on weekday mornings before 9am. On weekend afternoons it fills with Jakarta families in Dutch colonial dress for photos and becomes a different experience entirely — lively but chaotic. The Wayang Museum and Jakarta History Museum inside Fatahillah are both excellent and almost always empty."
+  - topic: "Food Strategy"
+    tip: "Jakarta's street food is world-class but spread out. Jalan Sabang in Menteng is the easiest concentration for a night food walk. Glodok's alleyways off Jalan Pancoran are best for Chinese-Indonesian breakfast (6-9am). Sederhana chain restaurants for Nasi Padang — order nothing, they bring everything, you pay only for what you ate."
+  - topic: "Flooding Awareness"
+    tip: "If visiting October-March, check Jakarta Flood alerts before planning outdoor time — certain low-lying areas (including parts of Kota Tua and Pluit) can flood with minimal warning during heavy rain. Your hotel can advise. The MRT and most commercial districts are unaffected."
+  - topic: "Thousand Islands Day Trip"
+    tip: "The Thousand Islands (Kepulauan Seribu) offer surprisingly clear water just 45-90 minutes from the city by fast ferry from Marina Ancol. Pulau Tidung and Pulau Pramuka are the most popular outer islands — worth booking a day tour through a reputable operator for IDR 150,000-300,000 including boat and snorkeling equipment."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Jakarta doesn't try to charm you. It overwhelms you — with traffic, with scale, with the sheer density of 10 million people navigating the same streets, markets, and mosques. We arrived expecting a transit city, something to pass through on the way to Yogyakarta, and found ourselves staying an extra two days because we couldn't stop eating.
 
 The city splits into recognizable zones. The south holds the affluent neighborhoods of Kemang and Senopati, full of design hotels and craft coffee roasters. The central core runs along the MRT spine from Blok M north to Kota. The old city — Kota Tua — sits at the northern tip near Jakarta Bay, where Dutch colonial warehouses and the Fatahillah Square plaza survive remarkably intact amid the surrounding urban chaos.
+
+<ImmersiveBreak videoSrc="/videos/destinations/jakarta-hero.mp4" />
 
 ## Kota Tua and Jakarta's Colonial Past
 

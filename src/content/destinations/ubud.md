@@ -37,6 +37,17 @@ faqs:
     answer: "3–5 days lets you slow down properly — the right way to experience Ubud. One day for temples and rice terraces, one for a cooking class and market, one for a wellness treatment and the Campuhan walk. Add extra days for day trips to Kintamani or Sidemen."
   - question: "What are the best cooking classes in Ubud?"
     answer: "Casa Luna Cooking School (Janet DeNeefe's acclaimed kitchen, IDR 350,000), Paon Bali Cooking Class (includes morning market visit, IDR 250,000), and Lobong Culinary Experience (small group, farm-to-table philosophy, IDR 330,000) are the three best-regarded options."
+scottTips:
+  - topic: "Campuhan Ridge Before 7am"
+    tip: "The Campuhan Ridge Walk is one of Bali's best free experiences — but only before 7am. After that, it fills with selfie-stick groups. Start at Pura Gunung Lebah, walk the full ridge circuit (about 9km), and be back in town for breakfast. Bring water and wear shoes you don't mind getting muddy if it rained overnight."
+  - topic: "Tegallalang Timing"
+    tip: "Tegallalang Rice Terraces are genuinely spectacular but the main viewpoints are ringed with café-swing operators charging IDR 100,000-200,000 for a photo. Skip those entirely — walk 200m north or south of the main entrance on the foot trails between the paddies where it costs nothing and looks better."
+  - topic: "Money Changers"
+    tip: "Use PT Central Kuta or PT BMC exchange locations — they have certified rate boards and don't pull the counting tricks common at unlicensed shops. Avoid any changer who quotes a rate that seems dramatically better than others. Withdraw IDR 1,500,000-2,000,000 at a time from ATMs to minimize fees."
+  - topic: "Cooking Class Worth Taking"
+    tip: "Every hotel sells cooking classes but the quality varies enormously. Paon Bali (IDR 250,000) includes a market walk and produces genuinely good results. Casa Luna (IDR 350,000) is more polished and chef-quality. Avoid hotel-lobby classes that skip the market component — the market sourcing is half the lesson."
+  - topic: "Motorbike Reality"
+    tip: "Ubud's roads are narrow, winding, and frequently wet. If you're not an experienced motorbike rider, hire a driver with car for the day (IDR 450,000-600,000) — you'll cover far more ground without the stress. For local distances within town, Gojek is cheap and faster than navigating the Ubud main road traffic."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Ubud surprised us on our third visit in a way it hadn't on the first two — not because it had changed, but because we finally slowed down enough to let it work on us. The cooking class our first morning led to a conversation with our teacher Wayan about Canang Sari offerings, which led to an invitation to watch his family's temple ceremony that afternoon. Ubud operates this way: the slower you move, the more it opens to you.
 
 Geographically, Ubud sits in the hills of central Bali, 400 meters above sea level, in a river valley where the Wos and Campuhan rivers meet. The elevation keeps it slightly cooler than the coast — mornings can feel almost cold by Bali standards. Terraced rice fields descend from the hillsides into steep jungle valleys, and the view from the ridge trails above the town reveals a landscape that has barely changed in centuries, even as the restaurants and galleries below have multiplied.
+
+<ImmersiveBreak videoSrc="/videos/destinations/ubud-hero.mp4" />
 
 ## The Rice Terraces
 

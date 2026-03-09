@@ -37,6 +37,17 @@ faqs:
     answer: "3–4 days: one day to travel from Medan and settle on Samosir; one day for Tomok, Huta Siallagan, and the eastern Samosir villages; one day to circumnavigate Samosir Island by motorbike; one day for the western shore drive along the caldera rim."
   - question: "Can I rent a motorbike on Samosir Island?"
     answer: "Yes — motorbike rental is the best way to explore Samosir (IDR 100,000–150,000/day). The island's main road is paved and relatively flat. A circumnavigation of the island takes 4–5 hours with stops. Bicycle rental also available (IDR 50,000/day) for shorter explorations around Tuk Tuk."
+scottTips:
+  - topic: "Stay on Samosir"
+    tip: "Don't stay in Parapat — it's a transit town with little character. Cross on the ferry to Tuk Tuk on Samosir Island and base yourself there. Lakeside guesthouses run IDR 100,000-300,000/night with extraordinary lake views. The atmosphere on the island is completely different from the mainland — quieter, more cultural, more worth lingering in."
+  - topic: "Motorbike Circumnavigation"
+    tip: "Circumnavigating Samosir Island by motorbike (IDR 100,000-150,000/day rental) in one day is one of the best things you can do in Sumatra. The road is mostly paved and takes about 4-5 hours including stops at Tomok, Huta Siallagan, and the western side viewpoints. Start early — afternoon clouds roll in across the caldera reducing the lake views."
+  - topic: "Bring Cash from Medan"
+    tip: "ATMs in Parapat and Tuk Tuk exist but frequently run low on cash, especially on weekends. Withdraw IDR 1,000,000-1,500,000 from Medan before departure. Market bargaining is standard and expected — the opening price for woven Ulos cloth and wood carvings is typically 2-3x the fair price."
+  - topic: "Caldera Rim Drive"
+    tip: "The western caldera rim road from Parapat to Haranggaol is barely on any tourist map but offers the most dramatic lake views in the region. Hire a car for the day (IDR 500,000-700,000) and drive north along the rim — every few kilometers reveals a different perspective across the 100km expanse of the lake. Almost entirely free of other tourists."
+  - topic: "Batak Music Evenings"
+    tip: "Several restaurants in Tuk Tuk host live Batak music evenings — traditional gondang drum and gong ensembles mixed with contemporary Indonesian pop. The atmosphere shifts from background music to communal dancing within the first hour. Ask your guesthouse which restaurant is performing that evening. No cover charge — buy food and drinks."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Lake Toba is the kind of destination that recalibrates your sense of scale. We stood on the caldera rim road above Parapat looking across 100 kilometers of open water to Samosir Island, which sits in the lake's center and is roughly the size of Singapore, and tried to process the geological reality: 74,000 years ago, a supervolcanic eruption here deposited ash across South Asia, dimmed the sun globally, and caused a volcanic winter that genetic evidence suggests reduced human populations to perhaps 10,000 individuals worldwide. We were standing at what may have been the closest thing to a human extinction event in recorded prehistory.
 
 The lake today is serene, deep blue, and ringed by forested caldera walls that drop steeply to the water's edge. It's 900 meters above sea level, and the air has an highland crispness that feels extraordinary after the coastal heat of Medan.
+
+<ImmersiveBreak videoSrc="/videos/destinations/lake-toba-hero.mp4" />
 
 ## Samosir Island
 

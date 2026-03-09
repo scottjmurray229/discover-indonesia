@@ -37,6 +37,17 @@ faqs:
     answer: "2–3 days for the city and surroundings. If adding Ijen crater (6 hours east) or Mount Bromo (2 hours north via Malang route), add 1–2 days each. Batu district is a rewarding half-day excursion 15km north."
   - question: "What is Malang's bakso?"
     answer: "Bakso (Indonesian meatball soup) is a national street food but Malang claims it as its own invention. Bakso President and Bakso Bakar Pahlawan are the two most famous addresses — queue forms by 11am at both. A full bowl with noodles, tofu, and prawn crackers runs IDR 20,000–35,000."
+scottTips:
+  - topic: "Bromo via Malang Route"
+    tip: "Most travelers approach Bromo from Probolinggo (north side) which is faster but produces the most crowded sunrise viewpoint. The Malang-Tumpang-Ngadas route approaches from the south and is significantly less crowded at sunrise. Most Malang tour operators run this southern route — specify it when booking. Departing at midnight from Malang, you arrive at the crater rim for sunrise with a fraction of the crowd."
+  - topic: "Painted Village Reality"
+    tip: "Kampung Warna-Warni and Kampung Tridi are genuinely colorful and worth 45-60 minutes. The best photography is from the opposite riverbank or the suspension bridge at 8-10am. These are real residential neighborhoods — the residents have mixed feelings about the constant tourist presence, so move quickly through narrow alleys and ask before photographing people in their homes."
+  - topic: "Bakso Timing"
+    tip: "Bakso President on Jalan Agus Salim opens at 8am and sells out by early afternoon. Go before 11am for the best broth quality and full menu availability. The Malang meatball tradition uses a higher-quality beef blend than Jakarta versions — the texture and broth depth are noticeably different."
+  - topic: "Batu Highland Day Trip"
+    tip: "Batu district 15km north of Malang is 200m higher and noticeably cooler — a pleasant half-day escape. Museum Angkut is genuinely excellent (cars, trains, and transport history from around the world, IDR 80,000). The apple orchards at Kusuma Agrowisata offer picking in harvest season (April-August). Get there by Grab in 30 minutes."
+  - topic: "Ijen Access from Malang"
+    tip: "The Ijen crater's blue fire phenomenon (caused by sulfuric gas igniting at 2-4am) is 6 hours east of Malang by road. It requires a full day/night commitment — leave Malang at 8pm, arrive at the crater base 2am, hike 1.5 hours to the crater rim, witness the blue fire, descend at sunrise. Most tour operators run this as a combined Bromo + Ijen package over 2 nights."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Malang surprised us with its livability. It's a university city — home to 60,000 students from across Indonesia — and that energy shows in the café scene, the street art, and the pride residents take in their unusual heritage. The Dutch left behind wide tree-lined boulevards (Ijen Boulevard is one of Java's most elegant avenues), whitewashed colonial villas now converted to government offices and hotels, and a park-filled city center that remains genuinely pleasant to walk around.
 
 At 500 meters above sea level and surrounded by the volcanic highlands of East Java, Malang runs cooler than the coast — mornings can feel almost chilly, and the air at the Batu highland farms north of the city is crisp and apple-scented in April through July harvest season.
+
+<ImmersiveBreak videoSrc="/videos/destinations/malang-hero.mp4" />
 
 ## The Painted Villages
 

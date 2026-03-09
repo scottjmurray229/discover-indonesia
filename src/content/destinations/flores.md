@@ -37,6 +37,17 @@ faqs:
     answer: "3–4 days for Labuan Bajo and Komodo only. 7–10 days for the full Trans-Flores experience including Ruteng, Bajawa traditional villages, Kelimutu, and Ende. Adding Maumere for snorkeling extends to 10–14 days."
   - question: "Is Flores safe to travel independently?"
     answer: "Largely yes, though rural road conditions require a capable driver and 4WD. The Trans-Flores Highway has petrol stations every 50–100km but parts of the route have no mobile signal. Solo cycling the full route has been done but requires significant preparation."
+scottTips:
+  - topic: "Kelimutu Sunrise Logistics"
+    tip: "The Kelimutu crater lakes are best at sunrise and the access road gates open at 4am. Stay the night in Moni (the small village at the volcano's base) rather than trying to come from Ende — the 1-hour drive in the dark is manageable from Moni but the pre-dawn timing from Ende 65km away is not. Moni has simple but adequate guesthouses from IDR 150,000-250,000/night."
+  - topic: "Trans-Flores Highway Reality"
+    tip: "The Trans-Flores overland drive is genuinely extraordinary but requires an experienced local driver with a capable 4WD. Roads range from decent paved highway to deeply rutted single tracks between smaller towns. Budget IDR 800,000-1,200,000/day for a driver and car — worth every rupiah. Don't attempt in a rental car without prior experience on Indonesian rural roads."
+  - topic: "Malaria Precautions"
+    tip: "Flores and the Komodo region are malaria risk areas. Consult your travel doctor at least 2 weeks before arrival for prophylaxis. Bring DEET-based insect repellent and sleep under a mosquito net in smaller villages and homestays. The risk is real but manageable with appropriate precautions."
+  - topic: "Ngada Village Etiquette"
+    tip: "Bena and the surrounding Ngada villages are living communities, not tourist sites. Ask permission before photographing residents, especially elders and during ceremonies. A small donation (IDR 20,000-50,000) to the village cooperative fund is appropriate and welcomed. Your guide will handle introductions — let them lead the interaction."
+  - topic: "Ikat Weaving Quality"
+    tip: "Flores produces genuinely excellent ikat textiles in district-specific patterns — Ende, Ruteng, and Maumere ikat are all different and worth seeking. The distinction between machine-printed copies (cheap, dull) and hand-woven natural-dye ikat (IDR 300,000-2,000,000) is visible: natural ikat has slight irregularities in the pattern and a weight and texture machine cloth can't replicate. Village cooperative shops are more reliable than roadside stalls."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Flores is the Indonesia that most visitors to Bali never know exists — raw, dramatically beautiful, culturally complex, and almost entirely undiscovered relative to its extraordinary qualities. We drove the Trans-Flores Highway over eight days from Labuan Bajo to Maumere and it remains the single most impressive overland journey we've made anywhere in Southeast Asia.
 
 The island's name means "flowers" in Portuguese — the 16th-century explorers named it for the spectacular flamboyant trees that bloom across the hillsides in October and November. More accurately, Flores is fire — eight active or semi-active volcanoes, regular seismic events, sulfurous springs, and crater lakes whose colors shift unpredictably with underground volcanic chemistry.
+
+<ImmersiveBreak videoSrc="/videos/destinations/flores-hero.mp4" />
 
 ## Kelimutu's Three Crater Lakes
 

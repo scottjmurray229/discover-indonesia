@@ -37,6 +37,17 @@ faqs:
     answer: "3–4 days minimum: one day for Komodo Island (dragon viewing and Pink Beach), one day for Padar Island and snorkeling, and 1–2 days for diving or a liveaboard extension. Serious divers typically do 5–7 days on a liveaboard."
   - question: "Is Komodo only for divers?"
     answer: "Not at all. The dragon viewing, Pink Beach, Padar Island viewpoint, and snorkeling (which doesn't require scuba certification) make Komodo compelling even without diving. Non-divers can book snorkeling-focused day tours for IDR 600,000–900,000/person."
+scottTips:
+  - topic: "Rinca vs Komodo Island"
+    tip: "Most tour operators default to Komodo Island for dragon viewing, but Rinca Island gives higher guaranteed sighting rates because the ranger station is surrounded by active feeding areas. If you have flexibility, specify Rinca to your operator. The dragons near the Rinca ranger station in the morning (7-9am) are reliable; Komodo Island requires a longer trek for similar results."
+  - topic: "Day Tour vs Liveaboard"
+    tip: "Day tours (IDR 600,000-1,500,000/person) make sense if you're not a diver or have limited time. But the best dive sites — Batu Bolong, Castle Rock, Manta Alley — are only properly accessible on liveaboard because the currents require exact tide timing. If diving is your priority, book a 3-5 day liveaboard from Labuan Bajo instead."
+  - topic: "Weekend Fee Spike"
+    tip: "Park entry doubled from IDR 250,000 (weekdays) to IDR 500,000 (weekends and public holidays) in 2022. If cost matters, plan your Komodo Island and Rinca visits for a weekday. Most liveaboard schedules are already optimized around this — ask your operator when checking in."
+  - topic: "Padar Island at Sunrise"
+    tip: "The classic Padar Island viewpoint photo is usually taken on afternoon tours when light falls into the western bays. For the best photography, arrange a private early-morning boat to hike the 170m ridge at sunrise — the light, the silence, and the complete absence of crowds is extraordinary. Costs IDR 300,000-500,000 extra above a standard day tour."
+  - topic: "Labuan Bajo Logistics"
+    tip: "Labuan Bajo has developed rapidly and has excellent hotels now — book 4-6 weeks ahead for July-August. The harbor strip has some of Flores' best seafood — a whole fresh fish grilled to order runs IDR 80,000-150,000. Malaria prophylaxis is recommended for Flores and the Komodo region — consult your travel doctor at least 2 weeks before arrival."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 We had been warned that Komodo would be expensive and crowded, and that the dragons would be disappointing — like a zoo. None of that was true. The dragons we encountered on Komodo Island were massive and utterly prehistoric-looking, moving with a deliberate slowness that made the sudden speed of their strike demonstrations by our ranger all the more terrifying. Pink Beach, which we'd expected to be mildly pink, was actually, unmistakably pink — the ground genuinely glows crimson in the morning light. And the diving at Batu Bolong was the best ocean experience of our collective travel lives.
 
 Komodo National Park covers 1,817 square kilometers of land and sea across 29 islands in the Lesser Sunda Islands chain. It sits where the Indian and Pacific Oceans meet, creating the extraordinary nutrient-rich upwellings that support its marine life. The result is a concentration of biodiversity rarely matched anywhere on Earth: over 1,000 fish species, 260 coral species, Orcas, dugongs, sperm whales, and the manta rays that drift over sites like Manta Alley in lazy, permanent circles.
+
+<ImmersiveBreak videoSrc="/videos/destinations/komodo-hero.mp4" />
 
 ## Komodo Dragons
 

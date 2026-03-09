@@ -37,6 +37,17 @@ faqs:
     answer: "2–3 days: one day for the volcanic craters and Kawah Putih, one day for the Braga district and city center, one day for factory outlet shopping and exploring cafés. Weekends are crowded — try to visit mid-week."
   - question: "What factory outlets are in Bandung?"
     answer: "Jalan Cihampelas, Jalan Riau, and the Secret Factory Outlet area off Jalan Slamet Riyadi have the main clusters. Look for Export Quality (EQ) items from Indonesian textile factories — Nike, Adidas, and local brands at 30–70% below retail."
+scottTips:
+  - topic: "Weekday Only"
+    tip: "Bandung on weekends is flooded with Jakartans escaping the capital — the factory outlets become genuinely chaotic and hotel prices spike 30-50%. Plan your visit for Thursday-Friday if possible. The Cipularang toll road from Jakarta on Friday afternoon can add 2-3 hours to the journey."
+  - topic: "Kawah Putih Timing"
+    tip: "Kawah Putih crater lake is best in the morning before 10am — afternoon cloud rolls in from the highlands obscuring the lake and reducing visibility dramatically. The drive up is steep (hire a minibus from the lower car park IDR 15,000 if you don't have 4WD). The crater is cold at 2,194m elevation — bring a light jacket even in dry season."
+  - topic: "Factory Outlet Strategy"
+    tip: "The best factory outlet finds are export-quality items from Indonesian textile factories — genuine product at 30-70% off retail. Jalan Riau and the Secret Factory Outlet area are more curated than Jalan Cihampelas which has become heavily touristy. Look for the 'EQ' (Export Quality) label. Bargaining is not really the culture at factory outlets — prices are mostly fixed."
+  - topic: "Sundanese Food"
+    tip: "Sundanese cuisine is lighter and fresher than Central Javanese or Sumatran food — lots of raw vegetables (lalapan), freshwater fish, and clean herbal flavors. Nasi Bancakan near Jalan Trunojoyo is one of the best examples of authentic Sundanese rice table. For upscale Sundanese dining with volcano views, drive 20 minutes north to the Lembang highland restaurants."
+  - topic: "Gojek in Bandung"
+    tip: "Gojek and Grab work excellently in Bandung. For the crater destinations (Tangkuban Perahu, Kawah Putih), book a private car through either app's car rental function or hire from your hotel — public access to both craters is inconvenient. A full crater day (both sites) should cost IDR 300,000-450,000 for a hired car."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Bandung caught us completely off-guard on our first visit. We'd allocated two days as a quick stop between Jakarta and Yogyakarta and found ourselves rearranging our entire itinerary to stay four. The city has a creativity and livability that most Indonesian cities lack — wide tree-lined avenues from its Dutch colonial origins, a thriving arts and music scene (Bandung is the acknowledged birthplace of Indonesian indie rock), and a café culture that rivals Melbourne's specialty coffee scene in depth if not scale.
 
 Located 150km southeast of Jakarta at 768 meters elevation, Bandung sits in a highland basin surrounded by volcanoes. The air is noticeably cooler than the coast — a relief after Jakarta's heat — and the volcanic landscapes within 30–60 minutes of the city center make it simultaneously an urban destination and a base for extraordinary natural excursions.
+
+<ImmersiveBreak videoSrc="/videos/destinations/bandung-hero.mp4" />
 
 ## Volcanic Landscapes
 

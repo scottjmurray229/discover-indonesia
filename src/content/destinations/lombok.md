@@ -37,6 +37,17 @@ faqs:
     answer: "5–7 days: 2–3 days for Rinjani, 2 days for the southern beaches and Kuta, 1–2 days for the Gili Islands. Beach-only visitors can see the highlights in 3–4 days."
   - question: "Is Lombok good for surfing?"
     answer: "Excellent for intermediate to advanced surfers. Gerupuk Bay (Kuta area) has breaks for all levels. Desert Point (Bangko-Bangko) in the southwest is one of the longest left-hand barrels in the world — expert only. Selong Belanak is good for beginners."
+scottTips:
+  - topic: "Rinjani Booking Lead Time"
+    tip: "Book your Rinjani trek through the official Rinjani Trekking Center (Senaru or Sembalun offices) at least 2-4 weeks ahead for July-August. Private operators can also book but the official center guarantees licensed guides and porter welfare standards. The 2-day/1-night crater rim trek is the best value for time — 3-day descends to the crater lake and is significantly more strenuous."
+  - topic: "Kuta Lombok vs Kuta Bali"
+    tip: "Kuta Lombok is nothing like Kuta Bali — it's a small Sasak fishing village that happens to have some of Indonesia's best beaches within 15km in either direction. The town itself is minimal. Rent a scooter (IDR 70,000-100,000/day) and ride west to Mawun, Selong Belanak, and Grupuk Bay yourself. Don't pay for an organized beach tour."
+  - topic: "Bangsal Harbor Warning"
+    tip: "The area around Bangsal Harbor (departure point for Gili Islands) has persistent touts who will insist you need a 'private' ticket or transfer service. You don't. Walk directly to the official public boat counter — IDR 15,000-20,000 to Gili T or Gili Air. Ignore anyone who approaches you on the road before the harbor."
+  - topic: "Sasak Food"
+    tip: "Ayam taliwang (fiery chili-marinated grilled chicken) is Lombok's signature dish and is genuinely, intensely spicy — the local version is hotter than any restaurant version exported to Bali. Pelecing kangkung (water spinach with chili sauce) is the standard accompaniment. Order at roadside warungs in Kuta for IDR 25,000-40,000 — far better than the tourist-facing restaurants."
+  - topic: "Desert Point Access"
+    tip: "Desert Point (Bangko-Bangko) near Sekotong is one of Southeast Asia's legendary surf breaks — a long left-hander that can barrel for over 200 meters. Expert surfers only. Getting there requires a 2-hour road journey plus boat transfer — hire a local driver and ask your accommodation in Kuta to arrange it. No infrastructure at the break itself; bring everything you need."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Lombok sits just 35km east of Bali — close enough to reach by fast boat in under an hour — but culturally and energetically a world apart. Where Bali is Hindu, Lombok is predominantly Muslim and follows the Sasak cultural tradition. The mosques call at dawn, the fishing villages are conservative, and the island's rhythms are slower and less shaped by international tourism. We came for Rinjani and stayed for the beaches.
 
 Mount Rinjani dominates the northern third of the island at 3,726 meters — Indonesia's second-highest volcano and one of Southeast Asia's great trekking destinations. An active stratovolcano with a crater lake (Segara Anak) at 2,000 meters and a younger volcanic cone (Barujari) still venting smoke inside it, Rinjani demands respect and proper preparation. The 2–3 day trek is strenuous, genuinely cold at the summit (pack layers for the night), and requires a licensed guide — book through the official Rinjani Trekking Center in Senaru or Sembalun.
+
+<ImmersiveBreak videoSrc="/videos/destinations/lombok-hero.mp4" />
 
 ## The Beaches
 

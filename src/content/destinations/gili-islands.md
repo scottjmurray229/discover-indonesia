@@ -37,6 +37,17 @@ faqs:
     answer: "Excellent conditions for open water certification and beginner-friendly diving. Visibility 15–25m in dry season. Popular sites include Hans Reef (easy, good for beginner), Shark Point (grey reef sharks, white-tips), and Manta Point (periodic manta ray visits). PADI dive courses from IDR 3,500,000–4,500,000."
   - question: "How many days should I spend in the Gili Islands?"
     answer: "2–3 days on Gili T covers the highlights. If you want genuine relaxation, 4–5 days on Gili Air or Gili Meno is the right approach — do nothing, snorkel, watch sunsets, repeat."
+scottTips:
+  - topic: "Island Choice"
+    tip: "Most first-timers default to Gili T because it's the biggest — but Gili Air is the better choice for most travelers. It has enough restaurants and social life to feel alive, but none of the late-night noise. Walk the circumference in 90 minutes, snorkel by day, eat at the east-beach warungs in the evening. Gili Meno is strictly for couples wanting genuine peace."
+  - topic: "ATM Situation"
+    tip: "Bring all the IDR cash you'll need before arriving. There's one ATM on Gili T that frequently runs empty on peak weekends. Gili Air and Gili Meno have no ATMs at all. Many places accept cards but connections are unreliable. Budget IDR 400,000-600,000/day per person and bring it in cash."
+  - topic: "Fast Boat Safety"
+    tip: "Fast boat operators vary significantly in quality and safety standards. Book with Gili Getaway, Eka Jaya, or Blue Water Express rather than the cheapest option at the harbor. Wear the life vest during boarding and disembarking — the biggest incidents happen at the beach landing ramps, not open water."
+  - topic: "Turtle Point"
+    tip: "The sea turtle snorkeling between Gili Meno and Gili Air (Turtle Point) is genuinely world-class and can be done independently — rent fins and a mask for IDR 30,000-50,000 and swim out from the beach. Go early morning (7-8am) when the water is calmest and the turtles are most active feeding on the reef."
+  - topic: "Sunset Timing"
+    tip: "Gili T's west beach has the best sunset view — Gunung Agung on Bali appears on the horizon in silhouette as the sun drops behind it. Get to a beachfront table at least 45 minutes early to secure a spot. Bintang at sunset here costs IDR 35,000-45,000 — worth every rupiah."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 We hadn't planned to spend five days on the Gili Islands. We planned three, then couldn't find a compelling reason to leave. The particular magic of Gili Air — our base — is that it's small enough to walk the entire circumference in under two hours, quiet enough that nights are genuinely dark and starred, and lively enough that there are excellent restaurants and a cold Bintang available whenever needed.
 
 The three Gili Islands sit in a neat row off the northwest coast of Lombok, separated from each other by 10–20 minutes of boat ride. They share the distinction of prohibiting all motor vehicles — a rule that transformed them into something extraordinary by Indonesian standards: genuinely quiet. The sound at night on Gili Meno is the ocean and nothing else. On Gili T, the same absence of engines makes the evening much more human-scaled — conversations carry, music matters, the cicadas are audible.
+
+<ImmersiveBreak videoSrc="/videos/destinations/gili-islands-hero.mp4" />
 
 ## Underwater Life
 

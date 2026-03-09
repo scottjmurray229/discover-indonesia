@@ -37,6 +37,17 @@ faqs:
     answer: "7–10 days minimum to do the destination justice. A 7-day liveaboard covers the highlights. Staying at a resort: 5 days for Dampier Strait highlights; 10+ days to include Misool and Wayag."
   - question: "Is Raja Ampat only accessible by liveaboard?"
     answer: "No — shore-based resorts on Waigeo, Kri, Batanta, and Gam islands provide excellent day-diving access to Dampier Strait sites. Misool and Wayag require either a liveaboard or speedboat charter from Waisai."
+scottTips:
+  - topic: "Marine Park Fee First"
+    tip: "Pay the IDR 500,000/person marine park entry fee (foreign visitors) at the Raja Ampat Marine Park office in Waisai immediately upon arrival — before going anywhere. Rangers check for receipts at every dive site, viewpoint, and accommodation. The fee is valid for one year from issue date. Keep it safe."
+  - topic: "Liveaboard vs Resort"
+    tip: "A liveaboard covers more geography (including Misool and Wayag) and is better value for serious divers — 3 dives per day plus night dives at IDR 4,000,000-15,000,000/person/day. Shore-based resorts on Kri or Gam islands are better for non-divers or those who want stable accommodation — Dampier Strait sites are world-class and accessible from a resort base without covering vast distances."
+  - topic: "Sorong Logistics"
+    tip: "Add a buffer day in Sorong — domestic flight delays are common on the Papua routes and missing the speedboat to Waisai is a real risk if your flight arrives late. The Sorong-Waisai speedboat runs twice daily (approximately 8am and 2pm); confirm times with your resort. Sorong has decent hotels near the airport if you need an overnight."
+  - topic: "Connectivity Reality"
+    tip: "Raja Ampat has very limited internet connectivity — most resorts have satellite or sporadic 4G at best, and many remote areas have nothing. Download offline maps (Maps.me covers the islands), pre-load your diving apps and dive tables, and inform family that communication will be intermittent. The disconnection is significant and for most visitors, profoundly restorative."
+  - topic: "Malaria Precautions"
+    tip: "Raja Ampat and West Papua are malaria zones — consult your travel doctor at least 2 weeks before departure for appropriate prophylaxis. Bring DEET insect repellent (30%+) and sleep under nets or in screened accommodation. The malaria risk is real; the treatment and prevention are straightforward. Do not skip this."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 We'd read everything about Raja Ampat before we arrived and still weren't prepared for the experience of entering the water at Cape Kri — a dive site that holds the world record for fish species counted in a single dive (374 species in one 100-minute dive by Dr. Gerald Allen). The school of bigeye jacks spiraling up the pinnacle in a dense column was visible from 20 meters below the surface. A wobbegong shark lay motionless on the coral. Three different turtles passed in the first ten minutes. We surfaced and were completely unable to speak for a full minute.
 
 Raja Ampat ("Four Kings" in Indonesian) encompasses four main islands — Waigeo, Batanta, Salawati, and Misool — plus 1,496 smaller islands, cays, and shoals. It sits at the heart of the Coral Triangle, the marine zone recognized as the epicenter of global ocean biodiversity. The numbers are staggering: 75% of all known coral species, 1,800 fish species, 699 mollusc species. Conservation scientists call it the Amazon of the seas.
+
+<ImmersiveBreak videoSrc="/videos/destinations/raja-ampat-hero.mp4" />
 
 ## What You Will See Underwater
 

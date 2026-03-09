@@ -37,6 +37,17 @@ faqs:
     answer: "Medan is safe with normal city precautions. Traffic is chaotic and crossing roads requires confidence. Use Grab for transport — street taxis can overcharge significantly. The city center is safe to walk during daylight hours; avoid poorly lit areas after dark."
   - question: "How many days do I need in Medan?"
     answer: "1–2 days for the city itself. Most travelers use Medan as a transit point to Lake Toba (4 hours by road) or Bukit Lawang (4 hours by road) — add those as separate legs. A 5-day North Sumatra circuit: Medan (1 day) → Lake Toba (2 days) → Bukit Lawang (2 days) → Medan return."
+scottTips:
+  - topic: "Food First"
+    tip: "Medan is arguably Indonesia's most interesting food city — more culturally diverse than Jakarta, less tourist-modified than Bali. Plan your time around meals: Acehnese roti canai for breakfast (6-9am at the stalls near Masjid Raya), soto Medan for lunch, Chinese-Batak fusion dinner in the Kampung Keling area. Use Grab to navigate between neighborhoods rather than walking."
+  - topic: "Durian Season"
+    tip: "If visiting June-August, Medan durian season is not to be skipped even if you're skeptical. The local varieties (Monthong, Bawor, and the local Medan strain) are dramatically different from the freeze-dried or packaged durian available elsewhere. The stalls on Jalan Palang Merah are the city institution — choose a whole fruit, crack it on the spot, eat immediately. IDR 50,000-120,000 per fruit."
+  - topic: "Bukit Lawang Booking"
+    tip: "Book your Bukit Lawang orangutan trek through guides certified by Gunung Leuser National Park — uncertified operators sometimes use food bait to guarantee sightings, which is both unethical and ruins the wild encounter. The 4-hour road journey from Medan is rough but the semi-wild Sumatran orangutan sightings on the morning trek are virtually guaranteed and extraordinary. Overnight jungle treks give deeper encounters."
+  - topic: "Tjong A Fie Visit"
+    tip: "The Tjong A Fie Mansion tour is the single best cultural hour in Medan — the guides are descendants of the family and their accounts of colonial-era Chinese merchant life, the relationship with the Dutch, and the mansion's history during WWII occupation are genuinely absorbing. Allow 1.5 hours and go early (9-10am) before tour groups from Singapore arrive."
+  - topic: "Grab Only"
+    tip: "Never take a street taxi in Medan — overcharging is systematic and significant. Grab works reliably throughout the city and to the airport. Airport Grab pickup is from the designated zone outside arrivals. The fixed-rate official airport taxi (IDR 150,000 to city center) is the only non-app alternative worth using."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Medan does not pretend to be anything other than what it is: a sprawling, traffic-choked commercial city of 2.5 million people where extraordinary food is available at almost every hour and the colonial architecture has been allowed to age unsentimentally. We arrived expecting a transit city and found ourselves spending two full days deliberately, eating our way through a cuisine landscape that exists nowhere else in Indonesia.
 
 The city's unusual character comes from its ethnic composition. Medan grew rapidly in the 19th century as a Dutch tobacco plantation hub, drawing labor from across the archipelago and beyond: Toba Batak from the highlands, Karo Batak from the mountains, Malay from the coast, Acehnese from the north, Minangkabau from West Sumatra, Javanese and Sundanese, and a large Chinese merchant community that has been here since the 17th century. The result is a city where the morning food markets sell Batak pork sausage next to Malay rice cakes next to Chinese dim sum next to Acehnese noodle soup — and where nobody finds this unusual.
+
+<ImmersiveBreak videoSrc="/videos/destinations/medan-hero.mp4" />
 
 ## Tjong A Fie Mansion
 

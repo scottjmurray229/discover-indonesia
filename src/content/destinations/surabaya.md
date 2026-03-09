@@ -37,6 +37,17 @@ faqs:
     answer: "2–3 days for the city itself; add 2–3 days for Bromo and Ijen. A combined Bromo + Ijen tour over 2 nights is the most efficient approach — most tour operators in Surabaya arrange this."
   - question: "What is the food like in Surabaya?"
     answer: "Outstanding and underrated. Rawon (black beef soup colored with kluwek nuts) is Surabaya's signature dish — try it at Warung Rawon Setan (Devil's Rawon), open only at night. Lontong balap (rice cake with sprouts and fried tofu), rujak cingur (buffalo nose salad), and bebek goreng (fried duck) are other local specialties."
+scottTips:
+  - topic: "Bromo Tour Timing"
+    tip: "Book your Bromo sunrise tour through your Surabaya hotel or a vetted operator (IDR 600,000-900,000/person) rather than the cheapest option at the bus terminal. Mid-range tours use proper 4WD jeeps, experienced drivers, and stop at Penanjakan for the viewpoint rather than the cheaper alternative viewpoint with worse visibility. Depart Surabaya by 11pm for a 5am sunrise."
+  - topic: "Bromo + Ijen Combo"
+    tip: "The most efficient way to see both landmarks is the 2-night Bromo-Ijen combination tour (IDR 1,800,000-3,500,000/person) — Night 1: drive to Bromo, sunrise, descend to crater; then drive east toward Ijen. Night 2: 2am hike to Ijen crater for blue fire, sunrise descent. This avoids backtracking to Surabaya between sites."
+  - topic: "Rawon Setan Timing"
+    tip: "Warung Rawon Setan (Devil's Rawon) opens at 11pm and closes when the pots are empty — usually by 2am. The black beef soup, colored by kluwek nuts, has been made the same way for decades and is the definitive version of Surabaya's signature dish. Queue 15-20 minutes after opening. Go after your flight lands or before your midnight Bromo departure."
+  - topic: "House of Sampoerna"
+    tip: "The House of Sampoerna compound — a beautifully preserved 1900s Dutch tobacco factory — is free to enter and takes about 90 minutes. The factory floor tour (IDR 25,000) shows hand-rolling of kretek clove cigarettes by women who roll 350+ cigarettes per hour. The heritage museum traces the Sampoerna family's 100-year tobacco empire. The café on-site is one of the most atmospheric in Surabaya."
+  - topic: "Gas Mask for Ijen"
+    tip: "The Ijen crater produces genuinely toxic sulfur dioxide — your guide will provide a basic gas mask for the crater rim visit. It's adequate for short exposure but if you have respiratory sensitivities, bring a proper N95 mask as backup. The smell of the sulfur begins 500 meters from the crater rim; the gas concentration at crater level can be harsh if winds shift. Follow your guide's advice on positioning."
 draft: false
 contentStatus: published
 ---
@@ -44,6 +55,8 @@ contentStatus: published
 Surabaya doesn't try to compete with Bali's beauty or Yogyakarta's cultural depth. It's a working city — Indonesia's second-largest, a trading port since the 14th century — and it makes no apologies for the grit and scale that defines it. We came for Mount Bromo and left fascinated by the city itself: the Arab Quarter's mosque-and-spice-market atmosphere, the colonial Kota Tua district where Dutch warehouses still line the Kalimas River, and a street food scene that we'd rate among the best in Java.
 
 The city divides naturally between the colonial north (Kota Lama and Ampel) and the modern commercial south. The Arab Quarter around Sunan Ampel Mosque has operated continuously since the 15th century — the Ampel Mosque itself is one of the oldest in Indonesia, and the surrounding market lanes sell everything from Arabian perfume oils to Yemeni honey to prayer beads. Visit on a Friday morning when the streets are at their most atmospheric.
+
+<ImmersiveBreak videoSrc="/videos/destinations/surabaya-hero.mp4" />
 
 ## Mount Bromo
 
