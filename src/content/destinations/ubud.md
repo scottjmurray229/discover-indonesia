@@ -28,65 +28,125 @@ affiliatePicks:
     url: "https://www.booking.com/searchresults.html?ss=Ubud+Bali&aid=2778866"
   - provider: "klook"
     label: "Book Activities in Ubud"
-    url: "https://www.klook.com/en-ID/search/result/?query=Ubud+Bali&aid=112015"
-faqs:
-  - question: "When is the best time to visit Ubud?"
-    answer: "April through October is the dry season. The rice paddies are lush year-round but May through July offers the most reliable clear mornings for sunrise walks. November through March sees daily rain — usually afternoon showers rather than all-day downpours."
-  - question: "How do I get to Ubud from the airport?"
-    answer: "Ubud is approximately 1 hour from Ngurah Rai Airport (DPS) by private car or Grab. No taxis operate metered service from the airport — book a private transfer through your hotel (IDR 250,000–350,000) or use the Grab app from the designated rideshare zone."
-  - question: "What is Ubud known for?"
-    answer: "Ubud is Bali's cultural and artistic heart — famous for its rice paddy landscapes, sacred temples, dance performances, woodcarving and painting traditions, yoga retreats, and outstanding food scene. It gained international fame from the book and film 'Eat Pray Love.'"
-  - question: "What is the currency in Ubud?"
-    answer: "Indonesian Rupiah (IDR). Budget accommodation: IDR 200,000–500,000/night. Mid-range guesthouse: IDR 500,000–1,200,000/night. Luxury villa: IDR 1,500,000+/night. Dining ranges from IDR 30,000 (local warung) to IDR 200,000+ (upscale restaurant)."
-  - question: "Is Ubud safe for tourists?"
-    answer: "Ubud is very safe. The main hazards are traffic on the narrow main road (Jalan Raya Ubud) and potentially aggressive monkeys at the Monkey Forest if you carry food visibly. Bring anti-bacterial gel after any monkey interaction."
-  - question: "What are the must-see attractions in Ubud?"
-    answer: "Campuhan Ridge Walk at sunrise, Tegallalang Rice Terraces, Monkey Forest, Tirta Empul (holy spring temple), Puri Saren Agung (Ubud Royal Palace) performances, and a cooking class — either Casa Luna, Paon, or Lobong."
-  - question: "How many days do I need in Ubud?"
-    answer: "3–5 days lets you slow down properly — the right way to experience Ubud. One day for temples and rice terraces, one for a cooking class and market, one for a wellness treatment and the Campuhan walk. Add extra days for day trips to Kintamani or Sidemen."
-  - question: "What are the best cooking classes in Ubud?"
-    answer: "Casa Luna Cooking School (Janet DeNeefe's acclaimed kitchen, IDR 350,000), Paon Bali Cooking Class (includes morning market visit, IDR 250,000), and Lobong Culinary Experience (small group, farm-to-table philosophy, IDR 330,000) are the three best-regarded options."
-scottTips:
-  - topic: "Campuhan Ridge Before 7am"
-    tip: "The Campuhan Ridge Walk is one of Bali's best free experiences — but only before 7am. After that, it fills with selfie-stick groups. Start at Pura Gunung Lebah, walk the full ridge circuit (about 9km), and be back in town for breakfast. Bring water and wear shoes you don't mind getting muddy if it rained overnight."
-  - topic: "Tegallalang Timing"
-    tip: "Tegallalang Rice Terraces are genuinely spectacular but the main viewpoints are ringed with café-swing operators charging IDR 100,000-200,000 for a photo. Skip those entirely — walk 200m north or south of the main entrance on the foot trails between the paddies where it costs nothing and looks better."
-  - topic: "Money Changers"
-    tip: "Use PT Central Kuta or PT BMC exchange locations — they have certified rate boards and don't pull the counting tricks common at unlicensed shops. Avoid any changer who quotes a rate that seems dramatically better than others. Withdraw IDR 1,500,000-2,000,000 at a time from ATMs to minimize fees."
-  - topic: "Cooking Class Worth Taking"
-    tip: "Every hotel sells cooking classes but the quality varies enormously. Paon Bali (IDR 250,000) includes a market walk and produces genuinely good results. Casa Luna (IDR 350,000) is more polished and chef-quality. Avoid hotel-lobby classes that skip the market component — the market sourcing is half the lesson."
-  - topic: "Motorbike Reality"
-    tip: "Ubud's roads are narrow, winding, and frequently wet. If you're not an experienced motorbike rider, hire a driver with car for the day (IDR 450,000-600,000) — you'll cover far more ground without the stress. For local distances within town, Gojek is cheap and faster than navigating the Ubud main road traffic."
-draft: false
-contentStatus: published
+    url: "https://www.klook.com/en-US/search/result/?query=Ubud+Bali&aid=112015"
 ---
 
-Ubud surprised us on our third visit in a way it hadn't on the first two — not because it had changed, but because we finally slowed down enough to let it work on us. The cooking class our first morning led to a conversation with our teacher Wayan about Canang Sari offerings, which led to an invitation to watch his family's temple ceremony that afternoon. Ubud operates this way: the slower you move, the more it opens to you.
+I arrived in Ubud for the first time on a motorbike at dusk, following a road that wound through rice paddies with the sound of a distant gamelan rising and falling in the warm air. I'd come from the beach — from Seminyak and its beach clubs and cocktail culture — and the shift was so complete, so immediate, that I sat on the edge of those first paddies and just breathed for a while. Whatever Ubud was, it was different. Something here was genuinely older and more considered than the coastal tourist machine.
 
-Geographically, Ubud sits in the hills of central Bali, 400 meters above sea level, in a river valley where the Wos and Campuhan rivers meet. The elevation keeps it slightly cooler than the coast — mornings can feel almost cold by Bali standards. Terraced rice fields descend from the hillsides into steep jungle valleys, and the view from the ridge trails above the town reveals a landscape that has barely changed in centuries, even as the restaurants and galleries below have multiplied.
+That feeling never left, despite many return visits. Ubud is Bali's cultural center in the most literal sense — it was here that the Dutch painter Walter Spies arrived in 1927, here that the Balinese artistic renaissance was documented and catalyzed, here that the Ubud School of painting developed its extraordinary style. The royal family of Ubud has been a patron of the arts for centuries, and the Puri Saren palace still hosts nightly dance performances in its courtyard — not for tourists exclusively, but as a continuation of a tradition that predates mass tourism by centuries. You feel that history everywhere in Ubud. It's in the woodcarving workshops, the silver smith studios, the family compounds where offerings are placed at dawn with the same reverence as when Bali was completely unknown to the outside world.
 
-<ImmersiveBreak videoSrc="/videos/destinations/ubud-hero.mp4" />
+The Monkey Forest is the most popular attraction in Ubud proper, and the tourists are inevitable, but the forest itself is genuinely beautiful and the three temple complexes within it are atmospheric and real. The best thing about Ubud, though, is the walk that starts at the top of Jalan Bisma and follows the Campuhan Ridge — 45 minutes through rice paddies and jungle with Ubud spread below and the hills of central Bali ahead. Go at 6am. Bring nothing but water and leave your phone in your pocket. The view earns the effort.
 
-## The Rice Terraces
+What keeps me returning to Ubud more than the sights or the restaurants or the retreats is the simple fact that it makes you want to be awake earlier and stay up later. The mornings here are extraordinary — mist in the rice paddies, women in temple dress carrying offerings, the smell of incense from ten directions at once. And the evenings — a Legong performance in a palace courtyard, dinner at a restaurant with a ravine below and torches above, the sound of frogs from the paddies — have a quality I've not replicated anywhere else.
 
-Tegallalang Rice Terraces, 8km north of Ubud center, are the most photographed landscape in Bali — and justifiably so. The terraces cascade down a steep valley in an intricate system of subak (traditional Balinese water management), a UNESCO-recognized cultural practice that has regulated water flows between farming communities for over 1,000 years. Visit before 8am or after 4pm to avoid tour groups. The rice harvest cycle means the paddies are at different stages at different times of year — ask locally which terrace has the most brilliant green growth.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Ubud sits 25km north of Denpasar — a 45-minute Grab ride through rice paddies and village temples. The approach from the south announces exactly what you're arriving at: a place that runs on a different clock.</p>
+  </div>
+</div>
 
-Campuhan Ridge Walk, starting at Pura Gunung Lebah temple near the main road, is free and equally rewarding. The 9km path follows a narrow ridge between two river valleys, through jungle and rice fields, with almost no tourists before 7am. Carry water and wear good shoes — the path narrows to single-file in places.
+## Why Ubud belongs on your itinerary
 
-## Food
+Ubud is the counterargument to the idea that Bali has been ruined by tourism. Yes, Monkey Forest Road has its smoothie bowls and rice terrace swing operators. Yes, every third shopfront in the center sells essentially the same carved wooden animals. But move three streets back from the main drag — which is easily done — and Ubud's depth reasserts itself immediately. Family compounds where four generations live and work and make offerings together. Stone carvers whose fathers and grandfathers worked the same stone in the same way. A healer who sees patients in a compound that has been doing healings for generations.
 
-Ubud's food scene ranges from IDR 20,000 nasi campur (rice with mixed sides) at Warung Ibu Mangku to IDR 300,000-per-head tasting menus at Locavore, which has featured consistently on Asia's 50 Best Restaurants. We ate best at the middle: Warung Babi Guling Ibu Oka for suckling pig (arrive before 1pm — it runs out), Mosaic Restaurant in a garden setting with Balinese-influenced cuisine, and the night market on Jalan Gautama for satay and corn fritters under string lights.
+The food scene in Ubud is genuinely world-class and has been for a decade. Locavore put Indonesia on the international fine dining map and has stayed at the top of every regional list since. But the real food revelation in Ubud is the warung — the family-run, plastic-stool-and-corrugated-iron institutions that serve babi guling, nasi campur, and lawar for Rp20,000-40,000 a plate. The warung breakfast, eaten in a compound courtyard with roosters and offerings and a gamelan rehearsal audible from somewhere nearby, is one of the finest dining experiences on Earth.
 
-For breakfast, Seniman Coffee Studio on Jalan Sri Wedari serves exceptional single-origin Sumatran and Flores beans. Bali Buda, a health-food institution since 1997, does outstanding smoothie bowls and fresh turmeric lattes — IDR 35,000–65,000.
+The wellness industry that colonized Ubud over the past two decades has at least done one thing right: it has created a culture of genuine retreat and restoration that the town has absorbed and made its own. You can do a yoga class on a rice paddy deck. You can have a traditional Balinese massage in a bamboo pavilion overlooking a ravine. You can attend a sound healing session in a temple compound. None of this is fake, even when it is packaged for tourists — the Balinese tradition of ceremony, healing, and body work is deep enough to survive the commodification and remain meaningful.
 
-## Temples and Ceremony
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Ubud rewards slow travel more than almost any place I know. The best experiences here aren't the ones on a highlight reel — they're the ones that unfold when you walk in a direction without a plan.</p>
+  </div>
+</div>
 
-Tirta Empul, 12km northeast of Ubud, is Bali's most sacred spring temple — devotees queue to immerse themselves in the holy spring pools in a ritual purification ceremony. Arrive before 8am to experience the ceremony without crowds. Dress modestly; sarongs provided at entrance (IDR 20,000).
+## What should you do in Ubud?
 
-Pura Kehen, further northeast near Bangli, is undervisited and extraordinary — a clifftop temple complex with an 11-tiered meru tower reflected in a sacred lake. Entry IDR 30,000.
+**Campuhan Ridge Walk** — Bali's finest free walk starts at Warwick Ibah resort at the top of Jalan Bisma and follows a narrow ridge between two river valleys through jungle and rice paddies. The round trip is about 9km and takes 2-3 hours at a leisurely pace. Go at 6am before the heat and before other walkers — the morning light on the paddies and the distant sound of temple music is the Ubud experience at its purest. Completely free.
 
-## Practical Tips
+**Sacred Monkey Forest Sanctuary** — 700 Balinese long-tailed macaques in 12 hectares of ancient forest containing three genuine temple complexes. The monkeys are entertaining and occasionally larcenous — keep bags zipped and never show food. Entry Rp80,000. The temple interiors are genuinely beautiful, covered in moss and carved stone, and feel ancient because they are. Best in early morning when the light is low and tour groups haven't arrived.
 
-**Avoiding the crowds:** The Instagram spots (Tegallalang, Monkey Forest entrance, the Campuhan ridge) are genuinely crowded from 9am to 3pm. An early start rewards you with cooler temperatures and emptier paths.
+**Tegallalang Rice Terraces** — 15 minutes north of Ubud, these UNESCO-recognized cascading terraces are the most photographed landscape in Bali. The subak irrigation system that maintains them is over a thousand years old and still operational. Arrive at 7am to have the best viewpoints largely to yourself before the Instagram swing operators set up. Lower path walking is free; elevated viewing platforms charge Rp15,000-20,000.
 
-**Wellness:** Ubud is Southeast Asia's wellness capital. Half-day Balinese massage and spa packages run IDR 250,000–500,000 at dozens of spas. Yoga Barn offers daily classes IDR 150,000; The Yoga Shala has excellent Ashtanga instruction. Ayurvedic consultations and traditional Balinese healing (with a local balian, or healer) can be arranged through reputable tour agencies.
+**Puri Saren Palace Evening Dance** — Every evening at 7:30pm, the Ubud Royal Palace courtyard hosts traditional Balinese dance — Legong, Barong, Kecak, depending on the night. The performers are genuine artists from established dance families. Tickets Rp100,000-150,000 at the gate. The setting — torchlit palace courtyard, elaborately costumed dancers, gamelan orchestra filling the night air — is as good as anything Bali offers.
+
+**Cooking Classes at Paon Bali or Lobong** — A proper Balinese cooking class starts at the morning market, works through local ingredient identification, and results in a lunch of six to eight traditional dishes you've made yourself. Half a day, typically Rp500,000-750,000 including the market visit. The best way to understand Balinese cuisine from the inside — the spice pastes, the lawar technique, the principles of balance that underpin everything.
+
+**Pura Tirta Empul** — Bali's most sacred purification temple sits 8km north of Ubud, its spring-fed pools fed by a source considered holy since the 10th century. Balinese Hindus queue to move through a series of fountain spouts in a ritual purification process. Visitors can participate — sarong and sash provided at the gate. Entry Rp50,000. Go early; by 10am the tour buses arrive.
+
+**Museum Puri Lukisan** — The oldest fine art museum in Bali occupies a stunning garden compound and displays the development of the Ubud painting school from the 1930s to the present. The Walter Spies and Rudolf Bonnet-era pieces are extraordinary. Entry Rp150,000. Consistently overlooked in favor of the Monkey Forest, which means you'll often have it largely to yourself.
+
+**Komaneka at Bisma / River Ravine Dining** — Even if you're not staying at the luxury hotels, many Ubud properties with ravine or rice paddy views open their restaurants to walk-in guests. A lunch or dinner table at Komaneka at Bisma, Murni's Warung, or Bridges Restaurant — all looking into the Campuhan gorge — is one of the great restaurant settings in Asia.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Ubud Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> 45-60 minutes from Ngurah Rai Airport by Grab — around Rp120,000-160,000. Or take the tourist shuttle from Kuta for Rp75,000. Ubud has no direct airport connection but is well-served by private drivers and apps.</li>
+    <li><strong>Getting Around:</strong> Ubud's center is walkable. For Tegallalang, Tirta Empul, and surrounding areas, hire a driver for the day (Rp500,000-700,000) or rent a scooter (Rp70,000-100,000/day). Grab and Gojek work in Ubud but drivers sometimes refuse short trips.</li>
+    <li><strong>Best Time:</strong> April through October, dry season. July and August are the busiest — consider May, June, or September for fewer crowds and lower prices. Ubud's cooler highland air makes it more comfortable year-round than the coast.</li>
+    <li><strong>Money:</strong> ATMs along Monkey Forest Road and Jalan Raya Ubud. Daily budget: USD 35-60 backpacker (guesthouse, warung meals); USD 80-150 mid-range (boutique hotel, nice restaurants, activities). A Ubud day cook class + dinner + evening dance = USD 50 total — extraordinary value.</li>
+    <li><strong>Don't Miss:</strong> Breakfast at a local warung — nasi campur for Rp25,000, eaten in a compound courtyard with the sounds of the morning ceremony around you. This is the authentic Ubud experience that no amount of tourism can dilute.</li>
+    <li><strong>Local Tip:</strong> Walk east from the center along Jalan Hanoman and then any of the lanes that drop into the Wos river valley. Ten minutes from the tourist core, you'll find family compounds making offerings, woodcarvers at work, and an Ubud that hasn't changed much in 40 years.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #14532D 0%, #15803D 35%, #4ADE80 65%, #14532D 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Ubud has more serious food per square kilometer than anywhere else in Indonesia — from Rp20,000 warung nasi campur to a world-ranked tasting menu, and everything in between is excellent.</p>
+  </div>
+</div>
+
+## Where should you eat in Ubud?
+
+- **Warung Ibu Oka** — The most famous babi guling warung in Bali: spiced suckling pig rubbed with turmeric, ginger, lemongrass, and chili, roasted over coconut husk fire. Arrive before noon — it sells out by 1pm most days. Rp60,000-80,000 (USD 4-5) for a full plate with crackling and blood sausage.
+
+- **Locavore** — Eight courses, all Indonesian ingredients, multiple years on Asia's 50 Best list. The fermentation pantry alone is worth the visit. Book weeks ahead. USD 80/person without wine. The most creative cooking in Indonesia.
+
+- **Warung Babi Guling Ibu Mangku** — A lesser-known local warung on the road to Tegallalang serving the same spiced roast pork tradition at Rp35,000-50,000. Earlier closing time than Ibu Oka — arrive by 11am.
+
+- **Bridges Restaurant** — Hung across the Campuhan gorge in a suspension bridge setting, Bridges serves reliable international food at moderate prices with one of the best dining views in Bali. Mains Rp150,000-250,000 (USD 10-16). Come for the setting; the food is solid rather than exceptional.
+
+- **Clear Café** — Organic, raw, vegan-friendly menu in a beautifully designed bamboo space on Jalan Hanoman. The smoothie bowls and raw desserts are genuinely excellent rather than just virtuous. Rp80,000-120,000 per dish.
+
+- **Naughty Nuri's** — The ribs and martinis warung that has been a Ubud institution for 30 years. The pork ribs are the draw — enormous, sticky, smoky. Rp150,000-200,000. The line gets long by 7pm — arrive early or late.
+
+- **Morning market on Jalan Raya Ubud** — The real Ubud market operates from 5am to 8am before it becomes a tourist souvenir market. Fresh produce, spices, prepared foods, and the entire ingredient palette of Balinese cooking all for Rp10,000-20,000 per item. Your cooking class starts here.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #0C4A6E 0%, #0369A1 35%, #38BDF8 65%, #0C4A6E 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Ubud has the best collection of mid-range boutique hotels in Indonesia — rice paddy views, private pools, and genuine hospitality at prices that seem impossible until you're actually there.</p>
+  </div>
+</div>
+
+## Where should you stay in Ubud?
+
+**Budget (Rp200,000-500,000 / USD 13-33):** Small family-run losmen guesthouses are scattered through the rice paddy lanes east of the center — Jalan Kajeng, Jalan Sri Wedari, Jalan Gootama. Breakfast is typically included. The Abian Guesthouse and similar small properties offer fan-cooled rooms with garden breakfast for Rp200,000-300,000. Dormitory options exist on Monkey Forest Road from Rp120,000.
+
+**Mid-Range (Rp700,000-2,000,000 / USD 47-135):** This is Ubud's extraordinary sweet spot. Properties like Bisma Eight, Komaneka at Rasa Sayang, and Alaya Resort offer private pools, rice paddy views, breakfast, and genuine Balinese hospitality for USD 60-120 per night. Levels of design and service that in Europe would cost USD 400+ per night.
+
+**Luxury (USD 300-1,500+):** Four Seasons Sayan is genuinely one of the world's great hotels — a circular building rising from a rice paddy valley above the Ayung River, with tented pavilions below and a level of integration with the landscape that architects have been studying for decades. Amandari and Komaneka at Bisma represent the alternative pinnacle. Book 3-6 months ahead in peak season.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Ubud is smaller than you expect and more layered than it first appears. Give it more days than you planned and fewer plans than you think you need.</p>
+  </div>
+</div>
+
+## When is the best time to visit Ubud?
+
+April through October is dry season and universally the best time to visit — the rice paddies are green, the mornings are clear, and the evening cultural programs run reliably. Ubud's highland position (300 meters above the coast) keeps temperatures 3-4 degrees cooler than the beach, making it bearable even in the hottest months. July and August bring the most visitors and highest prices — May, June, and September offer dry season conditions without the peak crowds.
+
+November through March brings afternoon rain reliably — mornings remain beautiful and the evenings are fine, but the rice terraces fill with mist and some outdoor activities are curtailed. The wet season actually makes the rice paddies greener and the landscape more dramatic, and accommodation rates drop significantly. For those who can embrace a 3pm shower as part of the day's rhythm, wet season Ubud is not a consolation prize.
+
+Give Ubud at minimum four nights to feel its pace properly — two nights is enough to see the sights, but four nights or more lets you find your own version of the place rather than following a checklist.
+
+Explore more of the island with our [Bali guide](/destinations/bali/), or browse all [Indonesia destinations](/destinations/) for the broader archipelago picture.

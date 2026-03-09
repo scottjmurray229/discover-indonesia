@@ -28,61 +28,115 @@ affiliatePicks:
     url: "https://www.booking.com/searchresults.html?ss=Surabaya&aid=2778866"
   - provider: "klook"
     label: "Book Bromo and Ijen Tours"
-    url: "https://www.klook.com/en-ID/search/result/?query=Mount+Bromo+Surabaya&aid=112015"
-faqs:
-  - question: "When is the best time to visit Surabaya?"
-    answer: "April through October is the dry season and best for Mount Bromo and Ijen. Bromo is accessible year-round but cloud often obscures sunrise views during wet season. Ijen's blue fire is visible only in darkness — the 2–4am hike is year-round."
-  - question: "How do I get to Surabaya?"
-    answer: "Fly into Juanda International Airport (SUB) — direct connections from Bali (45 min), Jakarta (1.5 hrs), Singapore, and other Indonesian cities. The airport is 20km from the city center — take Grab or the airport bus (IDR 15,000)."
-  - question: "What is Surabaya known for?"
-    answer: "Surabaya is Indonesia's second-largest city and commercial center, famous for its Arab Quarter heritage, colonial Kota Tua, and as the base for Mount Bromo and Ijen Crater adventures. It's also known for its rawon (black beef soup) and lontong balap street food."
-  - question: "Is Mount Bromo worth visiting from Surabaya?"
-    answer: "Absolutely. Mount Bromo is one of Indonesia's most iconic landscapes — an active smoking crater set in a vast caldera with a sea of volcanic sand. The 4am jeep tour to the sunrise viewpoint over the caldera is one of the great natural spectacles in Southeast Asia."
-  - question: "How do I get to Mount Bromo from Surabaya?"
-    answer: "Join a guided tour from your hotel (IDR 600,000–900,000/person) or hire a private car (IDR 800,000–1,200,000 round-trip). The drive to Bromo's base takes 3.5–4 hours. Most tours depart at 11pm or midnight to arrive for the 5am sunrise."
-  - question: "What is the Ijen blue fire?"
-    answer: "The Ijen blue fire is an extremely rare natural phenomenon — sulfuric gases igniting as they emerge from volcanic vents, producing an ethereal blue flame visible only in complete darkness. It occurs at two places on Earth: Ijen in East Java and Dallol in Ethiopia. The hike to the crater takes 1.5–2 hours; the blue fire is visible roughly 2–4am."
-  - question: "How many days do I need in Surabaya?"
-    answer: "2–3 days for the city itself; add 2–3 days for Bromo and Ijen. A combined Bromo + Ijen tour over 2 nights is the most efficient approach — most tour operators in Surabaya arrange this."
-  - question: "What is the food like in Surabaya?"
-    answer: "Outstanding and underrated. Rawon (black beef soup colored with kluwek nuts) is Surabaya's signature dish — try it at Warung Rawon Setan (Devil's Rawon), open only at night. Lontong balap (rice cake with sprouts and fried tofu), rujak cingur (buffalo nose salad), and bebek goreng (fried duck) are other local specialties."
-scottTips:
-  - topic: "Bromo Tour Timing"
-    tip: "Book your Bromo sunrise tour through your Surabaya hotel or a vetted operator (IDR 600,000-900,000/person) rather than the cheapest option at the bus terminal. Mid-range tours use proper 4WD jeeps, experienced drivers, and stop at Penanjakan for the viewpoint rather than the cheaper alternative viewpoint with worse visibility. Depart Surabaya by 11pm for a 5am sunrise."
-  - topic: "Bromo + Ijen Combo"
-    tip: "The most efficient way to see both landmarks is the 2-night Bromo-Ijen combination tour (IDR 1,800,000-3,500,000/person) — Night 1: drive to Bromo, sunrise, descend to crater; then drive east toward Ijen. Night 2: 2am hike to Ijen crater for blue fire, sunrise descent. This avoids backtracking to Surabaya between sites."
-  - topic: "Rawon Setan Timing"
-    tip: "Warung Rawon Setan (Devil's Rawon) opens at 11pm and closes when the pots are empty — usually by 2am. The black beef soup, colored by kluwek nuts, has been made the same way for decades and is the definitive version of Surabaya's signature dish. Queue 15-20 minutes after opening. Go after your flight lands or before your midnight Bromo departure."
-  - topic: "House of Sampoerna"
-    tip: "The House of Sampoerna compound — a beautifully preserved 1900s Dutch tobacco factory — is free to enter and takes about 90 minutes. The factory floor tour (IDR 25,000) shows hand-rolling of kretek clove cigarettes by women who roll 350+ cigarettes per hour. The heritage museum traces the Sampoerna family's 100-year tobacco empire. The café on-site is one of the most atmospheric in Surabaya."
-  - topic: "Gas Mask for Ijen"
-    tip: "The Ijen crater produces genuinely toxic sulfur dioxide — your guide will provide a basic gas mask for the crater rim visit. It's adequate for short exposure but if you have respiratory sensitivities, bring a proper N95 mask as backup. The smell of the sulfur begins 500 meters from the crater rim; the gas concentration at crater level can be harsh if winds shift. Follow your guide's advice on positioning."
-draft: false
-contentStatus: published
+    url: "https://www.klook.com/en-US/search/result/?query=Mount+Bromo+Surabaya&aid=112015"
 ---
 
-Surabaya doesn't try to compete with Bali's beauty or Yogyakarta's cultural depth. It's a working city — Indonesia's second-largest, a trading port since the 14th century — and it makes no apologies for the grit and scale that defines it. We came for Mount Bromo and left fascinated by the city itself: the Arab Quarter's mosque-and-spice-market atmosphere, the colonial Kota Tua district where Dutch warehouses still line the Kalimas River, and a street food scene that we'd rate among the best in Java.
+Surabaya doesn't try to be likable in the way Jakarta occasionally does — there's no particularly tourist-facing district, no clear "here is what foreigners are supposed to look at" organization to the city. It's a working port city of 3 million people, the second largest in Indonesia, with a history as a trading hub that precedes Dutch arrival by centuries and has continued in various forms ever since. I've passed through it multiple times on the way to Bromo or Ijen and each time I've stayed a night in the city itself, I've found more to appreciate in what initially seemed like a purely functional stopping point.
 
-The city divides naturally between the colonial north (Kota Lama and Ampel) and the modern commercial south. The Arab Quarter around Sunan Ampel Mosque has operated continuously since the 15th century — the Ampel Mosque itself is one of the oldest in Indonesia, and the surrounding market lanes sell everything from Arabian perfume oils to Yemeni honey to prayer beads. Visit on a Friday morning when the streets are at their most atmospheric.
+The Arab Quarter at Ampel is the most immediately rewarding urban exploration in Surabaya. The neighborhood around Masjid Ampel — one of the oldest mosques in Java, associated with one of the nine Wali Songo who brought Islam to Java — operates as a genuine religious and commercial community rather than a tourist attraction. The lanes between the mosque and the market are full of Islamic goods, Arab sweet shops, incense vendors, and devout pilgrims who have come to pray at the tomb of Sunan Ampel. It is simultaneously a working religious neighborhood and one of the most atmospheric urban quarters in East Java.
 
-<ImmersiveBreak videoSrc="/videos/destinations/surabaya-hero.mp4" />
+The House of Sampoerna, in the city's Dutch colonial district, is one of the more unusual museum experiences in Indonesia — a working tobacco factory and museum in a magnificent 1862 Dutch colonial building, owned by the family that built Indonesia's largest tobacco company. The hand-rolling room where 500 workers produce 500,000 Dji Sam Soe clove cigarettes per day is accessible to visitors through glass, and the museum of Indonesian tobacco history, while clearly branded, is genuinely interesting and illuminates an industry that has shaped the Indonesian economy and culture for over a century.
 
-## Mount Bromo
+Most people see Surabaya as the gateway to Bromo. That's fair — the 3am departure in a jeep toward an active volcano's caldera, watching the sunrise paint the Sea of Sand and the brooding Bromo cone from 2,700 meters, is one of East Java's great experiences. But Surabaya itself rewards a day of exploration before or after.
 
-Mount Bromo is active — the crater has been venting almost continuously since 2010 — and utterly spectacular. The 2,329-meter cone rises from the Tengger Caldera, a vast volcanic basin 10km wide called the "Sea of Sand." The standard experience is the 4am jeep ride to the Penanjakan viewpoint above the caldera rim, watching the sunrise illuminate Bromo, Batok, and Semeru (Java's highest peak at 3,676m) in sequence through the morning mist.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Juanda International Airport is 15km south of the city — a 30-minute Grab ride. Direct flights from Bali (1 hour), Jakarta (1.5 hours), Singapore, and KL make Surabaya one of the most accessible jumping-off points for East Java's volcanic circuit.</p>
+  </div>
+</div>
 
-After sunrise, jeeps descend into the caldera and across the ash plain to the crater's base. The 249-step staircase leads to the crater lip, where the sulfurous smell is strong and the scale suddenly becomes apparent — the crater is 200 meters wide and 200 meters deep. Tour operators charge IDR 600,000–900,000/person for the complete sunrise-and-crater experience departing from Surabaya. Private car hire runs IDR 800,000–1,200,000 return.
+## Why Surabaya belongs on your itinerary
 
-## Ijen Crater and the Blue Fire
+Surabaya is the practical hub for what is arguably Indonesia's most spectacular volcanic circuit — Mount Bromo and Kawah Ijen can both be visited on a 3-4 day loop from the city, and the combination of those two volcanic experiences (the accessible sunrise caldera at Bromo, the midnight blue-fire acid lake at Ijen) is more varied and more extraordinary than any single-volcano trip in the archipelago.
 
-Six hours east of Surabaya (usually combined with Bromo in a 2-night tour), the Ijen volcanic complex contains one of the world's most dramatic active crater lakes — a turquoise sulfuric acid lake 200 meters deep — and the blue fire phenomenon visible 2–4am. The hike to the crater takes 1.5–2 hours on a well-maintained trail; the descent to the lake floor is steep and requires a gas mask (provided by guides).
+The city itself is Indonesia's most Javanese in cultural terms — Surabaya is predominantly Javanese Muslim and the traditional arts of East Java (reog Ponorogo, ludruk, and ketoprak theater) are maintained here with the same seriousness that Yogyakarta maintains its royal performance traditions. The evening street food culture — the sate stalls, the rujak cingur vendors, the bakso soup carts — represents Javanese street food at its best and most authentic.
 
-The blue fire appears only in complete darkness and only in certain wind conditions — not every night produces it, but most clear nights do. Guides know which approach gives the best view. The sulfur miners who work the crater around the clock, carrying 70–90kg loads of solid sulfur to the surface, are an extraordinary human story — many guides will arrange an introduction.
+The Suramadu Bridge, connecting Surabaya to Madura Island, is also worth knowing about. Madura is an island with its own distinct culture — the Madurese are known as traders, cattle ranchers, and practitioners of karapan sapi (bull racing), a spectacular sport unique to the island that takes place in harvest season. A day trip to Madura adds a genuinely different cultural dimension to a Surabaya stay.
 
-Book through your Surabaya hotel or through established operators like Java Tour Bromo. Combination Bromo-Ijen 2-night tours cost IDR 1,800,000–3,500,000/person.
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Surabaya's city exploration takes one good day. The volcanic day trips to Bromo and Ijen are the reason most visitors come — both require pre-dawn starts and both are completely worth it.</p>
+  </div>
+</div>
 
-## Practical Tips
+## What should you do in Surabaya?
 
-**Getting around Surabaya:** The city is car-dependent — use Grab. For Bromo and Ijen, book through hotel tour desks or through operators on TripAdvisor (verify recent reviews). The cheapest tours cut corners on jeep quality and guide experience — mid-range IDR 800,000–1,200,000/person is the sweet spot.
+**Mount Bromo Sunrise** — The most accessible volcano sunrise in Indonesia. Jeeps depart from the Probolinggo base at 3am and drive up to the Penanjakan viewpoint above the Tengger caldera — from here, the view east as the sun comes up over Mount Semeru (Java's highest peak) and illuminates the Sea of Sand below, with Bromo's active cone smoking in the foreground, is among Indonesia's great natural spectacles. From Surabaya, 3-hour drive to the base town. Full overnight tour packages from Rp600,000-1,200,000 per person.
 
-**Food:** Warung Rawon Setan is a Surabaya institution — open from 11pm to 2am, serving only rawon. The House of Sampoerna compound (free to enter, tobacco factory tours IDR 25,000) has an excellent café and gallery. For upscale dining, the Shangri-La Hotel's Jin Mao restaurant serves exceptional Chinese-Indonesian fusion.
+**Kawah Ijen Blue Fire** — 4 hours from Surabaya, the midnight hike to Ijen's blue fire crater can be combined with Bromo in a 3-day loop from the city. See the [Ijen destination guide](/destinations/ijen/) for the full experience description.
+
+**Masjid Ampel and Arab Quarter** — The historic Islamic quarter around Sunan Ampel's tomb and mosque is the most atmospheric neighborhood in Surabaya. The tomb of Sunan Ampel (one of the Wali Songo) draws Muslim pilgrims daily; the lanes around it are full of Arab sweets, incense, batik, and prayer goods. Entry to the mosque complex is free with modest dress. Best visited on a Friday afternoon when the energy is highest.
+
+**House of Sampoerna** — The magnificent 1862 Dutch colonial tobacco factory in Surabaya's old town houses the Sampoerna family's museum and working production floor. The hand-rolling room visible through glass gives a window into the extraordinary manual dexterity and speed of the kretek (clove cigarette) production process. The colonial building itself is one of the finest in East Java. Entry free. Daily tours available.
+
+**Kota Tua (Old Town)** — The Dutch colonial district along the Kalimas river canal has the bones of a fascinating historical quarter — the 1821 Dutch warehouse buildings, the colonial trading houses, the 1870 red bridge that gave this part of Surabaya its name (Jembatan Merah). The area is rough around the edges compared to Batavia in Jakarta but more authentic for it. Good for a morning walk with coffee at a surviving colonial café.
+
+**Rujak Cingur at Pasar Genteng** — Surabaya's signature dish — rujak cingur (mixed vegetables and sliced cattle muzzle in a thick black shrimp-paste and peanut sauce) — is one of those foods that sounds challenging but tastes extraordinary. The Pasar Genteng food section serves the city's best version. Rp20,000-35,000 per bowl.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Surabaya Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Juanda International (SUB) has direct flights from Bali (1 hour, Rp250,000-500,000 on budget carriers), Jakarta, Singapore, and KL. The airport is well-connected and the gateway for the entire East Java volcanic circuit.</li>
+    <li><strong>Getting Around:</strong> Grab and Gojek cover the city reliably. For Bromo and Ijen, all operators in the city offer package tours with jeep transport — the standard approach is the most practical. Alternatively, take the public bus to Probolinggo (2 hours, Rp50,000) then local transport to the Bromo trailhead.</li>
+    <li><strong>Best Time:</strong> April through October — dry season on Java gives the clearest crater views and most reliable Bromo sunrise. The blue fire at Ijen is visible year-round but cloud cover in the wet season can obscure both experiences.</li>
+    <li><strong>Money:</strong> Surabaya is affordable. Daily budget: USD 20-35 (budget hotel near Gubeng station, warung meals); USD 50-100 mid-range. Bromo tour packages cost Rp600,000-1,200,000 per person; combined Bromo-Ijen packages Rp1,200,000-2,000,000.</li>
+    <li><strong>Don't Miss:</strong> Bromo sunrise from the Penanjakan viewpoint. It is the most perfectly staged volcanic spectacle in Indonesia — accessible enough for any visitor, dramatic enough for experienced volcano chasers. The Sea of Sand below the viewpoint, walked across by jeep and then on foot, adds the ground-level perspective that makes the experience complete.</li>
+    <li><strong>Local Tip:</strong> Eat rawon — Surabaya's black beef soup, darkened by keluak nut — at Rawon Setan (Devil's Rawon) on Jalan Embong Malang, which serves only from 9pm until it runs out. The late-night version eaten by locals after a night out is the most authentic encounter with East Javanese cuisine Surabaya offers.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Surabaya is the capital of East Javanese cuisine — rawon, lontong balap, rujak cingur, and a street food culture that runs until the early hours. Don't eat dinner before 8pm and don't go to bed hungry.</p>
+  </div>
+</div>
+
+## Where should you eat in Surabaya?
+
+- **Rawon Setan (Devil's Rawon)** — The definitive version of Surabaya's black beef soup. The broth is dark from keluak nut and rich from hours of simmering. Open from 9pm, sells out by 1am. Rp35,000-50,000 per bowl. Essential.
+
+- **Lontong Balap at Pasar Wonokromo** — Surabaya's morning specialty: rice cake in a coconut-based broth with tofu, tempe goreng, and lentho (fried cassava). Eaten with a spoon and sambal petis. Rp20,000-30,000. Breakfast only.
+
+- **Rujak Cingur** — The signature Surabaya dish of mixed vegetables, tofu, and sliced cattle muzzle in thick black sambal petis with peanut sauce. Sounds alarming; tastes extraordinary. Every market has a version; Pasar Genteng has the best. Rp20,000-35,000.
+
+- **Bebek Goreng H. Slamet** — Crispy fried duck from the most famous bebek goreng restaurant in Surabaya. Half duck with rice, sambal, and lalapan: Rp70,000-90,000. The skin is as good as anything in Bali.
+
+- **Depot Bu Rudy** — The city institution for Indonesian home cooking in a clean, cafeteria-style setting. The sambal udang (prawn sambal), cumi goreng (fried squid), and pindang tongkol (spiced tuna) are the items to order. Rp40,000-80,000 for a full spread.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Stay near Gubeng train station or Darmo for the best combination of transport access and proximity to the city's food and cultural highlights.</p>
+  </div>
+</div>
+
+## Where should you stay in Surabaya?
+
+**Budget (Rp200,000-500,000 / USD 13-33):** The guesthouses near Gubeng station are convenient for train arrivals and central for Bromo tour pickups. Hotel Ganefo and similar properties in the Embong area offer clean rooms at good prices.
+
+**Mid-Range (Rp600,000-2,000,000 / USD 40-135):** The Whiz Prime Hotel and Swiss-Belhotel Surabaya offer reliable comfort near the city center. The Majapahit Hotel (the former Oranje Hotel, Surabaya's grand colonial hotel) at Rp1,200,000-2,000,000 is the most atmospheric property in the city — the 1910 building where Indonesian independence was first proclaimed is steps away.
+
+**Luxury (USD 150-400+):** The Westin Surabaya in the Pakuwon business district is the city's best five-star property. The Shangri-La Surabaya and the JW Marriott are close behind and all three are priced well below comparable regional luxury hotels.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">One city day plus a Bromo overnight tour makes the minimum useful Surabaya stop. Add Ijen for a second night and you've covered the finest volcanic double-act in Indonesia.</p>
+  </div>
+</div>
+
+## When is the best time to visit Surabaya?
+
+April through October is dry season across East Java — the most reliable time for clear crater views at Bromo and Ijen. The blue fire at Ijen is visible year-round when skies are clear, but November through March brings cloud cover that can obscure both the crater views and the pre-dawn blue fire on any given night.
+
+The combination of Surabaya city exploration plus Bromo sunrise plus Ijen blue fire is a 3-4 day East Java circuit that works as a standalone trip from Bali or as part of a longer Java journey from Jakarta or Yogyakarta.
+
+See our [Ijen guide](/destinations/ijen/) and [Malang guide](/destinations/malang/) for adjacent East Java destinations, and browse all [Indonesia destinations](/destinations/).

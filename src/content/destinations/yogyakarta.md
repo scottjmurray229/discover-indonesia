@@ -28,67 +28,119 @@ affiliatePicks:
     url: "https://www.booking.com/searchresults.html?ss=Yogyakarta&aid=2778866"
   - provider: "klook"
     label: "Book Activities in Yogyakarta"
-    url: "https://www.klook.com/en-ID/search/result/?query=Yogyakarta&aid=112015"
-faqs:
-  - question: "When is the best time to visit Yogyakarta?"
-    answer: "April through October is the dry season — ideal for Borobudur sunrise visits and volcano hikes. The Borobudur sunrise is best from May through September when skies are clearest."
-  - question: "How do I get to Yogyakarta?"
-    answer: "Fly into Yogyakarta International Airport (YIA) from Bali (1 hour), Jakarta (1 hour), or Singapore. The airport is 45km from the city — take the Damri shuttle bus (IDR 20,000) or Grab. The train from Jakarta takes 8 hours but is an excellent, comfortable option."
-  - question: "What is Yogyakarta known for?"
-    answer: "Yogyakarta is Java's cultural heartland — home to the ancient temples of Borobudur and Prambanan, the living Sultanate royal court, traditional batik weaving, wayang kulit shadow puppets, and the living Javanese arts tradition."
-  - question: "What is the currency in Yogyakarta?"
-    answer: "Indonesian Rupiah (IDR). Yogyakarta is excellent value — budget travelers can live well on IDR 200,000–350,000 ($12–22 USD) per day. Mid-range including a hotel runs IDR 400,000–900,000 ($25–56 USD) per day."
-  - question: "Is Yogyakarta safe?"
-    answer: "Yogyakarta is one of Indonesia's safest cities for tourists. The main risks are becak (cycle rickshaw) touts near the Kraton who inflate prices significantly — agree on the fare before boarding."
-  - question: "What are must-see attractions in Yogyakarta?"
-    answer: "Borobudur at sunrise (book in advance), Prambanan at sunset, the Kraton and its free morning performances, Beringharjo Market for batik shopping, and the active volcano Merapi on a clear day."
-  - question: "How many days do I need in Yogyakarta?"
-    answer: "3–4 days is ideal: one day for Borobudur (including sunrise), one day for Prambanan and the Kraton, one day for batik workshops and Beringharjo Market, and an optional day for Mount Merapi."
-  - question: "How do I book Borobudur sunrise access?"
-    answer: "Sunrise access (6–7:30am) is limited to 128 visitors and costs IDR 750,000. Book through the official Taman Wisata Candi website at least 2 weeks ahead — it sells out weeks in advance during July–August peak season."
-scottTips:
-  - topic: "Borobudur Sunrise Booking"
-    tip: "The Borobudur sunrise slot (128 people maximum, 6am entry) sells out weeks in advance during July-August. Book directly through the Taman Wisata Candi website — do not use third-party vendors who add 30-50% markup. If you've missed the booking window, the 7:30am general entry is still beautiful; just expect more visitors."
-  - topic: "Becak Touts"
-    tip: "Becak (cycle rickshaw) drivers near the Kraton and Malioboro will quote IDR 100,000+ for a short ride then claim miscommunication at the end. Always agree on an explicit fare before boarding — IDR 20,000-30,000 is fair for most Kraton-area trips. Grab works well in Yogyakarta and eliminates negotiation entirely."
-  - topic: "Batik Shopping"
-    tip: "Jalan Malioboro is full of tourist-grade printed batik. The real hand-stamped (batik cap) and hand-drawn (batik tulis) work is on Jalan Tirtodipuran, where the workshops are. A half-day batik class (IDR 150,000-250,000) is the best way to understand the difference and produces something genuinely worth bringing home."
-  - topic: "Prambanan Sunset Trick"
-    tip: "The standard Prambanan visit goes morning or midday. But the temples face west and the volcano Merapi provides a backdrop to the east — late afternoon light from 4pm-6pm makes the stonework glow orange and Merapi appears in clear silhouette behind the central shrine. Full moon Ramayana Ballet performances (May-October) are worth a separate evening entirely."
-  - topic: "Gojek for Everything"
-    tip: "Yogyakarta is one of Indonesia's most Gojek-saturated cities — use it for all transport. GoFood delivers excellent local meals to your hotel for IDR 15,000-40,000 including delivery. The Damri bus from the airport (IDR 20,000) is cheaper than Grab for airport arrivals, but Grab is more convenient for everything else."
-draft: false
-contentStatus: published
+    url: "https://www.klook.com/en-US/search/result/?query=Yogyakarta&aid=112015"
 ---
 
-We arrived in Yogyakarta on a night train from Jakarta, stepping out into the warm air at 5am to find becak drivers waiting in the dark and the smell of kretek clove cigarettes and jasmine offerings drifting together. This is a city that operates on its own time, at its own pace, still visibly shaped by the royal Sultanate that has governed it since 1755.
+I stood at the top of Borobudur in the half-dark at 5am, surrounded by stone Buddhas in stacked stupas, watching the mist in the valley below glow faintly orange as the sun came up somewhere behind the cloud. Then the cloud broke. The Menoreh Hills emerged green and enormous to the west. Mount Merapi appeared above the treeline to the northeast — active, smoking faintly, enormous. And at my feet, 72 stone bell-shaped stupas containing meditating Buddha figures, on the summit of the world's largest Buddhist monument, in the middle of Java's rice plains. I've had more dramatic moments in my travels. I've had very few more moving ones.
 
-The Kraton (Sultan's Palace) is not a museum — it's a living royal court where the Sultan still resides, court gamelan music still plays on designated mornings, and court dancers still perform ancient Javanese pieces that have barely changed in 300 years. Entry is IDR 15,000; gamelan practice is free on selected mornings and draws as many locals as tourists.
+Yogyakarta — Jogja to everyone who lives there — is the cultural and spiritual capital of Java in a way that Jakarta, for all its power and size, can never be. The city has been the seat of the Javanese Sultanate for centuries, and the Sultan still lives and governs from the Kraton palace at the center of a city that was planned according to Javanese cosmological principles. The royal axis runs from Mount Merapi through the Kraton to the Indian Ocean, and if you stand on it at the right moment — in front of the Kraton gate, looking south toward the sea — you can feel the weight of that design intention even if you don't know the history.
 
-<ImmersiveBreak videoSrc="/videos/destinations/yogyakarta-hero.mp4" />
+The batik workshops along Jalan Tirtodipuran are among the finest craft experiences in Southeast Asia. Master batik artists work with hot wax and fine tools (canting) to produce patterns of extraordinary intricacy. Watching the process — the application of wax to cotton, the dyeing, the boiling off of the wax, the repeat dyeing in layers that builds the final pattern — takes 45 minutes and explains in the clearest way possible why a hand-batik sarong costs what it does. Buy one. It will outlast most things you own.
 
-## Borobudur
+Prambanan, 17km east of the city, is the Hindu counterpart to Borobudur's Buddhist grandeur — a 9th-century complex of 240 temples, the three central towers soaring 47 meters above the Prambanan plain. The evening Ramayana ballet performed in the open-air theater with the illuminated Prambanan towers as the backdrop is one of the great theatrical experiences in Asia. Go on a full moon night if the dates align.
 
-Rising from the Java Plain 40 kilometers northwest of Yogyakarta, Borobudur is the single most impressive thing we've seen in Southeast Asia. Built in the 9th century over 75 years, it represents the entire Buddhist cosmology in stone — 2,672 relief panels and 504 Buddha statues arranged over nine stacked platforms, all crowned with 72 stupas and a central main dome.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Yogyakarta's Adisucipto Airport sits 8km east of the city — a short Grab ride into a city that announces its character immediately, from the batik-wearing becak drivers to the palace spires visible above the rooflines.</p>
+  </div>
+</div>
 
-The sunrise tour is not a gimmick. We stood at the top platform as the mist slowly cleared below to reveal the volcanoes Merapi, Merbabu, and Sindoro in silhouette, with the Java plain stretching to the horizon. The crowd was small — 128 people maximum — and it remained genuinely quiet for the first 40 minutes. Book the sunrise access (IDR 750,000, 6am entry) weeks ahead through the official Taman Wisata Candi website. General daytime admission is IDR 350,000.
+## Why Yogyakarta belongs on your itinerary
 
-## Prambanan
+Few cities in Southeast Asia carry the density of historical and cultural significance that Yogyakarta does. Within a 40km radius of the city center sit two of the greatest architectural achievements of the ancient world — Borobudur and Prambanan — plus a living Javanese royal court tradition that has continued unbroken for 250 years. Add to that a university city with an active arts scene, the finest batik in Indonesia, a performing arts tradition (wayang kulit shadow puppetry, gamelan, classical Javanese dance) that UNESCO has recognized as Intangible Cultural Heritage, and you have a city that rewards several days of serious engagement.
 
-Sixteen kilometers east of Yogyakarta, the Prambanan compound is the greatest Hindu temple complex in Indonesia — eight major temples and 224 smaller ones clustered in a UNESCO World Heritage site. The central Trimurti temples (Shiva, Brahma, Vishnu) rise 47 meters and are best photographed at sunset when the volcanic cone of Merapi frames the scene behind them. Entry IDR 350,000; combined Borobudur-Prambanan tickets offer modest savings.
+The food scene is deeply local in a way that hasn't been gentrified into palatability for foreign visitors. Gudeg — young jackfruit stewed for hours in coconut milk and palm sugar until it turns dark brown and sweet — is the dish Yogyakarta is most associated with, and it's an acquired taste that most visitors end up loving by day three. Angkringan street food stalls serve nasi kucing (tiny packets of rice with accompaniments) from 9pm until dawn, and the culture of eating at these carts — crouched on low benches, drinking sweet tea, watching the city go about its nocturnal business — is an authentic window into Javanese daily life.
 
-On full moon nights from May to October, an outdoor Ramayana Ballet performance plays out in the open-air theater with Prambanan as its backdrop — genuinely spectacular and highly recommended. Tickets IDR 150,000–350,000.
+What moves me most about Jogja is the continuity. The Sultan still participates in rituals and ceremonies that have been performed in the same way for generations. The Kraton gamelan ensembles that have been playing at court since the palace was founded still play. The batik families on Jalan Tirtodipuran are often third or fourth generation. In a century of rapid change, Yogyakarta has managed to stay itself — a place where the past is not performed for tourists but simply continued by people for whom it is still the present.
 
-## Food and Markets
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">The temples are the headliner, but Yogyakarta's daily cultural life — its markets, its workshops, its evening performances — is where the city reveals its real depth.</p>
+  </div>
+</div>
 
-Yogyakarta's signature street food is gudeg — young jackfruit slow-cooked in coconut milk and palm sugar until it's fall-apart tender. Warung Bu Tjitro is the city institution — a 1960s-era restaurant where they've been cooking the same recipe for 60 years. Meals IDR 30,000–50,000.
+## What should you do in Yogyakarta?
 
-Beringharjo Market on Jalan Malioboro is the city's great bazaar — batik fabrics, silver jewelry, herbal jamu medicine, and every food you could want. Go early (7–9am) before the tour groups arrive and prices adjust upward. Authentic batik workshops on Jalan Tirtodipuran offer half-day classes (IDR 150,000–250,000) that are the best cultural activity in the city.
+**Borobudur Sunrise** — The world's largest Buddhist monument was built in the 9th century and abandoned after the collapse of the Mataram Kingdom, then swallowed by jungle until its rediscovery in 1814. Today the UNESCO World Heritage pyramid of 504 Buddha statues and 2,672 relief panels is accessed by a pre-dawn tour (depart Jogja at 4am) that puts you on the summit at sunrise. The standard ticket is USD 25; the sunrise ticket is USD 45. Worth every extra dollar. Book through your hotel the day before.
 
-## Practical Tips
+**Prambanan and the Ramayana Ballet** — The Prambanan temple complex is the finest Hindu temple site in Southeast Asia — three central towers dedicated to Brahma, Vishnu, and Shiva, surrounded by 237 smaller temples. The evening Ramayana ballet performed in the open-air Trimurti Theater with the illuminated Prambanan towers as the set is spectacular. Performance tickets Rp150,000-350,000. Check dates — it typically runs Tuesday, Thursday, and Saturday from May to October.
 
-**Getting there from Bali:** Fly direct YIA–DPS (1 hour) with Lion Air or Batik Air from IDR 400,000 one-way. Alternatively, take the overnight train from Surabaya (6 hours, comfortable).
+**Kraton — Sultan's Palace** — The 18th-century Javanese royal palace is a living, functioning institution — the Sultan still lives and governs from the inner quarters. The open sections contain royal regalia, gamelan instruments, and art from the sultanate's history. Daily court performances of classical dance and gamelan at set times. Entry Rp15,000 plus Rp1,000 camera fee. Come on a Sunday morning when the full court gamelan ensemble plays.
 
-**Getting around the city:** Andong (horse-drawn cart) for the Kraton area, Grab for everything else. Trans-Jogja buses cover major routes cheaply. Rent a bicycle for the Malioboro–Kraton area — it's flat and manageable.
+**Batik Workshop on Jalan Tirtodipuran** — The batik street south of the Kraton has genuine workshops where you can watch and participate in the batik wax-resist dyeing process. A one-hour demonstration is free at most shops; a half-day hands-on class costs Rp250,000-400,000. The resulting batik piece — imperfect, yours — is better than anything in the souvenir shops.
 
-**Day trips:** Mount Merapi (35km north) offers guided jeep tours of the 2010 eruption zone — genuinely dramatic even 15 years later. The Prambanan-Sewu-Boko complex can fill a full day for temple enthusiasts.
+**Wayang Kulit Performance at Sonobudoyo Museum** — The national museum of Javanese culture puts on a nightly condensed wayang kulit (shadow puppet) performance — the ancient Hindu-Javanese storytelling tradition using leather puppets against an illuminated screen, with live gamelan accompaniment. A full performance lasts 8 hours; the museum's 2-hour version is the entry point. Tickets Rp20,000. Worth it simply for the gamelan music.
+
+**Mount Merapi Sunrise Jeep Tour** — Java's most active volcano looms over Yogyakarta to the north and erupted most recently in 2010, destroying villages and killing 350 people. A 4am jeep tour departs from the Kaliurang base and drives through the 2010 devastation zone (still partially preserved as a memorial) to a viewpoint above the cloud line with Merapi at dawn. USD 25-35 per jeep. More powerful than a standard volcano tour because of the living devastation you drive through.
+
+**Jalan Malioboro Night Market** — Yogyakarta's famous shopping street is at its best after 7pm when the heat drops and street vendors set up alongside the shops. Silver, batik, leather goods, Javanese snacks, street food — all concentrated on one kilometre of well-lit street. The angkringan carts at the north end serve nasi kucing and sweet tea from 9pm. Worth an evening stroll even if you buy nothing.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Yogyakarta Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly from Jakarta (1 hour, Rp300,000-600,000 on Citilink or Lion Air) or take the Argo Lawu overnight train from Jakarta (8 hours, Rp350,000-600,000 executive class). The train is worth taking at least one-way for the Java countryside views.</li>
+    <li><strong>Getting Around:</strong> Grab and Gojek work well in Yogyakarta. Becak (bicycle rickshaws) are available for short trips around the Kraton area. For Borobudur and Prambanan, hire a day driver (Rp400,000-600,000) or join a morning tour from your hotel.</li>
+    <li><strong>Best Time:</strong> April through October dry season is ideal. May and September are sweet spots — dry, cooler than peak summer, fewer visitors. The Ramayana ballet at Prambanan runs most reliably May-October.</li>
+    <li><strong>Money:</strong> Yogyakarta is one of Indonesia's most affordable destinations. Daily budget: USD 20-35 backpacker (guesthouse near Jalan Prawirotaman, warung meals); USD 50-100 mid-range (boutique hotel, restaurant meals, temple visits, workshop). The temples themselves are the main expense.</li>
+    <li><strong>Don't Miss:</strong> Borobudur at sunrise. Set your alarm for 3:30am, take the pre-dawn transfer, and watch the world's largest Buddhist monument materialize out of the mist with the volcanoes lighting up behind it. No photograph does it justice.</li>
+    <li><strong>Local Tip:</strong> Eat gudeg for breakfast at Bu Tjitro restaurant, which has been serving the same recipe since 1925. The sweet, dark jackfruit stew eaten with rice, chicken opor, and sambal krecek at 7am is the authentic Yogyakarta experience that even locals seek out.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Javanese food from Yogyakarta is sweeter and more complex than the food of western Java — palm sugar features in dishes where chili would feature elsewhere, and the result is a cuisine that rewards exploration.</p>
+  </div>
+</div>
+
+## Where should you eat in Yogyakarta?
+
+- **Gudeg Yu Djum** — The city's most celebrated gudeg restaurant, serving the slow-cooked sweet jackfruit stew since 1950. Breakfast and lunch only — arrives by 10am or the best parts are gone. Full plate with rice, chicken, egg, and krecek Rp40,000-60,000 (USD 2.50-4).
+
+- **Angkringan cart, Jalan Malioboro north end** — From 9pm, street carts serve nasi kucing (tiny rice packets) with accompaniments for Rp3,000-5,000 each. Order eight or ten, eat crouched on a low bench, drink sweet tea. The authentic late-night Yogyakarta experience costs under USD 2.
+
+- **Bale Raos** — The royal family's restaurant in the Kraton complex serves palace cuisine — traditional Javanese court dishes that were developed over centuries to entertain sultans. Mains Rp100,000-200,000 (USD 6-13). Unique in Indonesia for the historical provenance of its recipes.
+
+- **Sate Klathak Pak Pong** — The satay unique to Yogyakarta: mutton skewered on bicycle spokes rather than bamboo, grilled over charcoal with just salt and pepper. The metal skewer conducts heat through the meat from the inside while the outside chars. Two skewers plus rice soup Rp35,000 (USD 2.25).
+
+- **Warung Mbah Carik, Kaliurang** — In the cool highlands north of Yogyakarta, this simple warung serves traditional Javanese market food — nasi rames (rice with multiple accompaniments) and fresh tofu and tempeh dishes. Rp20,000-35,000. Best as a lunch stop on a Merapi day trip.
+
+- **Milas Vegetarian Restaurant** — A beautiful garden restaurant near Prambanan serving all-Javanese vegetarian cuisine, most ingredients from their own garden. Mains Rp60,000-120,000. The tempeh and jackfruit dishes are the reason to visit.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Yogyakarta's best accommodation clusters around two areas: Jalan Prawirotaman (the arts district, boutique hotels in old Dutch villas) and Jalan Sosrowijayan (backpacker central near Malioboro).</p>
+  </div>
+</div>
+
+## Where should you stay in Yogyakarta?
+
+**Budget (Rp150,000-350,000 / USD 10-23):** The guesthouses along Gang 1 and Gang 2 off Jalan Sosrowijayan are Yogyakarta's classic backpacker area — clean, cheap, and within walking distance of Malioboro. Fan-cooled rooms from Rp150,000 with shared bathroom; air-con rooms with breakfast from Rp250,000.
+
+**Mid-Range (Rp400,000-1,500,000 / USD 27-100):** Jalan Prawirotaman is where old Dutch colonial houses have been converted into boutique hotels with pools and gardens. Dusun Jogja Village Inn and Rumah Dharma are consistently excellent at around Rp600,000-900,000. The architecture alone justifies the step up from backpacker accommodation.
+
+**Luxury (USD 100-300):** The Hyatt Regency Yogyakarta sits in large tropical gardens near the airport and is the city's clearest five-star property. Royal Ambarrukmo is an older property with genuine Javanese royal history attached. Neither is cheap by Indonesian standards, but both are well below comparable Asian luxury prices.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #7C2D12 0%, #B45309 35%, #F59E0B 65%, #7C2D12 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Three days minimum to do Borobudur, Prambanan, and the Kraton justice. Four to five days if you want a workshop, a cooking class, and a Merapi trip as well.</p>
+  </div>
+</div>
+
+## When is the best time to visit Yogyakarta?
+
+April through October is the dry season on Java's south coast, and Yogyakarta enjoys reliable blue skies during these months — critical for the temple photography that most visitors want. The Ramayana ballet at Prambanan runs outdoors and is most reliable from May to October. July and August are busiest; May, June, and September are the sweet spots for dry weather without the crowd peaks.
+
+November through March brings the rainy season — afternoon downpours that can make outdoor temple visits uncomfortable after midday. The temples themselves are magnificent in dramatic cloud light, and the tourist volume drops significantly. Budget travelers who can tolerate afternoon showers will find Yogyakarta extremely good value in the wet season months.
+
+Combine Yogyakarta with Surabaya and the Ijen Crater for the ultimate East Java volcanic and cultural circuit — see our [Indonesia destinations](/destinations/) for the full picture.

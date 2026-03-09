@@ -28,61 +28,115 @@ affiliatePicks:
     url: "https://www.booking.com/searchresults.html?ss=Labuan+Bajo+Flores&aid=2778866"
   - provider: "klook"
     label: "Book Flores Tours"
-    url: "https://www.klook.com/en-ID/search/result/?query=Flores+Indonesia&aid=112015"
-faqs:
-  - question: "When is the best time to visit Flores?"
-    answer: "May through October is the dry season — essential for the Trans-Flores Highway overland route, which requires passable road conditions. Kelimutu is best visited April through November. December through March is wet season with some road sections becoming impassable."
-  - question: "How do I get to Flores?"
-    answer: "Flores has two main airports: Komodo Airport (LBJ) in Labuan Bajo (western end) for Komodo National Park access, and H. Hasan Aroeboesman Airport (ENE) in Ende (central, near Kelimutu). Both connect to Bali and Surabaya. The overland Trans-Flores Highway connects Labuan Bajo to Maumere (eastern end) — an extraordinary 700km journey."
-  - question: "What is Kelimutu?"
-    answer: "Kelimutu is a volcanic mountain with three crater lakes, each a different color — they've been variously turquoise, green, black, red, and white over the last century, shifting color based on volcanic minerals and acidity levels. The current colors change year to year. It's 65km from Ende; the access road leads to within 1km of the crater rim."
-  - question: "What is the local currency in Flores?"
-    answer: "Indonesian Rupiah (IDR). ATMs are only reliable in Labuan Bajo, Ruteng, Bajawa, and Ende — carry sufficient cash for smaller towns. Budget IDR 250,000–500,000 ($15–30 USD) per day for food and accommodation in smaller towns."
-  - question: "Is the Trans-Flores Highway worth doing?"
-    answer: "For the adventurous traveler, absolutely. The 700km route from Labuan Bajo to Maumere passes through seven major towns, active volcanoes, traditional villages, and landscapes of extraordinary drama. Allow 5–7 days minimum. Roads are rough in sections — 4WD recommended."
-  - question: "What are the traditional villages on Flores?"
-    answer: "The Ngada people around Bajawa maintain some of Indonesia's most intact traditional culture. Bena Village (11km from Bajawa) is the most visited — cone-shaped thatched houses, megalithic ancestor tombs, and nhandu (sacred spirit houses) arranged around a central ceremonial plaza. Homestays available."
-  - question: "How many days do I need in Flores?"
-    answer: "3–4 days for Labuan Bajo and Komodo only. 7–10 days for the full Trans-Flores experience including Ruteng, Bajawa traditional villages, Kelimutu, and Ende. Adding Maumere for snorkeling extends to 10–14 days."
-  - question: "Is Flores safe to travel independently?"
-    answer: "Largely yes, though rural road conditions require a capable driver and 4WD. The Trans-Flores Highway has petrol stations every 50–100km but parts of the route have no mobile signal. Solo cycling the full route has been done but requires significant preparation."
-scottTips:
-  - topic: "Kelimutu Sunrise Logistics"
-    tip: "The Kelimutu crater lakes are best at sunrise and the access road gates open at 4am. Stay the night in Moni (the small village at the volcano's base) rather than trying to come from Ende — the 1-hour drive in the dark is manageable from Moni but the pre-dawn timing from Ende 65km away is not. Moni has simple but adequate guesthouses from IDR 150,000-250,000/night."
-  - topic: "Trans-Flores Highway Reality"
-    tip: "The Trans-Flores overland drive is genuinely extraordinary but requires an experienced local driver with a capable 4WD. Roads range from decent paved highway to deeply rutted single tracks between smaller towns. Budget IDR 800,000-1,200,000/day for a driver and car — worth every rupiah. Don't attempt in a rental car without prior experience on Indonesian rural roads."
-  - topic: "Malaria Precautions"
-    tip: "Flores and the Komodo region are malaria risk areas. Consult your travel doctor at least 2 weeks before arrival for prophylaxis. Bring DEET-based insect repellent and sleep under a mosquito net in smaller villages and homestays. The risk is real but manageable with appropriate precautions."
-  - topic: "Ngada Village Etiquette"
-    tip: "Bena and the surrounding Ngada villages are living communities, not tourist sites. Ask permission before photographing residents, especially elders and during ceremonies. A small donation (IDR 20,000-50,000) to the village cooperative fund is appropriate and welcomed. Your guide will handle introductions — let them lead the interaction."
-  - topic: "Ikat Weaving Quality"
-    tip: "Flores produces genuinely excellent ikat textiles in district-specific patterns — Ende, Ruteng, and Maumere ikat are all different and worth seeking. The distinction between machine-printed copies (cheap, dull) and hand-woven natural-dye ikat (IDR 300,000-2,000,000) is visible: natural ikat has slight irregularities in the pattern and a weight and texture machine cloth can't replicate. Village cooperative shops are more reliable than roadside stalls."
-draft: false
-contentStatus: published
+    url: "https://www.klook.com/en-US/search/result/?query=Flores+Indonesia&aid=112015"
 ---
 
-Flores is the Indonesia that most visitors to Bali never know exists — raw, dramatically beautiful, culturally complex, and almost entirely undiscovered relative to its extraordinary qualities. We drove the Trans-Flores Highway over eight days from Labuan Bajo to Maumere and it remains the single most impressive overland journey we've made anywhere in Southeast Asia.
+I drove the Trans-Flores Highway in three days, from Labuan Bajo in the west to Maumere in the east, and it remains one of the most extraordinary journeys I've made anywhere in Southeast Asia. The road climbs from the coast into the Manggarai highlands, drops to rice paddy valleys, climbs again through coffee and cacao plantations, passes traditional villages where ikat cloth hangs drying on bamboo fences, reaches the volcanic plateau around Bajawa where the traditional Ngada villages are almost unchanged from a century ago, and then climbs again to the summit of Mount Kelimutu, where three crater lakes of different colors sit side by side in a landscape that feels genuinely geological rather than scenic.
 
-The island's name means "flowers" in Portuguese — the 16th-century explorers named it for the spectacular flamboyant trees that bloom across the hillsides in October and November. More accurately, Flores is fire — eight active or semi-active volcanoes, regular seismic events, sulfurous springs, and crater lakes whose colors shift unpredictably with underground volcanic chemistry.
+Kelimutu changed everything I thought I knew about natural color. The lakes are called Tiwu Ata Mbupu (Lake of Old People), Tiwu Ko'o Fai Nuwa Muri (Lake of Young Men and Maidens), and Tiwu Ata Polo (Bewitched or Enchanted Lake). They are different colors — typically one turquoise, one dark green, one black — because of differences in mineral composition and oxidation, and they change color unpredictably over months and years. The local Lio people believe the lakes are where the spirits of the dead go, with the color of the lake reflecting the moral character of those interred within. I arrived at 5am, in the dark, and watched the three lakes materialize in the growing light — first as dark shapes, then in color. By the time full sunrise came, all three were different shades and all three were extraordinary.
 
-<ImmersiveBreak videoSrc="/videos/destinations/flores-hero.mp4" />
+The Ngada villages around Bajawa are something else entirely. These are living communities, not museums — the traditional stone-walled village of Bena, with its conical thatched rumah adat (ancestral houses) and megalithic stone tombs, is still the center of clan and ritual life for the families who live there. The ngadhu (male ancestor symbols) and bhaga (female ancestor symbols) that stand in the central plaza were placed there by ancestors and are maintained with ceremony. The women of Bena weave ikat cloth on backstrap looms in their doorways while children play around the megalithic stones. It is simultaneously one of the most visually extraordinary places in Indonesia and one of the most culturally intact.
 
-## Kelimutu's Three Crater Lakes
+The west of Flores — Labuan Bajo and the Komodo access — is covered in its own guide. The journey between them, through the interior of an island that most tourists fly over, is the thing that makes Flores different from every other Indonesian destination.
 
-The three lakes of Kelimutu volcano near Ende are the most counterintuitive natural wonder we've encountered. They sit in adjacent volcanic craters at 1,640 meters elevation, and they are each a different color — one turquoise, one black, one deep green in current conditions, though these have cycled through red, chocolate brown, white, and blue over the decades. The colors change based on dissolved minerals, acidity levels, and volcanic gas interactions — and they can shift within days of a volcanic event.
+<div class="immersive-break-inline" id="arrival">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Arrival</h2>
+    <p class="ib-text">Flores has three airports: Labuan Bajo (LBJ) in the west, Ende (ENE) in the center, and Maumere (MOF) in the east. Fly into one end and out the other for the full overland experience — one of Indonesia's great journeys.</p>
+  </div>
+</div>
 
-The access road climbs to within 1km of the rim; the 20-minute walk to the viewpoint requires arriving before 6am for the sunrise (and before tour groups from Ende). Entry IDR 25,000. Best months for visibility are May through September.
+## Why Flores belongs on your itinerary
 
-## The Ngada Villages
+Flores is where travelers who have "done" Bali and Lombok and the Gilis come when they want something genuinely different. The island is less developed, more demanding, and more rewarding than the tourist trail islands to its west. The road conditions are improving but still challenging in places. The distances are real — Labuan Bajo to Ende is 5-6 hours. None of that matters once you're standing on the rim of Kelimutu, or sitting in the ceremonial plaza at Bena, or watching a whale shark cruise past your boat in Labuan Bajo Bay.
 
-The Ngada people around Bajawa maintain a traditional social structure — adat (customary law) — that survived colonialism relatively intact. Bena Village, 11km south of Bajawa on the slopes of Inierie volcano, is the most complete example: 45 traditional houses arranged in two rows facing a ceremonial plaza containing ancestors' tombs and the ngadhu and bhaga spirit houses that give the Ngada their distinctive identity. The village is a living community, not a museum — residents perform daily rituals and the adat ceremonies (including pig sacrifice on certain occasions) continue as they have for centuries.
+The cultural depth of Flores is extraordinary and largely unexplored by international visitors. The Catholic traditions brought by 16th-century Portuguese missionaries have merged with pre-existing animist beliefs to create a syncretic culture found nowhere else in predominantly Muslim Indonesia. The ikat weaving traditions of the Ngada, Manggarai, and Sikka peoples are among the finest in the archipelago — and unlike in Bali, where batik is often mass-produced, the Flores ikat women weave on backstrap looms in their own villages for their own ceremonial use, selling what they can spare rather than what they produce for sale.
 
-Ask your guide about homestay arrangements in the surrounding villages — staying overnight in a traditional Ngada household is available and extraordinary.
+The diving off Flores — particularly around the Riung 17 Islands, the coast south of Maumere, and the waters between Flores and Komodo — is world-class and almost entirely undiscovered compared to the Bali and Komodo sites.
 
-## Practical Tips
+<div class="immersive-break-inline" id="explore">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">What To Explore</h2>
+    <p class="ib-text">Plan Flores as an overland journey rather than a base-and-day-trip destination. The highway between the airports passes through landscapes and cultures dense enough to justify every slow kilometer.</p>
+  </div>
+</div>
 
-**Labuan Bajo:** The gateway to Komodo is increasingly well-developed. Book accommodation and boat tours at least a week ahead for June–September. Sunset from the harbor front is free and spectacular — most restaurants line the western-facing harbor.
+## What should you do in Flores?
 
-**The overland route:** A private car with driver for the Trans-Flores Highway costs IDR 800,000–1,200,000/day — necessary for the longer sections between towns. Shared minibuses (bemo) connect all major towns but run infrequently and can't stop for viewpoints. Most travelers hire a car in Labuan Bajo for the full route eastward.
+**Kelimutu Crater Lakes at Sunrise** — The three colored crater lakes at 1,639 meters on Mount Kelimutu near Ende are the single most extraordinary natural sight on the island. Drive up in the dark (depart Ende at 4am), arrive before sunrise, and watch the colors emerge. The Lio people's belief that these lakes house ancestral spirits amplifies the experience considerably. Free to enter; a guide from Ende costs Rp300,000-500,000 for the round trip.
 
-**Ikat weaving:** Each district in Flores produces its own distinctive ikat pattern — weavings from Ruteng, Ende, and Maumere are distinctly different in color palette and motif. Village cooperative shops offer the most authentic pieces; prices IDR 300,000–2,000,000 depending on complexity and natural dye use.
+**Bena Traditional Village** — 19km south of Bajawa, Bena is the most intact of Flores' Ngada traditional villages — nine clans, 45 traditional houses arranged in two rows facing each other, with megalithic stone tombs and ancestral symbols in the central plaza. Entry donation Rp20,000-30,000. Morning visits when women are weaving are the most photographically rewarding. Ask permission before pointing a camera at people.
+
+**Wogo and Gurusina Villages** — Alternative Ngada villages near Bajawa with their own character and fewer visitors than Bena. Wogo is particularly fine for the view it commands over the surrounding valley. Any guesthouse in Bajawa can arrange a village circuit — a half-day with a local guide costs Rp200,000-300,000 and includes villages that are genuinely harder to find independently.
+
+**Riung 17 Islands Marine Park** — 100km east of Labuan Bajo, the Riung 17 Islands are a marine national park almost entirely off the tourist radar. Boat day trips from the small town of Riung reach excellent snorkeling reefs, giant bats roosting in coastal trees, and beaches with no other visitors. Rp200,000-400,000 for a boat day. The diving here is virtually unexplored.
+
+**Trans-Flores Highway Overland** — The 700km road from Labuan Bajo to Maumere passes through some of Indonesia's most dramatic and culturally rich terrain. Rent a car and driver (Rp800,000-1,200,000/day), take 3-4 days, and stop wherever looks interesting. The morning markets in Bajawa and Ruteng reward an early start. The highlands around Cancar have traditional Manggarai spider-web rice fields (lingko) visible from the road.
+
+**Whale Shark Snorkeling, Labuan Bajo** — Several tour operators in Labuan Bajo offer the chance to snorkel with whale sharks that regularly appear in the bay. These are not baited encounters — the sharks follow the fish cleaning boats. The experience is extraordinary and animal welfare-appropriate. Rp350,000-500,000 per person.
+
+<div class="scott-tips">
+  <div class="scott-tips-header">&#9992;&#65039; Scott's Flores Tips</div>
+  <ul>
+    <li><strong>Getting There:</strong> Fly Bali-Labuan Bajo (50 min) or Bali-Ende (1.5 hours via Bima). The fly-in one end, overland to the other end, fly-out routing maximizes the journey. Labuan Bajo-Ende overland is 5-6 hours; Ende-Maumere is 3-4 hours.</li>
+    <li><strong>Getting Around:</strong> A rental car with driver is the most practical option for the overland journey — Rp800,000-1,200,000/day including fuel. Alternatively, public bemo (minibuses) connect the main towns but run infrequently. Motorbike rental is possible but tiring on long stages.</li>
+    <li><strong>Best Time:</strong> May through October is dry season — the Kelimutu sunrise is clearest, the village paths are dry, and the overland road is at its most accessible. November through April brings rain that can make the mountain roads slippery and the crater lake views unreliable.</li>
+    <li><strong>Money:</strong> Flores is affordable. Daily budget: USD 30-50 (local guesthouse, warung meals, driver share). ATMs exist in Labuan Bajo, Bajawa, Ende, and Maumere but are not reliable outside these towns — carry cash for the road.</li>
+    <li><strong>Don't Miss:</strong> Kelimutu. This is the most singular natural experience in Indonesia — three colored crater lakes on a volcanic summit at dawn, with a spiritual significance that the Lio people carry in complete seriousness. Nothing else I've seen in the archipelago quite matches it.</li>
+    <li><strong>Local Tip:</strong> Buy ikat cloth directly from the women weaving in the Ngada villages rather than from shops in Labuan Bajo. A hand-woven piece in Bena costs Rp300,000-600,000 and takes the weaver 2-3 months to make. The same piece in a Labuan Bajo boutique costs Rp800,000-1,500,000. The difference stays in the village.</li>
+  </ul>
+</div>
+
+<div class="immersive-break-inline" id="food">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">The Food</h2>
+    <p class="ib-text">Flores food is simple, honest, and often excellent — particularly the grilled fish on the coast and the highland market breakfasts of rice porridge and fresh vegetables in Bajawa and Ruteng.</p>
+  </div>
+</div>
+
+## Where should you eat in Flores?
+
+- **Grilled fish in Labuan Bajo harbor** — The harbor restaurants serve the morning's catch grilled whole with sambal and rice. A full snapper, grilled to order at the waterside, costs Rp80,000-120,000 (USD 5-8).
+
+- **Market breakfast in Bajawa** — The morning market from 6-9am serves nasi campur with highland vegetables, fresh tofu, and whatever came in from the farms that morning. Rp20,000-35,000 for a full plate. The Bajawa coffee — grown in the highlands above the town — is outstanding.
+
+- **Rumah Makan Simpang Lima, Ende** — The most reliable warung for Florenese food in Ende: nasi goreng, fish soup, and fresh tropical fruit. Rp30,000-50,000 per person. The starting point for the 4am Kelimutu departure the following morning.
+
+- **Warung Kelimutu, near the crater parking area** — Simple warung selling noodle soup, sweet tea, and boiled eggs to visitors descending from the dawn crater rim. After a 4am start and a cold windswept summit, the hot soup at Rp15,000 is the best meal of the day.
+
+- **Seafood at Riung** — The small coastal town of Riung has simple warung serving excellent grilled fish and squid caught from the bay the same morning. Rp50,000-80,000 for a full fish with rice and sambal. A genuinely off-the-beaten-track seafood lunch in a beautiful setting.
+
+<div class="immersive-break-inline" id="stay">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Where to Stay</h2>
+    <p class="ib-text">Accommodation along the Trans-Flores route ranges from basic family guesthouses in Bajawa and Ende to excellent boutique hotels in Labuan Bajo. Budget for the simple stops; the scenery compensates for any comfort deficit.</p>
+  </div>
+</div>
+
+## Where should you stay in Flores?
+
+**Labuan Bajo (Budget-Luxury):** The best range of accommodation on the island — from harbor-view guesthouses at Rp200,000-400,000 to the Ayana Komodo Resort at USD 300+ per night. Mid-range options in the Rp700,000-1,500,000 range include Golo Hilltop and several boutique properties with pool and sea views.
+
+**Bajawa (Budget):** Simple guesthouses accommodate the Ngada village circuit visitors. Hotel Edelweis and Hotel Manulalu offer clean rooms with private bathroom for Rp200,000-400,000. Bajawa is a transit town — a comfortable bed and a reliable alarm clock is all you need.
+
+**Ende (Budget-Mid):** Ende is the Kelimutu staging post. Hotel Flores in the center has adequate rooms for Rp300,000-500,000. More importantly, arrange your Kelimutu driver the evening before.
+
+<div class="immersive-break-inline" id="essentials">
+  <div class="ib-gradient" style="background: linear-gradient(160deg, #4B5320 0%, #78350F 35%, #D97706 65%, #4B5320 100%);"></div>
+  <div class="ib-content">
+    <h2 class="ib-title">Before You Go</h2>
+    <p class="ib-text">Flores rewards patience and punishes rushing. Allow 5-7 days for the full overland crossing. The roads are improving but distances are real, and every detour rewards investigation.</p>
+  </div>
+</div>
+
+## When is the best time to visit Flores?
+
+May through October is the optimal window — dry season, clear skies for the Kelimutu sunrise, accessible village roads, and comfortable driving conditions on the Trans-Flores Highway. July and August are peak (for Komodo); May, June, September, and October offer better conditions with fewer visitors. The manta rays at Komodo and whale sharks in Labuan Bajo Bay are present year-round.
+
+November through April brings rain that can obscure the crater lakes and make mountain roads slippery. Kelimutu is sometimes cloud-bound for days at a stretch during the wet season, turning the pre-dawn pilgrimage into a gray disappointment. If your dates are fixed in the wet season, Ende is worth staying two nights to improve your chances of a clear morning.
+
+See our [Komodo destination guide](/destinations/komodo/) for the national park section, and browse all [Indonesia destinations](/destinations/) for the full archipelago picture.
