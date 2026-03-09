@@ -1,0 +1,665 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'The Finer Things', url: '/finer-things/' },
+];
+
+const pageTitle = 'The Finer Things — Indonesia Beer, Arak, Bali Cocktails & Nightlife Guide 2026';
+const pageDescription = 'Bintang on ice at a warung, Balinese arak cocktails at Potato Head Beach Club, Seminyak sunset bars, Canggu surf bars, and the drinks you can (and can\'t) bring home through customs.';
+
+interface TopicSection {
+  id: string;
+  icon: string;
+  title: string;
+  gradient: string;
+  items: { label: string; text: string; link?: string }[];
+}
+
+const topics: TopicSection[] = [
+  {
+    id: 'beer',
+    icon: '🍺',
+    title: 'Indonesian Beer',
+    gradient: 'linear-gradient(135deg, #78350F 0%, #D4A574 100%)',
+    items: [
+      { label: 'Bintang Pilsener', text: 'The undisputed king of Indonesian beer and the definitive symbol of Bali tourism culture. Bintang Pilsener (meaning "star" in Indonesian) is a crisp, 4.7% ABV lager brewed by Multi Bintang Indonesia — a Heineken subsidiary — since 1929. Light, clean, and perfectly calibrated for tropical heat. At a warung (local food stall), a 620ml large bottle runs Rp 25,000–40,000 ($1.50–2.50 USD). At a beach club or tourist bar in Seminyak, expect Rp 60,000–100,000 ($3.75–6.25 USD). The Bintang Star singlet is the most recognized piece of tourist clothing in Bali — available at every warung, worn with varying degrees of irony.' },
+      { label: 'Bintang Radler', text: 'Bintang\'s shandy-style variant mixes the pilsener base with natural lemon or tropical fruit flavors at 2.1% ABV — lighter and more refreshing than the standard pilsener. Considerably less common than the original and not universally available, but worth trying if you spot it. Rp 20,000–35,000 ($1.25–2.20 USD) at a store, more at bars. Perfect for midday when you want something cold and alcoholic without committing to a full-strength session in 35°C heat.' },
+      { label: 'Storm Beer', text: 'Storm is the challenger brand in the Indonesian beer market — another lager in the Bintang style but slightly cheaper and more commonly found in local warungs that serve the Indonesian market rather than tourist trade. At 4.9% ABV it\'s marginally stronger than Bintang and costs slightly less: Rp 20,000–35,000 ($1.25–2.20 USD) for a large bottle at a local shop. You\'re less likely to find Storm at beach clubs or tourist bars, which is essentially the brand\'s market positioning.' },
+      { label: 'Craft Beer in Bali', text: 'Bali\'s craft beer scene has grown considerably in the past five years, driven by expat communities in Canggu and Seminyak. Stark Brewing (based in Canggu), Nusantara Brewing, and Ground Breaker (known for gluten-free options using alternative grains) are the main names. Expect to pay Rp 75,000–130,000 ($4.70–8.10 USD) for a pint at a craft beer bar in Canggu. The quality has improved dramatically — Stark\'s IPAs and stouts are genuinely good beers by any regional standard, not just "good for Bali."' },
+      { label: 'Beer Warung Culture', text: 'The warung — a small, family-run food and drink stall — is where most Indonesians actually drink, and the culture around warung beer is an entirely different experience from a beach club. A plastic table, plastic chairs, a cooler of Bintang and Storm, and food cooked to order. No ambiance, no Instagram angle, complete authenticity. Prices are roughly half of tourist bar prices. Drinking at a warung means drinking the way locals drink — slowly, with food, and without the expectation that the venue needs to be beautiful to justify your presence.' },
+      { label: 'Alcohol Availability by Region', text: 'Bali: freely available everywhere. Java (Yogyakarta, Jakarta, Surabaya): available in restaurants, hotels, and larger shops but not all warungs. Lombok (outside tourist areas): limited. Aceh province (Sumatra): alcohol is illegal under sharia law. Papua: variable by location. This is not a uniform country — the alcohol landscape changes dramatically as you move between islands and even between districts. Always check local norms before expecting to find a cold Bintang on arrival.' },
+    ],
+  },
+  {
+    id: 'spirits',
+    icon: '🥃',
+    title: 'Spirits & Arak',
+    gradient: 'linear-gradient(135deg, #3E2723 0%, #8D6E63 100%)',
+    items: [
+      { label: 'Balinese Arak', text: 'Arak is the traditional distilled spirit of Bali — typically made from fermented rice, palm sap, or a combination, with alcohol content ranging from 25% to 50% ABV depending on the producer and batch. Genuine, commercially produced Balinese arak from reputable brands (like Dewi Sri Arak or Anggur Cap Orang Tua, though the latter is more wine-based) is a genuinely interesting spirit with earthy, slightly funky flavor profiles that differ from any Western comparator. Locally produced arak sold informally — from unlabeled bottles at warungs, from vendors who approach tourists, from informal stalls — is a different category entirely and carries serious risk (see safety warning below).' },
+      { label: '⚠️ CRITICAL: Arak Methanol Warning', text: 'NEVER drink arak from an unlabeled bottle, from a vendor who cannot identify the source, or from any establishment that cannot verify the product\'s origin. Bootleg arak in Bali and other Indonesian islands has killed and permanently blinded tourists due to methanol contamination. Methanol is a byproduct of improper distillation; it is odorless, tasteless, and lethal. The rule is absolute: if you don\'t know where the arak came from, don\'t drink it. At reputable bars and beach clubs, arak cocktails are made from commercially produced arak of known origin — this is safe. The danger is informal, unverified production.' },
+      { label: 'Arak Attack', text: 'The signature Bali cocktail: arak, Sprite, and fresh lime juice over ice, sometimes with a dash of grenadine. Simple, refreshing, and the drink most associated with Bali beach bar culture. At a reputable Seminyak or Canggu bar, Rp 60,000–100,000 ($3.75–6.25 USD). The name is either endearing or ominous depending on your relationship with the spirit. If the bar can tell you where their arak comes from, you\'re in good hands.' },
+      { label: 'Tuak (Palm Wine)', text: 'Tuak is fermented — not distilled — palm sap, typically from the lontar or aren palm. It\'s mildly alcoholic (around 2-5% ABV depending on fermentation), cloudy white, and tastes vaguely like a sour yogurt drink with a slight sweetness. Tuak is not a tourist product — it\'s what rural communities in Bali, Flores, Lombok, and other islands drink, and finding it usually means being in the right place. Worth trying once if offered in a genuine community context. Not available at beach clubs.' },
+      { label: 'Brem (Rice Wine)', text: 'Brem is a traditional Balinese rice wine, traditionally produced as both a liquid drink and a solid cake. The liquid Brem — Brem Bali specifically — is a sweet, pale fermented rice wine with roughly 4-8% ABV, used in religious ceremonies and consumed as a social drink in traditional contexts. Commercial bottles are available in local markets and some tourist shops. Rp 30,000–60,000 ($1.90–3.75 USD) for a small bottle. The flavor is mild and sweet — think rice pudding that decided to become a beverage.' },
+      { label: 'Batavia Arrack', text: 'Batavia Arrack is a historic Indonesian spirit — a Dutch colonial-era distillate made from sugarcane molasses and red rice, produced in the area around Jakarta (formerly Batavia). It was one of the key spirits of the Dutch Golden Age and was exported to Europe in large quantities in the 17th-18th centuries. It\'s not widely available in Indonesian bars today, but specialty spirits shops and cocktail bars in Jakarta may carry it. Internationally, it\'s found in specialist spirits retailers. The flavor is complex — somewhere between rum and grappa with tropical fruit notes and an earthy grain quality.' },
+    ],
+  },
+  {
+    id: 'cocktails',
+    icon: '🍹',
+    title: 'Bali Cocktail Scene',
+    gradient: 'linear-gradient(135deg, #004D40 0%, #26A69A 100%)',
+    items: [
+      { label: 'Potato Head Beach Club', text: 'The definitive Bali beach club experience — a design institution set on Seminyak Beach with a circular amphitheater main bar built from thousands of reclaimed teak window shutters, a 50-meter pool, and cocktail and food programs that outperform almost everything on the island. The cocktail menu is genuinely creative and well-executed, with tropical ingredients sourced from across the archipelago. Expect Rp 130,000–200,000 ($8.10–12.50 USD) for a craft cocktail. Reserve a sun lounger package (includes a minimum spend) if you want guaranteed pool access on a weekend — walk-in is possible weekdays.' },
+      { label: 'Ku De Ta', text: 'The original Bali beach club — established in 2000, before Seminyak was what it is now — Ku De Ta (now rebranded to COMO Beach Club) set the template for the elevated Bali sunset bar experience. Beachfront, with unobstructed Indian Ocean sunset views, a serious cocktail program, and the kind of crowd that has included every category of person from backpackers to celebrities. Rp 120,000–180,000 ($7.50–11.25 USD) per cocktail. The sunset viewed from the bar, with a drink in hand and the Indian Ocean turning orange and red, is one of those experiences that justifies the airfare.' },
+      { label: 'Single Fin (Uluwatu)', text: 'Single Fin in Uluwatu perches on the cliffs above one of the best surf breaks in the world — a Sunday session here with surf videos on the big screen, cold Bintangs, and 180-degree views over the Indian Ocean is the definitive Bali surf culture experience. Less polished than the Seminyak beach clubs, more authentic in its relationship with surfing, and dramatically cheaper: Bintangs at Rp 50,000–75,000 ($3.10–4.70 USD), cocktails Rp 80,000–130,000 ($5.00–8.10 USD). The Sunday afternoon vibes are legendary — get there before noon if you want a good table.' },
+      { label: 'La Favela (Seminyak)', text: 'La Favela is one of the most distinctive bar environments in Asia — a converted old house in Seminyak decorated floor-to-ceiling with vintage furniture, taxidermy, antique clocks, botanical specimens, and art collected from across Indonesia, creating an atmospheric interior that feels like a Victorian collector\'s mansion in the middle of Bali\'s nightlife district. The drinks are good but secondary to the environment. The courtyard bar and multiple themed rooms fill up late (after 11pm). No cover charge but cocktails are Rp 100,000–170,000 ($6.25–10.60 USD). One of the few Bali bars worth going to specifically for the room rather than the drinks.' },
+      { label: 'Mirror Bar (Seminyak)', text: 'Mirror is Seminyak\'s primary full-scale nightclub — a 1,500-person capacity space with international DJ bookings, lasers, and bottle service that bridges the gap between Bali\'s beach club culture and the type of nightlife you\'d find in Ibiza or Miami. The crowd is a mix of European tourists, Jakarta elites, and Australian visitors who want more than a sunset cocktail. Cover Rp 150,000–300,000 ($9.40–18.75 USD) depending on the night, which usually includes a drink. Bottle service tables require reservations and significant minimums. Opens around midnight; peaks at 2am.' },
+      { label: 'Canggu Surf Bar Circuit', text: 'Canggu\'s drink culture is less beach club, more surf bar and all-day café-bar hybrid. The main drag around Batu Bolong Beach has a concentration of bars that open for coffee in the morning, serve Bintang and coconut-based cocktails by noon, and run into late evenings. Old Man\'s (the original Canggu surf bar), Pretty Poison, and Sandbar are the anchor venues — none require reservations, most are casual walk-in, and the vibe is board-shorts-and-bare-feet rather than Seminyak\'s more aspirational dress code. Bintangs Rp 40,000–65,000 ($2.50–4.10 USD); cocktails Rp 75,000–120,000 ($4.70–7.50 USD).' },
+    ],
+  },
+  {
+    id: 'nightlife',
+    icon: '🌃',
+    title: 'Nightlife Districts',
+    gradient: 'linear-gradient(135deg, #1A0536 0%, #E65100 100%)',
+    items: [
+      { label: 'Seminyak (Bali) — Upscale & Design-Forward', text: 'Seminyak is where Bali\'s nightlife reaches its most polished, international, and expensive form. The beach strip from Potato Head to Ku De Ta is the most valuable strip of real estate in Indonesian hospitality, occupied by beach clubs, rooftop bars, fine dining restaurants, and design-forward cocktail lounges that compare favorably with anything in Singapore or Sydney. The crowd is international — European, Australian, Japanese, and increasingly Chinese and Korean visitors — and the prices reflect global rather than Indonesian standards. A well-planned Seminyak evening: sunset at a beach club → dinner at Sarong or Mozaic → late drinks at La Favela. Budget Rp 800,000–2,000,000 ($50–125 USD) per person for a full evening.' },
+      { label: 'Canggu (Bali) — Surf, Hipster & Long Stays', text: 'Canggu has become Bali\'s digital nomad and long-term expat hub, and the bar scene reflects this — more casual, more eclectic, more likely to feature craft beer and kombucha alongside Bintang and cocktails. The vibe is daytime-into-evening rather than late-night clubbing. Old Man\'s runs 7am (coffee) to midnight (cocktails) and is genuinely one of the better casual bars in Asia for the ease and quality of the experience. Prices are lower than Seminyak, the crowd is younger and more backpacker-adjacent, and spontaneous beach bonfires happen more than they do in the polished south.' },
+      { label: 'Kuta (Bali) — The Original, Still Chaotic', text: 'Kuta is where Australian budget tourism built its Bali beach town — and 40 years later it remains a place of relentless, slightly exhausting energy, cheap drinks, souvenir shops, and the Poppies Lane restaurant strip. Kuta\'s bar scene is dominated by $2 cocktail happy hours, shooters-and-shots establishments, and Australian-facing sports bars. It is not sophisticated. It is inexpensive and loud and the beach is actually not bad. If your goal is to drink cheaply and dance without spending much money, Kuta delivers that exactly. Budget Rp 200,000–400,000 ($12.50–25.00 USD) for a full night out.' },
+      { label: 'Ubud (Bali) — Quiet & Atmospheric', text: 'Ubud does not have a nightlife scene by any conventional definition — most establishments close by 10-11pm, and the few bars that stay open later are intimate, candlelit places that prioritize conversation over volume. The best drinking in Ubud happens at restaurant-bars like Locavore (their cocktail program is excellent), at the Bambu Bar at Alaya Resort, or at small wine bars in the Monkey Forest Road area. The draw is atmosphere rather than energy — drinking surrounded by rice fields and ancient temple music drifting from nearby ceremonies is an experience no beach club can replicate. This is where you go for a quiet, reflective night rather than a party.' },
+      { label: 'Jakarta SCBD — The Indonesian Elite Scene', text: 'Jakarta\'s SCBD (Sudirman Central Business District) is where Indonesia\'s urban wealthy drink — rooftop bars in glass towers, Japanese-influenced cocktail bars, and nightclubs that draw the Jakartans who could afford to drink anywhere in the world but choose to drink here. Venues like Skye (59th floor of BCA Tower), WooBar at W Jakarta, and various clubs in the Senopati area operate at price points equivalent to Singapore or Hong Kong. Dress codes are enforced; the crowds arrive late (midnight+). For international visitors who think Bali is the whole of Indonesia\'s nightlife, Jakarta\'s scene is a genuinely surprising revelation.' },
+    ],
+  },
+  {
+    id: 'local-drinks',
+    icon: '🥤',
+    title: 'Local & Non-Alcoholic Drinks',
+    gradient: 'linear-gradient(135deg, #1B5E20 0%, #81C784 100%)',
+    items: [
+      { label: 'Jamu (Herbal Health Tonic)', text: 'Jamu is the traditional Indonesian herbal medicine tradition — a vast category of fresh-pressed tonics made from turmeric, ginger, galangal, tamarind, and dozens of other roots and plants, sold by women carrying bamboo baskets or glass bottles through neighborhoods at dawn. The most common varieties include kunyit asam (turmeric-tamarind, bright orange, tangy and earthy), beras kencur (rice and kencur root, slightly sweet), and temulawak (curcuma zedoaria-based, stronger and more medicinal in flavor). Jamu is consumed for health — anti-inflammatory, digestive, immunity-boosting — rather than pleasure, though many varieties are delicious. Rp 5,000–15,000 ($0.30–0.95 USD) from a warung jamu or street seller.' },
+      { label: 'Es Teh Manis (Iced Sweet Tea)', text: 'Indonesia\'s national non-alcoholic default — black tea brewed strong and poured over ice with an amount of sugar that will alarm anyone who grew up in a country with public health messaging about sugar intake. Es teh manis is everywhere, costs Rp 3,000–8,000 ($0.20–0.50 USD), and is exactly the right drink for the heat. Every warung has it. Every makan siang (lunch) is accompanied by it. It is not fancy. It is perfect.' },
+      { label: 'Kelapa Muda (Young Coconut)', text: 'Fresh young coconut — hacked open on the spot with a machete, served with a straw, and finished with a spoon to scrape the jelly-soft interior flesh — is the best hydration drink on Earth during a tropical day. In Bali and tourist areas, Rp 15,000–30,000 ($0.95–1.90 USD) at a warung, inflating to Rp 50,000–80,000 ($3.10–5.00 USD) at beach clubs. The same coconut. Very different venue markup. On the beach, from a cart vendor, it is one of the singular pleasures of traveling in Southeast Asia.' },
+      { label: 'Kopi Tubruk', text: 'Kopi tubruk is the traditional Javanese and Balinese coffee preparation — finely ground coffee poured directly into a glass with boiling water and sugar, allowed to settle, and drunk carefully to avoid the grounds. The result is intensely strong, slightly sweet, and deeply flavored in a way that drip or espresso preparation can\'t replicate. It is not filtered. You will have coffee grounds at the bottom. This is correct. Kopi tubruk at a traditional warung kopi: Rp 5,000–12,000 ($0.30–0.75 USD). The tradition of lingering over kopi tubruk for hours while talking, reading, or watching the world go by is one of Indonesia\'s great cultural gifts.' },
+      { label: 'Es Cendol', text: 'One of Southeast Asia\'s great shaved-ice dessert drinks — shaved ice over pandan-flavored green rice flour jelly worms (cendol), coconut milk, and palm sugar syrup. The combination is simultaneously sweet, cooling, grassy from the pandan, and rich from the coconut milk. Found at food markets, warung dessert stalls, and increasingly at café menus that recognize it as a regional specialty worth celebrating. Rp 10,000–25,000 ($0.63–1.56 USD). Deeply refreshing in a way that synthetic flavoring can never match.' },
+      { label: 'Es Campur (Mixed Ice)', text: 'The kitchen-sink approach to Indonesian iced dessert drinks — a bowl or glass containing some combination of shaved ice, coconut milk, palm sugar syrup, jackfruit, nata de coco (coconut jelly cubes), cincau (grass jelly), and any other ingredients the vendor decides to include. Es campur varies wildly from vendor to vendor and region to region, which is exactly the point — each version reflects its maker\'s preferences and local ingredient availability. Rp 10,000–20,000 ($0.63–1.25 USD) from a market stall.' },
+    ],
+  },
+  {
+    id: 'wellness',
+    icon: '💆',
+    title: 'Spa & Wellness Culture',
+    gradient: 'linear-gradient(135deg, #006064 0%, #80DEEA 100%)',
+    items: [
+      { label: 'Bali\'s Spa Scene — Context', text: 'Bali has the most developed spa and wellness infrastructure in Southeast Asia — a genuine industry built over three decades on the island\'s existing Hindu healing traditions, combined with international wellness practices and an enormous local labor force trained in therapeutic modalities. At its best, the Bali spa experience incorporates locally sourced ingredients (coconut oil, frangipani, turmeric, rice bran), genuinely skilled therapists trained in traditional Balinese massage techniques, and settings — garden bungalows, jungle hillsides, rice field terraces — that are extraordinary. At its worst, it\'s a $10/hour assembly line where an undertrained therapist executes a memorized sequence while checking their phone.' },
+      { label: 'Traditional Balinese Massage', text: 'A traditional Balinese massage uses a combination of gentle stretches, acupressure, reflexology, and deep-tissue techniques performed with warm coconut or frangipani oil, typically over 60-90 minutes. The style is more vigorous than Thai massage but less aggressive than deep tissue; it emphasizes energy flow (prana) alongside the physical. At a reputable spa in Ubud or Seminyak: Rp 150,000–350,000 ($9.40–21.90 USD) for a 60-minute session. At a tourist-facing cheap spa on Kuta Beach: Rp 80,000–120,000 ($5.00–7.50 USD), quality variable. At a 5-star hotel spa: Rp 500,000–1,200,000 ($31.25–75.00 USD) for a multi-treatment package.' },
+      { label: 'Ubud Healing Traditions', text: 'Ubud is the center of Bali\'s traditional Balinese medicine and healing — a tradition that includes balian (traditional healers who work through prayer, offerings, and herbal medicine), water purification ceremonies at Tirta Empul temple, and the broader cultural framework that sees illness as a spiritual imbalance requiring ceremony as well as physical treatment. The "Eat Pray Love" phenomenon brought significant international attention to Ubud\'s healing culture, which has its shadow side (commercialization, fake balian tourism) and its genuine core (authentic ceremonies, real practitioners, a living tradition). Approach with respect and appropriate skepticism.' },
+      { label: 'What to Book vs Skip', text: 'Book: Traditional Balinese massage at a locally run spa in Ubud (not a franchise), a mandi lulur (Javanese royal bath with rice bran and turmeric scrub followed by milk and flower bath) at any serious spa, a flower bath at COMO Shambhala or similar, and a cooking class at a traditional compound that includes a temple visit and market tour. Skip: Reflexology sessions at airport-area spas (typically mediocre), any treatment offered by someone who approaches you on the street, and anything described as a "Balinese ceremony" that involves taking selfies with a priest for a fee.' },
+      { label: 'Negotiating Spa Prices', text: 'Spa menus in tourist areas often have aspirational listed prices that are negotiable, particularly at smaller independent spas in Kuta and Seminyak. A polite "is there a discount for multiple treatments?" or "we\'re staying for two weeks, can we have a package price?" will frequently yield 15-25% reductions. At 5-star hotel spas and established wellness centers in Ubud (COMO Shambhala, Fivelements, The Yoga Barn), prices are fixed and non-negotiable — and the quality justifies them. The principle: negotiate at independent operators, don\'t negotiate at luxury establishments where the price communicates the standard.' },
+    ],
+  },
+  {
+    id: 'customs',
+    icon: '🛃',
+    title: 'Customs, Laws & Alcohol Regulations',
+    gradient: 'linear-gradient(135deg, #0D47A1 0%, #1976D2 100%)',
+    items: [
+      { label: 'Alcohol Laws by Province', text: 'Indonesia\'s alcohol laws are administered at the provincial and district level, creating a patchwork of regulations that varies dramatically across the archipelago. Bali: no restrictions — alcohol is freely available everywhere and sold 24 hours in tourist areas. Java (DKI Jakarta, Yogyakarta, East Java): alcohol available in licensed restaurants, hotels, and supermarkets (Bintang, Hypermart), but many local warungs and businesses don\'t serve it. Lombok: freely available in the Gili Islands and Senggigi tourist areas; significantly more restricted in South Lombok. Aceh province (North Sumatra): alcohol is completely banned under sharia law — possession is illegal and subject to corporal punishment. Papua, Kalimantan, Sulawesi: varies by location; major cities have availability, rural areas may not.' },
+      { label: 'Bringing Alcohol INTO Indonesia', text: 'Indonesian customs allows passengers to bring in 1 liter of alcoholic beverages duty-free per adult. Anything above this quantity is subject to import duties. There is no alcohol allowed for personal import into Aceh province under any circumstances. In practice, enforcement at airports varies — Bali is generally relaxed, other entry points more variable. The simplest approach: bring one bottle of something you enjoy and can\'t find easily in Bali (a specific whisky, a wine from home) and leave it at that.' },
+      { label: 'Bringing Alcohol OUT of Indonesia (to USA)', text: 'US Customs and Border Protection allows returning Americans to bring back 1 liter of alcohol duty-free per adult if you\'ve been abroad for at least 48 hours. Quantities above 1 liter are subject to federal import duty and state taxes (which vary). The practical takeaway: you can bring one bottle of something interesting — Bali arak from a reputable producer, a bottle of Brem Bali rice wine, or any commercial Indonesian spirit — back as a souvenir and duty-free allowance.' },
+      { label: 'What NOT to Bring to or from Indonesia', text: 'Indonesia\'s customs laws are among the most serious in Southeast Asia. Do NOT attempt to bring: narcotics or controlled substances of any kind (death penalty applies), wildlife products or protected species parts, pornographic materials, and certain food products. Bali especially: drug enforcement is extraordinarily severe — Bali\'s Kerobokan prison has a significant population of foreigners serving long sentences for drug offenses that would be minor violations in Western countries. The Bali Nine were executed in 2015. This is not an area for risk-taking.' },
+      { label: 'Alcohol During Ramadan', text: 'During Ramadan (the Islamic month of fasting), alcohol availability in Muslim-majority areas of Indonesia is reduced — some restaurants stop serving, some shops stop selling, and public drinking is particularly discouraged. Bali is largely unaffected. In Java, Sumatra, Lombok, and other Muslim-majority islands, expect reduced but not eliminated availability in tourist-facing establishments. The courteous approach is to drink quietly in hotel rooms or licensed restaurants during daylight hours rather than conspicuously in public areas — this is not a legal requirement outside Aceh, but it\'s a matter of cultural respect during an important religious observance.' },
+    ],
+  },
+];
+
+const quickFacts = [
+  { label: 'Drinking Age', value: '21' },
+  { label: 'Bintang (warung)', value: 'Rp 25k–40k' },
+  { label: 'Cocktail (Seminyak)', value: 'Rp 100k–180k' },
+  { label: 'Duty-Free to US', value: '1 Liter' },
+  { label: 'Tipping', value: '5–10%' },
+];
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="ft-hero">
+    <div class="ft-hero-bg"></div>
+    <div class="ft-hero-gradient"></div>
+    <div class="ft-hero-content">
+      <div class="container-content">
+        <h1 class="ft-hero-title">The Finer Things</h1>
+        <p class="ft-hero-subtitle">Indonesia — Beer, Arak, Bali Cocktails & Nightlife Guide 2026</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal Intro -->
+  <section class="ft-intro reveal">
+    <div class="container-content">
+      <blockquote class="ft-intro-quote">
+        <p>Indonesia is a paradox — the world's largest Muslim country, where alcohol is essentially banned in many provinces, yet Bali runs on Bintang and cocktails at sunset beach bars. The key is knowing where you are: in Bali, drinks flow freely and the bar scene rivals Ibiza for sunset ambiance. In Java or Lombok, you'll find it harder, and in Aceh, alcohol is illegal entirely. Read the room — and the island.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Quick Facts Strip -->
+  <div class="ft-quickfacts">
+    <div class="container-content">
+      <div class="ft-quickfacts-inner">
+        {quickFacts.map(qf => (
+          <div class="ft-quickfact">
+            <span class="ft-quickfact-label">{qf.label}</span>
+            <span class="ft-quickfact-value">{qf.value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Nav Chips -->
+  <nav class="ft-quicknav" aria-label="Jump to section">
+    <div class="container-content">
+      <div class="ft-quicknav-inner">
+        {topics.map(t => (
+          <a href={`#${t.id}`} class="ft-quicknav-chip">
+            <span>{t.icon}</span> {t.title}
+          </a>
+        ))}
+      </div>
+    </div>
+  </nav>
+
+  <!-- Topic Sections -->
+  {topics.map(topic => (
+    <section id={topic.id} class="ft-topic reveal">
+      <div class="container-content">
+        <div class="ft-topic-header" style={`background: ${topic.gradient};`}>
+          <span class="ft-topic-icon">{topic.icon}</span>
+          <h2 class="ft-topic-title">{topic.title}</h2>
+        </div>
+        <div class="ft-topic-body">
+          {topic.items.map(item => (
+            <div class="ft-item">
+              <h3 class="ft-item-label">{item.label}</h3>
+              <p class="ft-item-text">{item.text}</p>
+              {item.link && (
+                <a href={item.link} class="ft-item-link" target="_blank" rel="noopener noreferrer">View on Amazon &rarr;</a>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Scott's Pro Tips -->
+  <section class="ft-protips reveal">
+    <div class="container-content">
+      <h2 class="ft-protips-heading">Scott's Pro Tips</h2>
+      <div class="ft-protips-grid">
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">01</span>
+          <p>The warung markup vs tourist markup gap in Bali is one of the biggest in Asia. A Bintang at a local warung: Rp 25,000–35,000. The same Bintang at a Seminyak beach club: Rp 75,000–100,000. Seek out the warungs near residential areas rather than the beach strip — you're not missing anything except the ambiance surcharge.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">02</span>
+          <p>The arak safety rule is non-negotiable: if you can't identify the brand and source, don't drink it. Period. The Arak Attack at a reputable bar is made from commercial arak of known provenance. The "local arak" offered in an unmarked bottle by a street vendor is potentially lethal. This is not an exaggeration.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">03</span>
+          <p>Best sunset bar timing in Seminyak is 5:30pm arrival for a 6:30pm sunset. Earlier than 5pm and you're paying full price to wait; later than 6pm and you're fighting for a standing spot at the bar. The golden hour in Bali — when the light goes warm and orange over the Indian Ocean — is roughly 15-20 minutes. Those 15 minutes justify the entire evening.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">04</span>
+          <p>Spa prices in independent Ubud spas are negotiable with multi-treatment packages or repeat visits. A polite "we're staying for a week, can we do a package?" frequently yields 20-30% off. At established wellness centers like COMO Shambhala or The Yoga Barn, prices are fixed — and the quality justifies them without negotiation.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">05</span>
+          <p>Jakarta's bar and nightlife scene is dramatically underrated by visitors who spend their entire Indonesia trip in Bali. If your itinerary allows even two nights in Jakarta, the SCBD rooftop bar circuit is a revelation — world-class venues serving Indonesian elites who drink as well as anyone in Singapore or Hong Kong.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">06</span>
+          <p>If your Indonesia trip overlaps with Ramadan, adjust expectations proportionally by island. Bali: minimal impact, everything is normal. Java: daytime eating and drinking in public requires discretion; evenings are actually festive with iftar celebrations. Lombok: tourist areas (Gili Islands, Senggigi) remain open; go beyond the tourist zone during Ramadan with cultural awareness.</p>
+        </div>
+        <div class="ft-protip-card">
+          <span class="ft-protip-num">07</span>
+          <p>Young coconut (kelapa muda) from a beach cart is the best $1.50 you'll spend in Bali. The markup at beach clubs is 3-5x for the same coconut in a nicer setting. For hydration purposes, the cart wins. For the photo with your sunset cocktail, the beach club wins. Both are correct choices — just know what you're paying for.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel Gear -->
+  <section class="ft-gear reveal">
+    <div class="container-content">
+      <h2 class="ft-gear-heading">What We Pack for Indonesia</h2>
+      <p class="ft-gear-sub">Gear that actually makes a difference for tropical island travel.</p>
+      <div class="ft-gear-grid">
+        <a href="https://www.amazon.com/s?k=travel+neck+pillow+memory+foam&tag=discoverindo-20" class="ft-gear-card" target="_blank" rel="noopener noreferrer">
+          <span class="ft-gear-icon">✈️</span>
+          <span class="ft-gear-label">Travel Neck Pillow</span>
+          <span class="ft-gear-desc">For the long-haul to Jakarta or Bali — memory foam makes a real difference on 20+ hour journeys</span>
+          <span class="ft-gear-cta">View on Amazon &rarr;</span>
+        </a>
+        <a href="https://www.amazon.com/s?k=noise+canceling+headphones+travel&tag=discoverindo-20" class="ft-gear-card" target="_blank" rel="noopener noreferrer">
+          <span class="ft-gear-icon">🎧</span>
+          <span class="ft-gear-label">Noise-Canceling Headphones</span>
+          <span class="ft-gear-desc">Essential for long flights and for blocking out the gamelan music at 5am during Galungan</span>
+          <span class="ft-gear-cta">View on Amazon &rarr;</span>
+        </a>
+        <a href="https://www.amazon.com/s?k=deet+mosquito+repellent+travel&tag=discoverindo-20" class="ft-gear-card" target="_blank" rel="noopener noreferrer">
+          <span class="ft-gear-icon">🦟</span>
+          <span class="ft-gear-label">DEET Mosquito Repellent</span>
+          <span class="ft-gear-desc">Dengue fever is real in Indonesia — 30% DEET minimum for outdoor evenings, especially in rice field areas</span>
+          <span class="ft-gear-cta">View on Amazon &rarr;</span>
+        </a>
+        <a href="/practical/" class="ft-gear-card">
+          <span class="ft-gear-icon">🛡️</span>
+          <span class="ft-gear-label">Travel Insurance</span>
+          <span class="ft-gear-desc">Non-negotiable for Indonesia — medical evacuation from a remote island or Papua is extraordinarily expensive without coverage</span>
+          <span class="ft-gear-cta">See our recommendation &rarr;</span>
+        </a>
+      </div>
+      <p class="ft-gear-disclosure">* Amazon links are affiliate links — we earn a small commission at no cost to you. We only link products we actually use and recommend.</p>
+    </div>
+  </section>
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Indonesia Travel Guide"
+      description="Everything we know about traveling Indonesia — island by island, with honest advice on where to drink, where to stay, and what to actually spend your money on."
+      bullets={[
+        'Island-by-island alcohol availability guide',
+        'Best beach clubs ranked by value and experience',
+        'Bali spa guide: what\'s worth it and what\'s not',
+        'Customs rules and what you can bring home',
+      ]}
+      guideTag="pillar-finer-things"
+    />
+  </div>
+
+</BaseLayout>
+
+<!-- Scroll Reveal -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) e.target.classList.add('visible');
+        });
+      },
+      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<style>
+  /* ---- Hero ---- */
+  .ft-hero {
+    position: relative;
+    height: 50vh;
+    min-height: 320px;
+    max-height: 480px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .ft-hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #0D7377 0%, #004D40 40%, #1A2332 100%);
+  }
+
+  .ft-hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(26,35,50,0.7) 100%);
+  }
+
+  .ft-hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-bottom: var(--space-8);
+  }
+
+  .ft-hero-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: var(--weight-extrabold);
+    color: white;
+    margin: 0 0 var(--space-2);
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+
+  .ft-hero-subtitle {
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
+    color: rgba(255,255,255,0.8);
+    margin: 0;
+  }
+
+  /* ---- Intro quote ---- */
+  .ft-intro {
+    padding: var(--space-8) 0;
+    background: var(--color-sky, #f0f9f9);
+  }
+
+  .ft-intro-quote {
+    margin: 0;
+    padding: var(--space-6);
+    background: white;
+    border-radius: 16px;
+    border-left: 4px solid var(--color-ocean-teal);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  }
+
+  .ft-intro-quote p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-body);
+    margin: 0 0 var(--space-3);
+    font-style: italic;
+  }
+
+  .ft-intro-quote cite {
+    font-size: 0.9rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+    font-style: normal;
+  }
+
+  /* ---- Quick Facts Strip ---- */
+  .ft-quickfacts {
+    background: var(--color-deep-night, #1A2332);
+    padding: var(--space-4) 0;
+  }
+
+  .ft-quickfacts-inner {
+    display: flex;
+    gap: var(--space-6);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ft-quickfact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .ft-quickfact-label {
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.5);
+  }
+
+  .ft-quickfact-value {
+    font-size: 1rem;
+    font-weight: var(--weight-extrabold);
+    color: white;
+  }
+
+  /* ---- Quick Nav ---- */
+  .ft-quicknav {
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+  }
+
+  .ft-quicknav-inner {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .ft-quicknav-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    background: var(--color-sky, #f0f9f9);
+    color: var(--color-slate);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: var(--weight-medium);
+    white-space: nowrap;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  .ft-quicknav-chip:hover {
+    background: var(--color-ocean-teal);
+    color: white;
+  }
+
+  /* ---- Topic sections ---- */
+  .ft-topic {
+    padding: var(--space-10) 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .ft-topic-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    padding: var(--space-5) var(--space-6);
+    border-radius: 16px 16px 0 0;
+    margin-bottom: 0;
+  }
+
+  .ft-topic-icon {
+    font-size: 2rem;
+  }
+
+  .ft-topic-title {
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
+    font-weight: var(--weight-extrabold);
+    color: white;
+    margin: 0;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+
+  .ft-topic-body {
+    background: white;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .ft-item {
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+
+  .ft-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .ft-item-label {
+    font-size: 1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-2);
+  }
+
+  .ft-item-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-body);
+    margin: 0;
+  }
+
+  .ft-item-link {
+    display: inline-block;
+    margin-top: var(--space-2);
+    font-size: 0.85rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+    text-decoration: none;
+  }
+
+  .ft-item-link:hover {
+    text-decoration: underline;
+  }
+
+  /* ---- Pro Tips ---- */
+  .ft-protips {
+    padding: var(--space-10) 0;
+    background: var(--color-sky, #f0f9f9);
+  }
+
+  .ft-protips-heading {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: var(--weight-extrabold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-6);
+  }
+
+  .ft-protips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .ft-protip-card {
+    background: white;
+    border-radius: 16px;
+    padding: var(--space-5);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .ft-protip-num {
+    font-size: 2rem;
+    font-weight: var(--weight-extrabold);
+    color: var(--color-ocean-teal);
+    opacity: 0.3;
+    line-height: 1;
+  }
+
+  .ft-protip-card p {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--color-body);
+    margin: 0;
+  }
+
+  /* ---- Gear section ---- */
+  .ft-gear {
+    padding: var(--space-10) 0;
+  }
+
+  .ft-gear-heading {
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-weight: var(--weight-extrabold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-2);
+  }
+
+  .ft-gear-sub {
+    color: var(--color-muted);
+    margin: 0 0 var(--space-6);
+  }
+
+  .ft-gear-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .ft-gear-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: var(--color-sky, #f0f9f9);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .ft-gear-card:hover {
+    background: white;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+
+  .ft-gear-icon { font-size: 1.8rem; }
+
+  .ft-gear-label {
+    font-size: 0.95rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+  }
+
+  .ft-gear-desc {
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .ft-gear-cta {
+    font-size: 0.85rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+  }
+
+  .ft-gear-disclosure {
+    font-size: 0.78rem;
+    color: var(--color-muted);
+    font-style: italic;
+    margin: 0;
+  }
+
+  /* ---- Reveal ---- */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; }
+  }
+</style>

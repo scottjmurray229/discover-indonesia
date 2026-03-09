@@ -9,6 +9,8 @@ const navLinks = [
 ];
 
 const guideLinks = [
+  { href: '/festivals/', label: 'Festivals', icon: '🎉' },
+  { href: '/finer-things/', label: 'The Finer Things', icon: '🥃' },
   { href: '/diving-indonesia/', label: 'Diving Guide', icon: '🤿' },
   { href: '/temple-culture/', label: 'Temple Culture', icon: '🛕' },
   { href: '/bali-guide/', label: 'Bali Guide', icon: '🌺' },
@@ -17,7 +19,7 @@ const guideLinks = [
 ];
 
 const isGuidesActive = (p: string) =>
-  p.startsWith('/diving-indonesia') || p.startsWith('/temple-culture') || p.startsWith('/bali-guide') || p.startsWith('/indonesian-cuisine') || p.startsWith('/packing-list');
+  p.startsWith('/festivals') || p.startsWith('/finer-things') || p.startsWith('/diving-indonesia') || p.startsWith('/temple-culture') || p.startsWith('/bali-guide') || p.startsWith('/indonesian-cuisine') || p.startsWith('/packing-list');
 ---
 
 <!-- Desktop: top nav bar — transparent → solid on scroll -->
