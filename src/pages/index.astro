@@ -54,7 +54,7 @@ const gmapMarkers = geoMarkers.map(m => {
   };
 });
 // Show all destinations that exist in the collection
-const featuredSlugs = ['bali', 'ubud', 'yogyakarta', 'komodo', 'raja-ampat', 'lombok', 'gili-islands', 'nusa-penida', 'flores', 'jakarta', 'bandung', 'surabaya', 'malang', 'lake-toba', 'medan'];
+const featuredSlugs = ['bali', 'ubud', 'yogyakarta', 'komodo', 'raja-ampat', 'lombok', 'gili-islands', 'nusa-penida', 'flores', 'jakarta', 'bandung', 'surabaya', 'malang', 'lake-toba', 'medan', 'manado', 'ijen', 'balikpapan'];
 
 // Content pillar links
 const pillarLinks = [
@@ -181,14 +181,15 @@ import NetworkCrossLinks from '../components/NetworkCrossLinks.astro';
             </div>
           </div>
           <div class="hp-region-card" data-region="java">
-            <div class="hp-region-card-header"><div class="hp-region-card-name">Java</div><div class="hp-region-card-count">5 destinations</div></div>
-            <p class="hp-region-card-desc">Borobudur at sunrise, the royal kraton in Yogyakarta, volcanic landscapes, and Indonesia's biggest cities.</p>
+            <div class="hp-region-card-header"><div class="hp-region-card-name">Java</div><div class="hp-region-card-count">6 destinations</div></div>
+            <p class="hp-region-card-desc">Borobudur at sunrise, the royal kraton in Yogyakarta, Ijen's blue fire volcano, and Indonesia's biggest cities.</p>
             <div class="hp-region-tags">
               <a class="hp-dest-chip" href="/destinations/yogyakarta/">Yogyakarta</a>
               <a class="hp-dest-chip" href="/destinations/jakarta/">Jakarta</a>
               <a class="hp-dest-chip" href="/destinations/bandung/">Bandung</a>
               <a class="hp-dest-chip" href="/destinations/surabaya/">Surabaya</a>
               <a class="hp-dest-chip" href="/destinations/malang/">Malang</a>
+              <a class="hp-dest-chip" href="/destinations/ijen/">Ijen</a>
             </div>
           </div>
           <div class="hp-region-card" data-region="nusa-tenggara">
@@ -208,6 +209,21 @@ import NetworkCrossLinks from '../components/NetworkCrossLinks.astro';
               <a class="hp-dest-chip" href="/destinations/raja-ampat/">Raja Ampat</a>
               <a class="hp-dest-chip" href="/destinations/lake-toba/">Lake Toba</a>
               <a class="hp-dest-chip" href="/destinations/medan/">Medan</a>
+            </div>
+          </div>
+          <div class="hp-region-card" data-region="sulawesi">
+            <div class="hp-region-card-header"><div class="hp-region-card-name">Sulawesi & Papua</div><div class="hp-region-card-count">2 destinations</div></div>
+            <p class="hp-region-card-desc">Bunaken's world-class reef diving, Ijen's electric blue fire, and the wild eastern reaches of the archipelago.</p>
+            <div class="hp-region-tags">
+              <a class="hp-dest-chip" href="/destinations/raja-ampat/">Raja Ampat</a>
+              <a class="hp-dest-chip" href="/destinations/manado/">Manado</a>
+            </div>
+          </div>
+          <div class="hp-region-card" data-region="kalimantan">
+            <div class="hp-region-card-header"><div class="hp-region-card-name">Kalimantan</div><div class="hp-region-card-count">1 destination</div></div>
+            <p class="hp-region-card-desc">Indonesian Borneo — orangutan sanctuaries, Dayak river expeditions, and the world's third-largest rainforest.</p>
+            <div class="hp-region-tags">
+              <a class="hp-dest-chip" href="/destinations/balikpapan/">Balikpapan</a>
             </div>
           </div>
         </div>
