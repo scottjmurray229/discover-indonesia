@@ -1,0 +1,1067 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import EmailCapture from '../../components/EmailCapture.astro';
+import FAQ from '../../components/FAQ.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Indonesia History', url: '/history/' },
+];
+
+const pageTitle = 'Indonesia History — Ancient Kingdoms to Independence';
+const pageDescription = 'From Borobudur\'s 9th-century Buddhist stupa to Sukarno\'s 1945 independence declaration — trace 2,000 years of Indonesian civilization across the archipelago.';
+
+interface TimelineEvent {
+  date: string;
+  year: number;
+  title: string;
+  location: string;
+  description: string;
+  side: 'left' | 'right';
+  era: 'ancient' | 'colonial' | 'independence' | 'modern';
+}
+
+const timeline: TimelineEvent[] = [
+  {
+    date: '~200 BCE',
+    year: -200,
+    title: 'Austronesian Settlement',
+    location: 'Sulawesi, Maritime Southeast Asia',
+    description: 'Austronesian-speaking peoples from Taiwan settled the archipelago, developing sophisticated outrigger canoe navigation and wet rice agriculture across thousands of islands.',
+    side: 'left',
+    era: 'ancient',
+  },
+  {
+    date: '600 CE',
+    year: 600,
+    title: 'Srivijaya Empire',
+    location: 'Palembang, Sumatra',
+    description: 'The Buddhist maritime empire of Srivijaya controlled the Strait of Malacca and the spice trade for 700 years, making Sumatra the center of Buddhist learning in Southeast Asia. Traders from China, India, and Arabia passed through its ports.',
+    side: 'right',
+    era: 'ancient',
+  },
+  {
+    date: '850 CE',
+    year: 850,
+    title: 'Borobudur Built',
+    location: 'Magelang, Java',
+    description: 'The largest Buddhist monument on earth — 72 stupas, 2,672 relief panels, and a single central stupa containing a Buddha image — was completed under the Sailendra dynasty. Abandoned and buried under volcanic ash for centuries before rediscovery in 1814.',
+    side: 'left',
+    era: 'ancient',
+  },
+  {
+    date: '1293 CE',
+    year: 1293,
+    title: 'Majapahit Empire',
+    location: 'Trowulan, East Java',
+    description: 'The greatest Hindu-Buddhist empire in Indonesian history — at its peak, Majapahit\'s influence stretched from Sumatra to the Philippines. The Nagarakretagama poem describes 98 tributary states. Its legacy defines Balinese culture to this day.',
+    side: 'right',
+    era: 'ancient',
+  },
+  {
+    date: '1400s',
+    year: 1400,
+    title: 'Islam Arrives via Trade Routes',
+    location: 'Demak, Java',
+    description: 'Arab, Indian, and Chinese Muslim traders brought Islam to coastal Java and Sumatra. The Sultanate of Demak became the first major Islamic state on Java, eventually defeating the last Hindu-Buddhist kingdom of Majapahit.',
+    side: 'left',
+    era: 'colonial',
+  },
+  {
+    date: '1512',
+    year: 1512,
+    title: 'Portuguese Arrive at Maluku',
+    location: 'Ternate, Maluku',
+    description: 'Portuguese sailors reached the Spice Islands in search of cloves and nutmeg — the most valuable commodities in the world. The Maluku spice trade was the original reason Europeans came to Southeast Asia.',
+    side: 'right',
+    era: 'colonial',
+  },
+  {
+    date: '1602',
+    year: 1602,
+    title: 'Dutch East India Company (VOC) Founded',
+    location: 'Batavia (Jakarta), Java',
+    description: 'The VOC established Batavia as its Asian headquarters, beginning 350 years of Dutch colonial rule. The VOC was history\'s first multinational corporation — and its monopoly on the spice trade made the Netherlands the wealthiest nation in Europe.',
+    side: 'left',
+    era: 'colonial',
+  },
+  {
+    date: '1740',
+    year: 1740,
+    title: 'Batavia Massacre',
+    location: 'Jakarta, Java',
+    description: 'Dutch colonial forces and armed citizens killed an estimated 5,000 ethnic Chinese residents of Batavia in a pogrom triggered by colonial paranoia. One of the darkest events of Dutch colonial rule.',
+    side: 'right',
+    era: 'colonial',
+  },
+  {
+    date: '1830–1870',
+    year: 1830,
+    title: 'Cultivation System (Cultuurstelsel)',
+    location: 'Java',
+    description: 'The Dutch forced Javanese farmers to grow export crops — coffee, sugar, indigo — on 20% of their land, or work 60 days per year on government projects. Famines killed hundreds of thousands. The system\'s profits built the Dutch railway network.',
+    side: 'left',
+    era: 'colonial',
+  },
+  {
+    date: '1927',
+    year: 1927,
+    title: 'Sukarno Founds Indonesian National Party',
+    location: 'Bandung, Java',
+    description: 'A 26-year-old engineer named Sukarno founded the PNI and articulated a vision of an independent Indonesia uniting 300 ethnic groups under one national identity — Pancasila.',
+    side: 'right',
+    era: 'independence',
+  },
+  {
+    date: 'August 17, 1945',
+    year: 1945,
+    title: 'Proklamasi Kemerdekaan',
+    location: 'Jakarta, Java',
+    description: 'Two days after Japan\'s surrender, Sukarno and Hatta proclaimed Indonesian independence. The date — 17 August — is the most important date in Indonesian history, celebrated every year with the flag-raising ceremony at the Presidential Palace.',
+    side: 'left',
+    era: 'independence',
+  },
+  {
+    date: '1945–1949',
+    year: 1946,
+    title: 'Indonesian National Revolution',
+    location: 'Java and Sumatra',
+    description: 'The Dutch attempted to recolonize Indonesia after WWII. Four years of guerrilla warfare, diplomatic battles, and international pressure (particularly from the US) forced the Netherlands to recognize Indonesian sovereignty in December 1949.',
+    side: 'right',
+    era: 'independence',
+  },
+  {
+    date: '1955',
+    year: 1955,
+    title: 'First Democratic Election',
+    location: 'Nationwide',
+    description: 'Indonesia held its first parliamentary elections — the largest democratic exercise in Asia at the time. Four major parties split the vote. It would be the last free election for 43 years.',
+    side: 'left',
+    era: 'independence',
+  },
+  {
+    date: '1965–1966',
+    year: 1965,
+    title: 'The New Order Begins',
+    location: 'Jakarta',
+    description: 'General Suharto seized power following the alleged communist coup attempt of September 30, 1965. The subsequent anti-communist purge killed an estimated 500,000–1,000,000 people. Suharto\'s New Order regime ruled for 32 years, bringing economic growth alongside authoritarian control.',
+    side: 'right',
+    era: 'modern',
+  },
+  {
+    date: '1998',
+    year: 1998,
+    title: 'Reformasi — Suharto Falls',
+    location: 'Jakarta',
+    description: 'The Asian financial crisis, mass protests, and student occupations of parliament forced Suharto to resign after 32 years. Indonesia\'s democratic reformation (Reformasi) began, leading to free elections in 1999.',
+    side: 'left',
+    era: 'modern',
+  },
+  {
+    date: '2004',
+    year: 2004,
+    title: 'First Direct Presidential Election',
+    location: 'Nationwide',
+    description: 'Susilo Bambang Yudhoyono became Indonesia\'s first directly elected president. The peaceful transfer of power cemented Indonesia\'s democratic credentials — a remarkable achievement for a nation of 270 million across 17,000 islands.',
+    side: 'right',
+    era: 'modern',
+  },
+  {
+    date: '2004',
+    year: 2004,
+    title: 'Indian Ocean Tsunami',
+    location: 'Aceh, Sumatra',
+    description: 'A 9.1 magnitude earthquake off Sumatra triggered the deadliest tsunami in recorded history. 230,000 people died across 14 countries; 170,000 in Aceh alone. The disaster accelerated peace negotiations ending the 30-year Acehnese independence conflict.',
+    side: 'left',
+    era: 'modern',
+  },
+];
+
+const eraLabels: Record<string, string> = {
+  ancient: 'Ancient Kingdoms — ~200 BCE–1400s',
+  colonial: 'Islamic & Colonial Era — 1400s–1920s',
+  independence: 'Independence — 1927–1955',
+  modern: 'Modern Indonesia — 1965–Present',
+};
+
+const eraGradients: Record<string, string> = {
+  ancient: 'linear-gradient(135deg, #B45309 0%, #D97706 100%)',
+  colonial: 'linear-gradient(135deg, #1D4ED8 0%, #3B82F6 100%)',
+  independence: 'linear-gradient(135deg, #15803D 0%, #22C55E 100%)',
+  modern: 'linear-gradient(135deg, #7C3AED 0%, #A78BFA 100%)',
+};
+
+const eraColors: Record<string, string> = {
+  ancient: '#D97706',
+  colonial: '#3B82F6',
+  independence: '#22C55E',
+  modern: '#A78BFA',
+};
+
+const geoLookup: Record<string, { lat: number; lng: number; label: string }> = {
+  jakarta: { lat: -6.2088, lng: 106.8456, label: 'Jakarta' },
+  bali: { lat: -8.3405, lng: 115.0920, label: 'Bali' },
+  yogyakarta: { lat: -7.7956, lng: 110.3695, label: 'Yogyakarta' },
+  sumatra: { lat: 0.5897, lng: 101.3431, label: 'Sumatra' },
+  maluku: { lat: -3.2385, lng: 130.1453, label: 'Maluku' },
+  aceh: { lat: 4.6951, lng: 96.7494, label: 'Aceh' },
+  bandung: { lat: -6.9175, lng: 107.6191, label: 'Bandung' },
+};
+
+// Build static map markers for key locations
+const histMapMarkers = [
+  { lat: -6.2088, lng: 106.8456, label: 'Jakarta', color: '#3B82F6', url: '/destinations/' },
+  { lat: -8.3405, lng: 115.0920, label: 'Bali', color: '#D97706', url: '/destinations/' },
+  { lat: -7.7956, lng: 110.3695, label: 'Yogyakarta', color: '#D97706', url: '/destinations/' },
+  { lat: 0.5897, lng: 101.3431, label: 'Sumatra', color: '#3B82F6', url: '/destinations/' },
+  { lat: -3.2385, lng: 130.1453, label: 'Maluku', color: '#3B82F6', url: '/destinations/' },
+  { lat: 4.6951, lng: 96.7494, label: 'Aceh', color: '#A78BFA', url: '/destinations/' },
+  { lat: -6.9175, lng: 107.6191, label: 'Bandung', color: '#22C55E', url: '/destinations/' },
+];
+
+// Card videos — cycle across events
+const histCardVideos = Array.from({ length: 7 }, (_, i) => `/videos/pillar/history-card-${i + 1}.mp4`);
+---
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  pageType="destination"
+  schemaData={{ title: pageTitle, description: pageDescription }}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero -->
+  <header class="hist-hero">
+    <video class="hist-hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="/videos/pillar/history-hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hist-hero-gradient"></div>
+    <div class="hist-hero-noise"></div>
+    <div class="hist-hero-content">
+      <h1 class="hist-hero-title">Indonesia History</h1>
+      <p class="hist-hero-subtitle">From Borobudur's 9th-century Buddhist stupa to Sukarno's 1945 independence declaration — trace 2,000 years of Indonesian civilization across the archipelago.</p>
+      <div class="hist-hero-meta">
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Events</span>
+          <span class="hist-hero-meta-value">{timeline.length}</span>
+        </div>
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Eras</span>
+          <span class="hist-hero-meta-value">4</span>
+        </div>
+        <div class="hist-hero-meta-item">
+          <span class="hist-hero-meta-label">Timeline</span>
+          <span class="hist-hero-meta-value">200 BCE–Present</span>
+        </div>
+      </div>
+    </div>
+    <div class="hist-scroll-hint">Scroll<br />&#8595;</div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container-content">
+    <Breadcrumb items={breadcrumbs} />
+  </div>
+
+  <!-- Personal intro -->
+  <section class="hist-personal reveal">
+    <div class="container-content">
+      <blockquote class="hist-personal-quote">
+        <p>I didn't really understand Indonesia until I stood in front of Borobudur at sunrise. It's not just a temple — it's proof that one of history's most sophisticated civilizations flourished here long before Europeans arrived. Every trip since, I've tried to layer the history on top of the beauty. The two are inseparable.</p>
+        <cite>— Scott</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- View Toggle -->
+  <div class="container-content" style="padding-top: var(--space-2); padding-bottom: var(--space-4);">
+    <div class="hist-view-toggle">
+      <button class="hist-toggle-btn active" id="histBtnTimeline">Timeline</button>
+      <button class="hist-toggle-btn" id="histBtnMap">Map</button>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div id="histTimelineView">
+  <section class="hist-timeline-section">
+    <div class="container-content">
+      <h2 class="hist-timeline-heading reveal">2,000 Years Across the Archipelago</h2>
+      <p class="hist-timeline-sub reveal">Indonesia's story is one of the most extraordinary in human history — ancient empires, global spice trade, 350 years of Dutch colonialism, Japanese occupation, and a revolution that created the world's fourth-largest nation.</p>
+
+      <div class="hist-timeline">
+        <div class="hist-timeline-line" aria-hidden="true"></div>
+
+        {(() => {
+          let lastEra = '';
+          return timeline.map((event, idx) => {
+            const showEra = event.era !== lastEra;
+            lastEra = event.era;
+            const cardVideo = histCardVideos[idx % histCardVideos.length];
+            return (
+              <>
+                {showEra && (
+                  <div class="hist-era-marker reveal">
+                    <div class="hist-era-pill" style={`background: ${eraGradients[event.era]};`}>
+                      {eraLabels[event.era]}
+                    </div>
+                  </div>
+                )}
+                <div class={`hist-event hist-event--${event.side} reveal`}>
+                  <div class="hist-event-dot" style={`background: ${eraGradients[event.era]};`}></div>
+                  <div class="hist-event-card hist-event-card--nolink">
+                    <div class="hist-event-media" style={`background: ${eraGradients[event.era]};`}>
+                      <video class="hist-event-video" muted loop playsinline preload="none" data-src={cardVideo}></video>
+                      <span class="hist-event-date-badge">{event.date}</span>
+                    </div>
+                    <div class="hist-event-body">
+                      <h3 class="hist-event-title">{event.title}</h3>
+                      <p class="hist-event-location">{event.location}</p>
+                      <p class="hist-event-desc">{event.description}</p>
+                    </div>
+                  </div>
+                </div>
+              </>
+            );
+          });
+        })()}
+      </div>
+    </div>
+  </section>
+  </div><!-- /histTimelineView -->
+
+  <!-- Map View (hidden by default) -->
+  <div id="histMapView" style="display:none;">
+    <section style="padding: var(--space-4) 0 var(--space-8);">
+      <div class="container-content">
+        <div class="hist-map-container" id="histMapContainer">
+          <div class="hist-map-tooltip" id="histMapTooltip">
+            <div class="hist-map-tooltip-title" id="histTooltipTitle"></div>
+          </div>
+          <div id="histLeafletMap"></div>
+          <div class="hist-map-legend">
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#D97706;"></div>Ancient Kingdoms</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#3B82F6;"></div>Colonial Era</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#22C55E;"></div>Independence</div>
+            <div class="hist-map-legend-item"><div class="hist-map-legend-dot" style="background:#A78BFA;"></div>Modern</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bottom CTA -->
+  <section class="hist-cta-section reveal">
+    <div class="container-content">
+      <div class="hist-cta-card">
+        <h2 class="hist-cta-heading">Plan a Cultural Heritage Trip</h2>
+        <p class="hist-cta-text">Tell our AI planner you want to follow Indonesia's historical trail and it will build an itinerary across Borobudur, Yogyakarta's royal palaces, Jakarta's old Batavia quarter, and Bali's Hindu-Buddhist legacy.</p>
+        <a href="/plan/" class="hist-cta-button">Start Planning &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <FAQ items={[
+    { question: "What is Indonesia's most important historical site?", answer: "Borobudur in Central Java is widely considered Indonesia's most significant historical monument — a 9th-century Buddhist stupa with 2,672 relief panels and 504 Buddha statues. It's a UNESCO World Heritage Site and the largest Buddhist temple in the world. Nearby Prambanan is the largest Hindu temple compound in Southeast Asia, built around the same era." },
+    { question: "How long was Indonesia under Dutch colonial rule?", answer: "Dutch colonial presence in Indonesia lasted approximately 350 years, from the VOC's establishment of Batavia in 1619 to Indonesian independence in 1945. The VOC (Dutch East India Company) controlled trade for its first two centuries; the Dutch colonial government took over in 1800. The period included the brutal Cultivation System (1830–1870) that caused widespread famine across Java." },
+    { question: "When did Indonesia gain independence?", answer: "Indonesia declared independence on August 17, 1945 — just two days after Japan's surrender in World War II. Sukarno and Mohammad Hatta read the Proklamasi at Sukarno's home in Jakarta. The date is Indonesia's most celebrated national holiday. Dutch recognition of sovereignty came in December 1949 after four years of armed conflict and international pressure." },
+    { question: "What was the Majapahit Empire?", answer: "The Majapahit Empire (1293–1527 CE) was the greatest Hindu-Buddhist kingdom in Indonesian history, centered in East Java. At its peak it claimed influence over much of maritime Southeast Asia. The Nagarakretagama manuscript describes 98 tributary states. Majapahit's legacy lives on most visibly in Bali, whose Hindu culture descends directly from the empire's final era." },
+    { question: "What was the 1965 coup in Indonesia?", answer: "On September 30, 1965, six Indonesian army generals were killed in an event the Suharto-led military blamed on the Communist Party (PKI). General Suharto used this as justification to seize power from President Sukarno. The subsequent anti-communist purge killed an estimated 500,000–1,000,000 people — one of the 20th century's worst mass killings. Suharto's 'New Order' regime ruled until 1998." },
+    { question: "What was Reformasi in Indonesia?", answer: "Reformasi (meaning 'Reformation') refers to the democratic transition following Suharto's resignation in May 1998. Triggered by the Asian financial crisis and student protests, Suharto stepped down after 32 years. Reformasi led to free elections in 1999, regional autonomy legislation, constitutional amendments, and a free press. Indonesia is now the world's third-largest democracy." },
+  ]} />
+
+  <!-- Email Capture -->
+  <div class="container-content reveal" style="padding-bottom: var(--space-6);">
+    <EmailCapture
+      leadMagnet="Get Our Free Indonesia History & Culture Guide"
+      description="A curated PDF covering Indonesia's key historical sites — Borobudur, Prambanan, Old Batavia, and more — with visitor logistics and historical context."
+      bullets={[
+        'Borobudur and Prambanan visitor guide with sunrise tips',
+        'Old Batavia walking tour — colonial Jakarta in 3 hours',
+        'Yogyakarta\'s royal palaces and kraton culture explained',
+        'Bali\'s Hindu-Buddhist heritage from Majapahit to today',
+      ]}
+      guideTag="pillar-indonesia-history"
+    />
+  </div>
+
+  <!-- Cross-links -->
+  <section class="hist-crosslinks reveal">
+    <div class="container-content">
+      <h3 class="hist-crosslinks-heading">Explore More</h3>
+      <div class="hist-crosslinks-grid">
+        <a href="/festivals/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#127914;</span>
+          <span class="hist-crosslink-label">Festival Calendar</span>
+          <span class="hist-crosslink-desc">Indonesia's biggest celebrations by month</span>
+        </a>
+        <a href="/temple-culture/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#128717;</span>
+          <span class="hist-crosslink-label">Temple Culture</span>
+          <span class="hist-crosslink-desc">Bali's living Hindu-Buddhist tradition</span>
+        </a>
+        <a href="/diving-indonesia/" class="hist-crosslink-card">
+          <span class="hist-crosslink-icon">&#129354;</span>
+          <span class="hist-crosslink-label">Diving Guide</span>
+          <span class="hist-crosslink-desc">The world's richest marine biodiversity</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<!-- Scroll Reveal Observer -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('visible'));
+  }
+</script>
+
+<!-- View Toggle Logic -->
+<script>
+  const histBtnTimeline = document.getElementById('histBtnTimeline');
+  const histBtnMap = document.getElementById('histBtnMap');
+  const histTimelineView = document.getElementById('histTimelineView');
+  const histMapView = document.getElementById('histMapView');
+
+  function histShowTimeline() {
+    histTimelineView!.style.display = '';
+    histMapView!.style.display = 'none';
+    histBtnTimeline!.classList.add('active');
+    histBtnMap!.classList.remove('active');
+  }
+
+  function histShowMap() {
+    histTimelineView!.style.display = 'none';
+    histMapView!.style.display = '';
+    histBtnTimeline!.classList.remove('active');
+    histBtnMap!.classList.add('active');
+    if ((window as any).histMap) {
+      (window as any).histMap.invalidateSize();
+    }
+  }
+
+  histBtnTimeline?.addEventListener('click', histShowTimeline);
+  histBtnMap?.addEventListener('click', histShowMap);
+</script>
+
+<!-- Lazy-load card videos on scroll -->
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const histVideoObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target as HTMLVideoElement;
+          if (entry.isIntersecting) {
+            if (!video.src && video.dataset.src) {
+              video.src = video.dataset.src;
+            }
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        });
+      },
+      { rootMargin: '100px' }
+    );
+    document.querySelectorAll('.hist-event-video').forEach((v) => histVideoObserver.observe(v));
+  }
+</script>
+
+<!-- Leaflet Map -->
+<script is:inline define:vars={{ markers: histMapMarkers }}>
+  if (!document.getElementById('leaflet-css')) {
+    var lnk = document.createElement('link');
+    lnk.id = 'leaflet-css';
+    lnk.rel = 'stylesheet';
+    lnk.href = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css';
+    document.head.appendChild(lnk);
+  }
+
+  function initHistMap() {
+    var mapEl = document.getElementById('histLeafletMap');
+    if (!mapEl || typeof L === 'undefined') return;
+
+    var map = L.map(mapEl, {
+      center: [-2.5489, 118.0149],
+      zoom: 5,
+      scrollWheelZoom: false,
+      minZoom: 4,
+      maxZoom: 12,
+      zoomControl: false,
+      attributionControl: false,
+    });
+
+    window.histMap = map;
+
+    L.control.attribution({ prefix: false }).addTo(map);
+    L.control.zoom({ position: 'topright' }).addTo(map);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '\u00a9 <a href="https://www.openstreetmap.org/copyright">OSM</a> \u00a9 <a href="https://carto.com/">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    function makeCircle(color, size, stroke) {
+      return L.divIcon({
+        className: '',
+        html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + color + ';border:2px solid ' + stroke + ';box-shadow:0 0 6px rgba(0,0,0,0.3);cursor:pointer;"></div>',
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+      });
+    }
+
+    var tooltip = document.getElementById('histMapTooltip');
+    var tooltipTitle = document.getElementById('histTooltipTitle');
+    var container = document.getElementById('histMapContainer');
+
+    markers.forEach(function(m) {
+      var icon = makeCircle(m.color, 16, '#ffffff');
+      var marker = L.marker([m.lat, m.lng], { icon: icon, title: m.label }).addTo(map);
+
+      marker.on('mouseover', function(e) {
+        if (tooltipTitle) tooltipTitle.textContent = m.label;
+        if (tooltip) tooltip.classList.add('hist-tooltip-visible');
+        if (container && tooltip) {
+          var pt = e.containerPoint;
+          tooltip.style.left = (pt.x + 12) + 'px';
+          tooltip.style.top = (pt.y - 10) + 'px';
+        }
+      });
+
+      marker.on('mouseout', function() {
+        if (tooltip) tooltip.classList.remove('hist-tooltip-visible');
+      });
+
+      marker.on('click', function() {
+        window.location.href = m.url;
+      });
+    });
+  }
+
+  if (typeof L !== 'undefined') {
+    initHistMap();
+  } else {
+    var lscript = document.createElement('script');
+    lscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js';
+    lscript.onload = initHistMap;
+    document.head.appendChild(lscript);
+  }
+</script>
+
+<style>
+  /* ================================================================
+     HERO
+     ================================================================ */
+  .hist-hero {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5rem var(--space-6) 60px;
+    overflow: hidden;
+  }
+
+  .hist-hero-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hist-hero-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.15) 40%, rgba(0,0,0,0.55) 100%);
+  }
+
+  .hist-hero-noise {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .hist-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 720px;
+  }
+
+  .hist-hero-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: var(--weight-bold);
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 580px;
+  }
+
+  .hist-hero-meta {
+    display: flex;
+    gap: var(--space-5);
+    flex-wrap: wrap;
+  }
+
+  .hist-hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .hist-hero-meta-label {
+    font-size: 0.65rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .hist-hero-meta-value {
+    font-size: 1.1rem;
+    font-weight: var(--weight-bold);
+    color: #fff;
+  }
+
+  .hist-scroll-hint {
+    position: absolute;
+    bottom: 16px;
+    right: var(--space-6);
+    z-index: 3;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.35);
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     PERSONAL QUOTE
+     ================================================================ */
+  .hist-personal {
+    padding: var(--space-6) 0 var(--space-4);
+  }
+
+  .hist-personal-quote {
+    border-left: 3px solid var(--color-ocean-teal);
+    padding-left: var(--space-5);
+    margin: 0;
+  }
+
+  .hist-personal-quote p {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    line-height: 1.7;
+    color: var(--color-body);
+    font-style: italic;
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-personal-quote cite {
+    font-size: 0.85rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-ocean-teal);
+    font-style: normal;
+  }
+
+  /* ================================================================
+     VIEW TOGGLE
+     ================================================================ */
+  .hist-view-toggle {
+    display: inline-flex;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .hist-toggle-btn {
+    padding: 8px 20px;
+    font-size: 0.85rem;
+    font-weight: var(--weight-medium);
+    color: var(--color-slate);
+    background: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .hist-toggle-btn.active {
+    background: var(--color-ocean-teal);
+    color: white;
+  }
+
+  /* ================================================================
+     TIMELINE
+     ================================================================ */
+  .hist-timeline-section {
+    padding: var(--space-4) 0 var(--space-8);
+  }
+
+  .hist-timeline-heading {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-timeline-sub {
+    font-size: 1rem;
+    color: var(--color-body);
+    line-height: 1.7;
+    margin: 0 0 var(--space-8);
+    max-width: 640px;
+  }
+
+  .hist-timeline {
+    position: relative;
+    padding: var(--space-4) 0;
+  }
+
+  .hist-timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.08) 5%, rgba(0,0,0,0.08) 95%, transparent);
+    transform: translateX(-50%);
+  }
+
+  @media (max-width: 767px) {
+    .hist-timeline-line {
+      left: 20px;
+    }
+  }
+
+  /* Era markers */
+  .hist-era-marker {
+    display: flex;
+    justify-content: center;
+    margin: var(--space-8) 0 var(--space-5);
+    position: relative;
+    z-index: 2;
+  }
+
+  .hist-era-pill {
+    display: inline-flex;
+    padding: 6px 20px;
+    border-radius: 24px;
+    font-size: 0.75rem;
+    font-weight: var(--weight-bold);
+    color: white;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* Events */
+  .hist-event {
+    display: flex;
+    position: relative;
+    margin-bottom: var(--space-6);
+    padding: 0 calc(50% + var(--space-6)) 0 0;
+  }
+
+  .hist-event--right {
+    padding: 0 0 0 calc(50% + var(--space-6));
+  }
+
+  .hist-event-dot {
+    position: absolute;
+    left: calc(50% - 8px);
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.15);
+    z-index: 2;
+  }
+
+  @media (max-width: 767px) {
+    .hist-event,
+    .hist-event--right {
+      padding: 0 0 0 48px;
+    }
+
+    .hist-event-dot {
+      left: 12px;
+    }
+  }
+
+  .hist-event-card,
+  .hist-event-card--nolink {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    width: 100%;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .hist-event-card--nolink:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+  }
+
+  .hist-event-media {
+    position: relative;
+    height: 140px;
+    overflow: hidden;
+  }
+
+  .hist-event-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+  }
+
+  .hist-event-date-badge {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    background: rgba(0,0,0,0.45);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: var(--weight-bold);
+    padding: 3px 10px;
+    border-radius: 12px;
+    letter-spacing: 0.03em;
+    backdrop-filter: blur(4px);
+  }
+
+  .hist-event-body {
+    padding: var(--space-4);
+  }
+
+  .hist-event-title {
+    font-size: 1rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-1);
+  }
+
+  .hist-event-location {
+    font-size: 0.75rem;
+    color: var(--color-ocean-teal);
+    font-weight: var(--weight-semibold);
+    margin: 0 0 var(--space-2);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .hist-event-desc {
+    font-size: 0.875rem;
+    color: var(--color-body);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* ================================================================
+     MAP
+     ================================================================ */
+  .hist-map-container {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+  }
+
+  #histLeafletMap {
+    height: 480px;
+    width: 100%;
+  }
+
+  .hist-map-tooltip {
+    position: absolute;
+    z-index: 1000;
+    background: rgba(26, 35, 50, 0.92);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    font-size: 0.85rem;
+    font-weight: var(--weight-semibold);
+    white-space: nowrap;
+  }
+
+  .hist-tooltip-visible {
+    opacity: 1 !important;
+  }
+
+  .hist-map-legend {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .hist-map-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    font-weight: var(--weight-medium);
+    color: var(--color-heading);
+  }
+
+  .hist-map-legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ================================================================
+     CTA SECTION
+     ================================================================ */
+  .hist-cta-section {
+    padding: var(--space-4) 0 var(--space-6);
+  }
+
+  .hist-cta-card {
+    background: linear-gradient(135deg, #1A2332 0%, #0D7377 100%);
+    border-radius: 16px;
+    padding: var(--space-8) var(--space-6);
+    text-align: center;
+  }
+
+  .hist-cta-heading {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: var(--weight-bold);
+    color: white;
+    margin: 0 0 var(--space-3);
+  }
+
+  .hist-cta-text {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    margin: 0 0 var(--space-5);
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hist-cta-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 28px;
+    background: white;
+    color: var(--color-heading);
+    border-radius: 8px;
+    font-weight: var(--weight-bold);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .hist-cta-button:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    transform: translateY(-1px);
+  }
+
+  /* ================================================================
+     CROSS-LINKS
+     ================================================================ */
+  .hist-crosslinks {
+    padding: var(--space-4) 0 var(--space-8);
+  }
+
+  .hist-crosslinks-heading {
+    font-size: 1.2rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+    margin: 0 0 var(--space-4);
+  }
+
+  .hist-crosslinks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .hist-crosslink-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-5);
+    background: white;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .hist-crosslink-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+
+  .hist-crosslink-icon {
+    font-size: 1.5rem;
+  }
+
+  .hist-crosslink-label {
+    font-size: 0.9rem;
+    font-weight: var(--weight-bold);
+    color: var(--color-heading);
+  }
+
+  .hist-crosslink-desc {
+    font-size: 0.8rem;
+    color: var(--color-body);
+    line-height: 1.4;
+  }
+
+  /* ================================================================
+     REVEAL ANIMATION
+     ================================================================ */
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: none;
+  }
+</style>

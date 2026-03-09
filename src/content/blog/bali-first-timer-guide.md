@@ -2,6 +2,7 @@
 title: "First Time in Bali: Everything You Need to Know Before You Go"
 description: "A practical first-timer's guide to Bali — where to stay, how to get around, what to eat, temple etiquette, and honest advice on avoiding the tourist traps."
 pubDate: 2026-03-01
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Guides"

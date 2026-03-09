@@ -56,7 +56,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
     </div>
     <div class="map-layout">
 
-      <!-- PHILIPPINES MAP -->
+      <!-- INDONESIA MAP -->
       <div class="map-container" id="mapContainer">
         <div class="map-tooltip" id="mapTooltip">
           <div class="map-tooltip-name" id="tooltipName"></div>
@@ -72,71 +72,43 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 
       <!-- REGION CARDS -->
       <div class="region-cards">
-        <div class="region-card" data-region="luzon">
-          <div class="region-card-header"><div class="region-card-name">Luzon</div><div class="region-card-count">23 destinations</div></div>
-          <div class="region-card-desc">The main island. Skip Manila, fly into Clark. Mountains in the north, surfing in the east, history everywhere.</div>
+        <div class="region-card" data-region="java-bali">
+          <div class="region-card-header"><div class="region-card-name">Java &amp; Bali</div><div class="region-card-count">8 destinations</div></div>
+          <div class="region-card-desc">The classic Indonesia route. Bali's rice terraces and temples, Yogyakarta's Borobudur, Jakarta's urban energy.</div>
           <div class="region-dest-tags">
-            <span class="dest-chip has-video" data-dest="clark">Clark</span>
-            <span class="dest-chip has-video" data-dest="manila">Manila</span>
-            <span class="dest-chip has-video" data-dest="laoag">Laoag</span>
-            <span class="dest-chip has-video" data-dest="vigan">Vigan</span>
-            <span class="dest-chip has-video" data-dest="sagada">Sagada</span>
-            <span class="dest-chip has-video" data-dest="legazpi">Legazpi</span>
-            <span class="dest-chip has-video" data-dest="donsol">Donsol</span>
-            <span class="dest-chip has-video" data-dest="tagaytay">Tagaytay</span>
-            <span class="dest-chip" data-dest="baguio">Baguio</span>
-            <span class="dest-chip" data-dest="baler">Baler</span>
-            <span class="dest-chip" data-dest="banaue">Banaue</span>
-            <span class="dest-chip" data-dest="bataan">Bataan</span>
-            <span class="dest-chip" data-dest="batanes">Batanes</span>
-            <span class="dest-chip" data-dest="batangas">Batangas</span>
-            <span class="dest-chip" data-dest="caramoan">Caramoan</span>
-            <span class="dest-chip" data-dest="laguna">Laguna</span>
-            <span class="dest-chip" data-dest="la-union">La Union</span>
-            <span class="dest-chip" data-dest="marinduque">Marinduque</span>
-            <span class="dest-chip" data-dest="mt-pulag">Mt. Pulag</span>
-            <span class="dest-chip" data-dest="pagudpud">Pagudpud</span>
-            <span class="dest-chip" data-dest="puerto-galera">Puerto Galera</span>
-            <span class="dest-chip" data-dest="subic">Subic</span>
-            <span class="dest-chip" data-dest="zambales">Zambales</span>
+            <span class="dest-chip has-video" data-dest="bali">Bali</span>
+            <span class="dest-chip has-video" data-dest="ubud">Ubud</span>
+            <span class="dest-chip has-video" data-dest="yogyakarta">Yogyakarta</span>
+            <span class="dest-chip has-video" data-dest="jakarta">Jakarta</span>
+            <span class="dest-chip has-video" data-dest="bandung">Bandung</span>
+            <span class="dest-chip has-video" data-dest="surabaya">Surabaya</span>
+            <span class="dest-chip" data-dest="malang">Malang</span>
+            <span class="dest-chip" data-dest="nusa-penida">Nusa Penida</span>
           </div>
         </div>
-        <div class="region-card" data-region="visayas">
-          <div class="region-card-header"><div class="region-card-name">Visayas</div><div class="region-card-count">13 destinations</div></div>
-          <div class="region-card-desc">Island-hopping paradise. Heart of Indonesian beach culture with best diving, waterfalls, and volcanic landscapes.</div>
+        <div class="region-card" data-region="lombok-islands">
+          <div class="region-card-header"><div class="region-card-name">Lombok &amp; Gili Islands</div><div class="region-card-count">3 destinations</div></div>
+          <div class="region-card-desc">Bali's quieter neighbour. Stunning beaches, surf breaks, and the Gili islands for snorkelling and diving.</div>
           <div class="region-dest-tags">
-            <span class="dest-chip has-video" data-dest="cebu">Cebu</span>
-            <span class="dest-chip has-video" data-dest="bohol">Bohol</span>
-            <span class="dest-chip has-video" data-dest="siquijor">Siquijor</span>
-            <span class="dest-chip has-video" data-dest="dumaguete">Dumaguete</span>
-            <span class="dest-chip has-video" data-dest="boracay">Boracay</span>
-            <span class="dest-chip has-video" data-dest="iloilo">Iloilo</span>
-            <span class="dest-chip has-video" data-dest="bacolod">Bacolod</span>
-            <span class="dest-chip has-video" data-dest="malapascua">Malapascua</span>
-            <span class="dest-chip" data-dest="guimaras">Guimaras</span>
-            <span class="dest-chip" data-dest="sipalay">Sipalay</span>
-            <span class="dest-chip" data-dest="biliran">Biliran</span>
-            <span class="dest-chip" data-dest="samar">Samar</span>
-            <span class="dest-chip" data-dest="tacloban">Tacloban</span>
+            <span class="dest-chip has-video" data-dest="lombok">Lombok</span>
+            <span class="dest-chip has-video" data-dest="gili-islands">Gili Islands</span>
           </div>
         </div>
-        <div class="region-card" data-region="palawan">
-          <div class="region-card-header"><div class="region-card-name">Palawan</div><div class="region-card-count">4 destinations</div></div>
-          <div class="region-card-desc">The Last Frontier. Dramatic limestone cliffs, hidden lagoons, clearest water on the planet.</div>
+        <div class="region-card" data-region="eastern">
+          <div class="region-card-header"><div class="region-card-name">Eastern Indonesia</div><div class="region-card-count">3 destinations</div></div>
+          <div class="region-card-desc">Indonesia's wild east. Komodo's dragons, Raja Ampat's world-class diving, and Flores' volcanic craters.</div>
           <div class="region-dest-tags">
-            <span class="dest-chip has-video" data-dest="el-nido">El Nido</span>
-            <span class="dest-chip has-video" data-dest="coron">Coron</span>
-            <span class="dest-chip has-video" data-dest="puerto-princesa">Puerto Princesa</span>
-            <span class="dest-chip" data-dest="cuyo">Cuyo</span>
+            <span class="dest-chip has-video" data-dest="komodo">Komodo</span>
+            <span class="dest-chip has-video" data-dest="flores">Flores</span>
+            <span class="dest-chip has-video" data-dest="raja-ampat">Raja Ampat</span>
           </div>
         </div>
-        <div class="region-card" data-region="mindanao">
-          <div class="region-card-header"><div class="region-card-name">Mindanao</div><div class="region-card-count">3 destinations</div></div>
-          <div class="region-card-desc">The road less traveled. World-class surfing in Siargao, volcanic islands in Camiguin, Davao's durian country.</div>
+        <div class="region-card" data-region="sumatra">
+          <div class="region-card-header"><div class="region-card-name">Sumatra</div><div class="region-card-count">2 destinations</div></div>
+          <div class="region-card-desc">Orang-utans, volcanic crater lakes, and Sumatran coffee country. Indonesia's most underrated adventure.</div>
           <div class="region-dest-tags">
-            <span class="dest-chip has-video" data-dest="siargao">Siargao</span>
-            <span class="dest-chip has-video" data-dest="davao">Davao</span>
-            <span class="dest-chip has-video" data-dest="camiguin">Camiguin</span>
+            <span class="dest-chip has-video" data-dest="lake-toba">Lake Toba</span>
+            <span class="dest-chip has-video" data-dest="medan">Medan</span>
           </div>
         </div>
       </div>
@@ -186,10 +158,10 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         <label class="form-label" for="tripStyle">Travel style</label>
         <select class="form-select" id="tripStyle">
           <option value="">Select style...</option>
-          <option>Backpacker (&#8369;1,000-2,000/day · ~$18-$35 USD)</option>
-          <option>Budget-comfortable (&#8369;2,000-4,000/day · ~$35-$71 USD)</option>
-          <option>Mid-range (&#8369;4,000-8,000/day · ~$71-$142 USD)</option>
-          <option>Luxury (&#8369;8,000+/day · ~$142+ USD)</option>
+          <option>Backpacker (Rp300,000-500,000/day · ~$18-$31 USD)</option>
+          <option>Budget-comfortable (Rp500,000-1,000,000/day · ~$31-$63 USD)</option>
+          <option>Mid-range (Rp1,000,000-2,500,000/day · ~$63-$156 USD)</option>
+          <option>Luxury (Rp2,500,000+/day · ~$156+ USD)</option>
         </select>
       </div>
       <div class="form-group">
@@ -207,8 +179,8 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
     <div class="form-group" style="margin-top: 20px;">
       <label class="form-label" for="budgetSlider">Daily budget</label>
       <div class="budget-display">
-        <input type="range" class="budget-range" id="budgetSlider" min="500" max="15000" step="250" value="3000" />
-        <div class="budget-value" id="budgetDisplay">&#8369;3,000 <span class="budget-usd">(~$53 USD)</span></div>
+        <input type="range" class="budget-range" id="budgetSlider" min="100000" max="5000000" step="50000" value="800000" />
+        <div class="budget-value" id="budgetDisplay">Rp800,000 <span class="budget-usd">(~$50 USD)</span></div>
       </div>
     </div>
   </div>
@@ -241,7 +213,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
   <section class="trust-section">
     <div class="trust-inner">
       <div class="trust-item-block"><div class="trust-icon">&#128506;</div><div class="trust-title">Any Destination</div><div class="trust-desc">Open-ended — plan trips to any island, city, or region in Indonesia</div></div>
-      <div class="trust-item-block"><div class="trust-icon">&#128176;</div><div class="trust-title">Real Prices</div><div class="trust-desc">Every cost in PHP with USD equivalent — no guesswork</div></div>
+      <div class="trust-item-block"><div class="trust-icon">&#128176;</div><div class="trust-title">Real Prices</div><div class="trust-desc">Every cost in IDR with USD equivalent — no guesswork</div></div>
       <div class="trust-item-block"><div class="trust-icon">&#129523;</div><div class="trust-title">20+ Trips Since 2003</div><div class="trust-desc">Itineraries informed by Scott &amp; Jenice's real travel experience</div></div>
       <div class="trust-item-block"><div class="trust-icon">&#129309;</div><div class="trust-title">Book With Confidence</div><div class="trust-desc">Direct links to trusted hotels, tours, transport — vetted by us</div></div>
     </div>
@@ -271,9 +243,9 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
   const budgetDisplay = document.getElementById('budgetDisplay');
   if (slider && budgetDisplay) {
     slider.addEventListener('input', () => {
-      const php = parseInt(slider.value);
-      const usd = (php / 56.5).toFixed(0);
-      budgetDisplay.innerHTML = `\u20B1${php.toLocaleString()} <span class="budget-usd">(~$${usd} USD)</span>`;
+      const idr = parseInt(slider.value);
+      const usd = (idr / 16000).toFixed(0);
+      budgetDisplay.innerHTML = `Rp${idr.toLocaleString()} <span class="budget-usd">(~$${usd} USD)</span>`;
     });
   }
 
@@ -381,7 +353,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       { icon: '🏨', text: 'Finding hotels in your budget...' },
       { icon: '🍴', text: 'Picking restaurants & local eats...' },
       { icon: '🏄', text: 'Adding activities & experiences...' },
-      { icon: '💰', text: 'Calculating prices in PHP & USD...' },
+      { icon: '💰', text: 'Calculating prices in IDR & USD...' },
     ];
     container.innerHTML = `
       <div class="itinerary-loading">
@@ -418,29 +390,21 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 
   // Destination display names for affiliate URLs
   const DEST_NAMES: Record<string, string> = {
-    'siquijor':'Siquijor','cebu':'Cebu','bohol':'Bohol','boracay':'Boracay',
-    'el-nido':'El Nido Palawan','coron':'Coron Palawan','siargao':'Siargao',
-    'dumaguete':'Dumaguete','clark':'Clark Pampanga','manila':'Manila',
-    'davao':'Davao','camiguin':'Camiguin','puerto-princesa':'Puerto Princesa',
-    'palawan':'Palawan','vigan':'Vigan','sagada':'Sagada','batanes':'Batanes',
-    'legazpi':'Legazpi','tagaytay':'Tagaytay','baguio':'Baguio',
-    'bacolod':'Bacolod','iloilo':'Iloilo','malapascua':'Malapascua',
-    'la-union':'La Union','baler':'Baler','donsol':'Donsol',
-    'puerto-galera':'Puerto Galera','subic':'Subic',
+    'bali':'Bali','ubud':'Ubud','yogyakarta':'Yogyakarta','jakarta':'Jakarta',
+    'bandung':'Bandung','surabaya':'Surabaya','malang':'Malang',
+    'lombok':'Lombok','gili-islands':'Gili Islands','nusa-penida':'Nusa Penida',
+    'komodo':'Komodo','flores':'Flores','raja-ampat':'Raja Ampat',
+    'lake-toba':'Lake Toba','medan':'Medan',
   };
 
   // 12Go Asia slug mapping (site slug → 12Go city slug)
   const TWELVE_GO_SLUGS: Record<string, string> = {
-    'manila':'manila','cebu':'cebu','bohol':'bohol','siquijor':'siquijor',
-    'dumaguete':'dumaguete','boracay':'boracay','el-nido':'el-nido',
-    'coron':'coron','siargao':'siargao','davao':'davao',
-    'puerto-princesa':'puerto-princesa','camiguin':'camiguin',
-    'iloilo':'iloilo','bacolod':'bacolod','legazpi':'legazpi',
-    'puerto-galera':'puerto-galera','batangas':'batangas',
-    'donsol':'donsol','vigan':'vigan','baguio':'baguio',
-    'sagada':'sagada','clark':'clark','la-union':'san-fernando-la-union',
-    'baler':'baler','pagudpud':'pagudpud','subic':'subic',
-    'malapascua':'malapascua','tagaytay':'tagaytay',
+    'bali':'denpasar','ubud':'ubud','yogyakarta':'yogyakarta','jakarta':'jakarta',
+    'bandung':'bandung','surabaya':'surabaya','malang':'malang',
+    'lombok':'mataram','gili-islands':'gili-trawangan',
+    'nusa-penida':'nusa-penida','komodo':'labuan-bajo',
+    'flores':'flores','raja-ampat':'sorong',
+    'lake-toba':'parapat','medan':'medan',
   };
 
   // Parse trip form data into booking params
@@ -500,7 +464,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
     }
     if (type === 'transport' || type === 'ferry') {
       const slug12go = TWELVE_GO_SLUGS[destination] || destination.replace(/-/g, '-');
-      return `https://12go.asia/en/travel/${slug12go}?z=15062413&sub_id=discoverph-plan`;
+      return `https://12go.asia/en/travel/${slug12go}?z=15062413&sub_id=discoverId-plan`;
     }
     return `https://www.getyourguide.com/s/?q=${enc(destName + ' Indonesia')}&partner_id=IVN6IQ3&cmp=discover-indonesia`;
   }
@@ -537,7 +501,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       html += `
         <div class="budget-summary">
           <span class="budget-summary-label">Estimated Total</span>
-          <span class="budget-summary-value">\u20B1${it.totalBudget.php?.toLocaleString() || '—'} <span class="budget-summary-usd">(~$${it.totalBudget.usd?.toLocaleString() || '—'} USD)</span></span>
+          <span class="budget-summary-value">Rp${(it.totalBudget.idr || it.totalBudget.php)?.toLocaleString() || '—'} <span class="budget-summary-usd">(~$${it.totalBudget.usd?.toLocaleString() || '—'} USD)</span></span>
         </div>`;
     }
 
@@ -555,7 +519,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         if (item.pricePhp) {
           dayPhp += item.pricePhp;
           if (item.priceUsd) dayUsd += item.priceUsd;
-          priceHtml = ` <span class="day-price">\u20B1${item.pricePhp.toLocaleString()}`;
+          priceHtml = ` <span class="day-price">Rp${item.pricePhp.toLocaleString()}`;
           if (item.priceUsd) priceHtml += ` <span class="day-price-usd">(~$${item.priceUsd} USD)</span>`;
           priceHtml += `</span>`;
         }
@@ -581,7 +545,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         </div>`;
       }
       if (dayPhp > 0) {
-        html += `<div class="day-subtotal">Day total: \u20B1${dayPhp.toLocaleString()} <span class="day-subtotal-usd">(~$${dayUsd} USD)</span></div>`;
+        html += `<div class="day-subtotal">Day total: Rp${dayPhp.toLocaleString()} <span class="day-subtotal-usd">(~$${dayUsd} USD)</span></div>`;
       }
       html += `</div></div>`;
     }
@@ -771,7 +735,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         marker.addListener('click', () => {
           const icon = { transport:'🚐', accommodation:'🏨', activity:'🏄', food:'🍴', ferry:'⛴️' }[item.category] || '';
           let priceStr = '';
-          if (item.pricePhp) priceStr = ` · ₱${item.pricePhp.toLocaleString()}`;
+          if (item.pricePhp) priceStr = ` · Rp${item.pricePhp.toLocaleString()}`;
           itinInfoWindow!.setContent(`
             <div style="font-family:Outfit,sans-serif;max-width:220px;">
               <div style="font-size:11px;font-weight:700;color:#0D7377;">Day ${day.dayNumber} · ${escapeHtml(item.time)}</div>
@@ -900,7 +864,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         <div class="chat-log" id="chatLog"></div>
         <div class="chat-rate-notice" id="chatRateNotice" style="display:none;"></div>
         <div class="chat-input-row">
-          <input type="text" class="chat-input" id="chatInput" placeholder="e.g. Swap Boracay for Siargao" maxlength="500" />
+          <input type="text" class="chat-input" id="chatInput" placeholder="e.g. Swap Ubud for Nusa Penida" maxlength="500" />
           <button class="chat-send-btn" id="chatSendBtn" aria-label="Send">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
           </button>
@@ -939,7 +903,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 
       <div class="companion-upsell">
         <h3 class="companion-upsell-heading">Take This Itinerary Offline</h3>
-        <p class="companion-upsell-text">Get your itinerary with offline access, local directions, budget tracking, and Filipino phrases — all in one app. Free through June 30, 2026.</p>
+        <p class="companion-upsell-text">Get your itinerary with offline access, local directions, budget tracking, and Indonesian phrases — all in one app. Free through June 30, 2026.</p>
         <a href="/companion/" class="companion-upsell-btn">Get Trip Companion — Free Until June 30</a>
       </div>
 
@@ -947,7 +911,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         <p class="transport-widget-heading">Book Buses, Ferries & Flights</p>
         <p class="transport-widget-sub">Search routes between Indonesia destinations — ferries, buses, and domestic flights.</p>
         <div class="transport-widget-wrap" id="transportWidget"></div>
-        <div class="transport-widget-powered">Powered by <a href="https://12go.asia/?z=15062413&sub_id=discoverph-plan" target="_blank" rel="noopener sponsored">12Go Asia</a></div>
+        <div class="transport-widget-powered">Powered by <a href="https://12go.asia/?z=15062413&sub_id=discoverId-plan" target="_blank" rel="noopener sponsored">12Go Asia</a></div>
       </div>
     </div>`;
 
@@ -1001,12 +965,12 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       const btn = document.getElementById('copyItinerary');
       const copyIt = currentItinerary || it;
       let text = copyIt.title + '\n' + copyIt.subtitle + '\n\n';
-      if (copyIt.totalBudget) text += `Estimated Total: \u20B1${copyIt.totalBudget.php?.toLocaleString()} (~$${copyIt.totalBudget.usd?.toLocaleString()} USD)\n\n`;
+      if (copyIt.totalBudget) text += `Estimated Total: Rp${(copyIt.totalBudget.idr || copyIt.totalBudget.php)?.toLocaleString()} (~$${copyIt.totalBudget.usd?.toLocaleString()} USD)\n\n`;
       for (const day of copyIt.days) {
         text += `--- Day ${day.dayNumber}: ${day.title} ---\n`;
         for (const item of day.items) {
           text += `  ${item.time} \u2014 ${item.description}`;
-          if (item.pricePhp) text += ` (\u20B1${item.pricePhp.toLocaleString()})`;
+          if (item.pricePhp) text += ` (Rp${item.pricePhp.toLocaleString()})`;
           text += '\n';
         }
         text += '\n';
@@ -1110,7 +1074,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       s.dataset.border = '1';
       s.dataset.radius = '8';
       s.dataset.caption = 'Find Transport in Indonesia';
-      s.dataset.sub_id = 'discoverph-plan';
+      s.dataset.sub_id = 'discoverId-plan';
       s.dataset.domain = '12go.asia';
       widgetWrap.appendChild(s);
     }
@@ -1303,10 +1267,10 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 
     // Region card hover → highlight markers
     var regionBounds = {
-      luzon: { north: 21, south: 13, east: 126, west: 119.5 },
-      visayas: { north: 12.5, south: 9, east: 126, west: 121 },
-      palawan: { north: 13, south: 8.5, east: 121.5, west: 117.5 },
-      mindanao: { north: 10.5, south: 5.5, east: 127, west: 120 },
+      'java-bali': { north: -6.0, south: -9.0, east: 116.0, west: 105.0 },
+      'lombok-islands': { north: -8.0, south: -9.0, east: 116.8, west: 115.8 },
+      eastern: { north: 2.0, south: -11.0, east: 136.0, west: 118.0 },
+      sumatra: { north: 6.0, south: -6.0, east: 108.0, west: 95.0 },
     };
 
     document.querySelectorAll('.region-card').forEach(function(card) {

@@ -2,6 +2,7 @@
 title: "Best Time to Visit Indonesia: A Month-by-Month Guide"
 description: "Indonesia spans 5,100km from Sumatra to Papua — and each region has its own weather pattern. Here's exactly when to visit each island and destination."
 pubDate: 2026-03-01
+dateModified: 2026-03-08
 heroImage: "/images/blog/indonesia-seasons.jpg"
 author: "Scott"
 tags: ["practical", "planning", "indonesia", "weather"]

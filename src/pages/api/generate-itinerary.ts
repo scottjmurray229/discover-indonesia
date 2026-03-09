@@ -322,7 +322,7 @@ RESPONSE FORMAT — Return ONLY valid JSON matching this schema:
         {
           "time": "string — like 'Morning' or '5:30 AM'",
           "description": "string — what to do, with personality",
-          "pricePhp": number_or_null,
+          "priceIdr": number_or_null,
           "priceUsd": number_or_null,
           "category": "transport|accommodation|activity|food|ferry",
           "affiliateType": "hotel|tour|transport|null",

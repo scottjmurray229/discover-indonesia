@@ -2,6 +2,7 @@
 title: "Indonesia Island Hopping: How to Plan the Perfect Multi-Island Route"
 description: "How to plan a multi-island Indonesia trip — the best island combinations, realistic logistics, transport options, and itineraries from 10 days to 4 weeks."
 pubDate: 2026-03-05
+dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
 category: "Itineraries"
