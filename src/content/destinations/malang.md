@@ -3,6 +3,7 @@ title: "Malang"
 description: "East Java's highland gem — Dutch colonial city center, colorful painted kampungs, access to Bromo and Semeru volcanoes, and Indonesia's apple growing heartland."
 region: "java"
 heroImage: "/images/destinations/malang-hero.jpg"
+heroAlt: "Coban Rondo waterfall and Dutch colonial architecture of Malang, East Java, Indonesia"
 lat: -7.9797
 lng: 112.6304
 budgetRange: "$15-$70/day"

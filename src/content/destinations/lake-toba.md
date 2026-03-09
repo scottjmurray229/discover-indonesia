@@ -3,6 +3,7 @@ title: "Lake Toba"
 description: "The world's largest volcanic lake — formed by a supervolcanic eruption 74,000 years ago, it holds Samosir Island and the living Batak culture at its center."
 region: "sumatra"
 heroImage: "/images/destinations/lake-toba-hero.jpg"
+heroAlt: "Samosir Island and vast caldera lake of Lake Toba, North Sumatra, Indonesia"
 lat: 2.6845
 lng: 98.8756
 budgetRange: "$20-$80/day"

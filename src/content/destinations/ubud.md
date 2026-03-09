@@ -3,6 +3,7 @@ title: "Ubud"
 description: "Bali's cultural heart — terraced rice paddies, jungle temples, acclaimed cooking classes, and the world's finest yoga and wellness retreat scene."
 region: "bali"
 heroImage: "/images/destinations/ubud-hero.jpg"
+heroAlt: "Tegallalang rice terrace terraces and Campuhan Ridge Walk, Ubud, Bali, Indonesia"
 lat: -8.5069
 lng: 115.2625
 budgetRange: "$35-$200/day"

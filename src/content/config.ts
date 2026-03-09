@@ -10,6 +10,7 @@ const destinations = defineCollection({
     description: z.string().default(''),
     heroVideo: z.string().default(''),
     heroImage: z.string().default(''),
+    heroAlt: z.string().optional(),
     tagline: z.string().default(''),
     region: z.enum(['bali', 'java', 'sumatra', 'sulawesi', 'kalimantan', 'nusa-tenggara']),
     bestMonths: z.array(z.string()).default([]),

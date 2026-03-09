@@ -3,6 +3,7 @@ title: "Gili Islands"
 description: "Three tiny coral-fringed islands off Lombok with no motor vehicles — sea turtles, world-class snorkeling, night markets, and the most relaxed sunsets in Indonesia."
 region: "nusa-tenggara"
 heroImage: "/images/destinations/gili-islands-hero.jpg"
+heroAlt: "Turtle swimming over coral reef and Gili Trawangan beach bungalows, Indonesia"
 lat: -8.3500
 lng: 116.0400
 budgetRange: "$30-$150/day"

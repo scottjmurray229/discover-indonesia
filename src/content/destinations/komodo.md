@@ -3,6 +3,7 @@ title: "Komodo"
 description: "World's largest lizards, pink sand beaches, and some of the richest marine biodiversity on Earth — Komodo National Park is Indonesia's most dramatic destination."
 region: "nusa-tenggara"
 heroImage: "/images/destinations/komodo-hero.jpg"
+heroAlt: "Komodo dragon basking on the pink sand of Pantai Merah, Komodo Island, Indonesia"
 lat: -8.5500
 lng: 119.4800
 budgetRange: "$60-$250/day"

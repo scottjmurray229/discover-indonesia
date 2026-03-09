@@ -3,6 +3,7 @@ title: "Bali"
 description: "Indonesia's Island of the Gods — ancient temples, terraced rice paddies, world-class surfing, and a spiritual culture unlike anywhere else on Earth."
 region: "bali"
 heroImage: "/images/destinations/bali-hero.jpg"
+heroAlt: "Pura Ulun Danu Bratan water temple floating on Lake Beratan, Bali, Indonesia"
 lat: -8.3405
 lng: 115.0920
 budgetRange: "$30-$200/day"

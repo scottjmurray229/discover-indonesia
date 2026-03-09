@@ -3,6 +3,7 @@ title: "Raja Ampat"
 description: "The world's greatest dive destination — 1,500 islands, the highest marine biodiversity on Earth, and a silence so complete you can hear the reef breathing."
 region: "sulawesi"
 heroImage: "/images/destinations/raja-ampat-hero.jpg"
+heroAlt: "Limestone karst islands and electric-blue coral reef of Raja Ampat, West Papua, Indonesia"
 lat: -0.2340
 lng: 130.5260
 budgetRange: "$100-$400/day"

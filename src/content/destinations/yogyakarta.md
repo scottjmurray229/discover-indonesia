@@ -3,6 +3,7 @@ title: "Yogyakarta"
 description: "Java's cultural soul — Borobudur, Prambanan, batik workshops, and the living Javanese royal court tradition in the Sultanate's living palace."
 region: "java"
 heroImage: "/images/destinations/yogyakarta-hero.jpg"
+heroAlt: "Prambanan Hindu temple compound at sunset with Merapi volcano, Yogyakarta, Indonesia"
 lat: -7.7956
 lng: 110.3695
 budgetRange: "$20-$100/day"

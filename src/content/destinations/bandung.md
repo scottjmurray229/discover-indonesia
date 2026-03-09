@@ -3,6 +3,7 @@ title: "Bandung"
 description: "Java's creative capital — a cool highland escape with factory outlet fashion, exceptional coffee culture, volcanic craters, and the best Sundanese cuisine in Indonesia."
 region: "java"
 heroImage: "/images/destinations/bandung-hero.jpg"
+heroAlt: "Kawah Putih turquoise crater lake and pine forests of Bandung, West Java, Indonesia"
 lat: -6.9175
 lng: 107.6191
 budgetRange: "$20-$80/day"

@@ -3,6 +3,7 @@ title: "Lombok"
 description: "Bali's quieter neighbor — the sacred volcano Rinjani, virgin surf breaks, Sasak cultural villages, and the Gili Islands just offshore."
 region: "nusa-tenggara"
 heroImage: "/images/destinations/lombok-hero.jpg"
+heroAlt: "Mount Rinjani volcanic crater rim and rice terraces below, Lombok, Indonesia"
 lat: -8.6500
 lng: 116.3240
 budgetRange: "$25-$120/day"

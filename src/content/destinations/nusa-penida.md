@@ -3,6 +3,7 @@ title: "Nusa Penida"
 description: "Bali's wild neighbor — dramatic sea cliffs, world-class manta ray snorkeling, and landscapes so raw they feel like a different island entirely."
 region: "bali"
 heroImage: "/images/destinations/nusa-penida-hero.jpg"
+heroAlt: "Kelingking Beach T-Rex cliff and turquoise sea, Nusa Penida, Bali, Indonesia"
 lat: -8.7278
 lng: 115.5444
 budgetRange: "$40-$150/day"
