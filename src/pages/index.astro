@@ -66,6 +66,7 @@ const pillarLinks = [
   { icon: '🗺️', label: 'AI Trip Planner', desc: 'Build your itinerary', url: '/plan/' },
 ];
 ---
+import NetworkCrossLinks from '../components/NetworkCrossLinks.astro';
 <BaseLayout
   title="Discover Indonesia — Travel Guides by Scott & Jenice"
   description="Your guide to Indonesia's 17,000 islands — Bali temples, Komodo dragons, Raja Ampat reefs, and Borobudur at sunrise. Real trips, real prices."
@@ -421,6 +422,7 @@ const pillarLinks = [
   <div class="container-content">
     <FTCDisclosure placement="inline" />
   </div>
+<NetworkCrossLinks currentSite="Indonesia" cluster="southeast-asia" />
 </BaseLayout>
 
 <!-- Scroll Reveal Observer -->
