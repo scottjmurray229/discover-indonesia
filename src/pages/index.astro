@@ -48,7 +48,7 @@ const gmapMarkers = geoMarkers.map(m => {
   return {
     slug: m.slug, label: m.label, lat: m.lat, lng: m.lng,
     hasVideo: !!dest?.data.heroVideo,
-    region: dest?.data.region || 'luzon',
+    region: dest?.data.region || 'java',
     url: `/destinations/${m.slug}/`,
     status: dest?.data.heroVideo ? 'Guide Available' : 'Guide Coming Soon',
   };

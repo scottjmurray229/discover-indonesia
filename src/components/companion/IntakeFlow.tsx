@@ -466,9 +466,9 @@ export default function IntakeFlow() {
     const filtered = filter === 'all'
       ? templates
       : templates.filter((t) => {
-          if (filter === 'visayas') return t.route.match(/Cebu|Bohol|Siquijor|Dumaguete/i);
-          if (filter === 'palawan') return t.route.match(/Palawan|El Nido|Coron|Puerto Princesa/i);
-          if (filter === 'mindanao') return t.route.match(/Siargao|Davao/i);
+          if (filter === 'java') return t.route.match(/Jakarta|Yogyakarta|Bromo|Surabaya/i);
+          if (filter === 'bali') return t.route.match(/Bali|Ubud|Seminyak|Uluwatu|Canggu/i);
+          if (filter === 'islands') return t.route.match(/Lombok|Komodo|Flores|Raja Ampat|Gili/i);
           return true;
         });
 
@@ -480,7 +480,7 @@ export default function IntakeFlow() {
         </div>
 
         <div style={{ display: 'flex', gap: 8, marginBottom: 16, overflowX: 'auto' as const }}>
-          {['all', 'visayas', 'palawan', 'mindanao'].map((f) => (
+          {['all', 'java', 'bali', 'islands'].map((f) => (
             <Pill key={f} active={filter === f} onClick={() => setFilter(f)}>
               {f.charAt(0).toUpperCase() + f.slice(1)}
             </Pill>
