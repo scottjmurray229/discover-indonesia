@@ -22,7 +22,7 @@ const gmapMarkers = geoMarkers.map(m => {
   return {
     slug: m.slug, label: m.label, lat: m.lat, lng: m.lng,
     hasVideo: !!dest?.data.heroVideo,
-    region: dest?.data.region || 'luzon',
+    region: dest?.data.region || 'java-bali',
     url: `/destinations/${m.slug}/`,
     status: dest?.data.heroVideo ? 'Guide Available' : 'Guide Coming Soon',
   };
@@ -31,7 +31,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 ---
 <BaseLayout
   title="AI Trip Planner — Build Your Indonesia Itinerary"
-  description="Tell us your dream Indonesia trip and our AI builds a custom day-by-day itinerary backed by 20+ trips of real travel experience. Real prices in PHP & USD."
+  description="Tell us your dream Indonesia trip and our AI builds a custom day-by-day itinerary backed by 20+ trips of real travel experience. Real prices in IDR & USD."
 >
   <!-- ============================================================
        HERO
@@ -41,7 +41,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
       <source src="/videos/pillar/plan-hero.mp4" type="video/mp4" />
     </video>
     <div class="planner-hero-gradient-overlay"></div>
-    <div class="planner-hero-eyebrow">AI-Powered &middot; Any Destination &middot; Real Prices in PHP &amp; USD &middot; <span class="free-badge-inline">Free Through June 30</span></div>
+    <div class="planner-hero-eyebrow">AI-Powered &middot; Any Destination &middot; Real Prices in IDR &amp; USD &middot; <span class="free-badge-inline">Free Through June 30</span></div>
     <h1>Plan Your Indonesia Trip</h1>
     <p>Explore the map, pick your destinations, tell us your style — and our AI builds a custom day-by-day itinerary backed by 20+ trips of real Indonesia experience.</p>
   </section>
@@ -103,7 +103,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
         </div>
         <div class="region-card" data-region="visayas">
           <div class="region-card-header"><div class="region-card-name">Visayas</div><div class="region-card-count">13 destinations</div></div>
-          <div class="region-card-desc">Island-hopping paradise. Heart of Philippine beach culture with best diving, waterfalls, and mystical islands.</div>
+          <div class="region-card-desc">Island-hopping paradise. Heart of Indonesian beach culture with best diving, waterfalls, and volcanic landscapes.</div>
           <div class="region-dest-tags">
             <span class="dest-chip has-video" data-dest="cebu">Cebu</span>
             <span class="dest-chip has-video" data-dest="bohol">Bohol</span>
@@ -931,7 +931,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
           <span class="byg-icon">🛡️</span>
           <span class="byg-title">Before You Go: Travel Insurance</span>
         </div>
-        <p class="byg-text">A medevac flight from a remote Philippine island can cost $10,000+. We use <a href="https://safetywing.com/?referenceID=24858745&utm_source=24858745&utm_medium=Ambassador" target="_blank" rel="noopener sponsored">SafetyWing</a> for every trip — it's affordable, covers medical and evacuation, and you can sign up even after you've left home.</p>
+        <p class="byg-text">A medevac flight from a remote Indonesian island can cost $10,000+. We use <a href="https://safetywing.com/?referenceID=24858745&utm_source=24858745&utm_medium=Ambassador" target="_blank" rel="noopener sponsored">SafetyWing</a> for every trip — it's affordable, covers medical and evacuation, and you can sign up even after you've left home.</p>
         <p class="byg-quote">"We've thankfully never had to file a claim, but having it is peace of mind every time we board that plane." — Scott</p>
         <a class="byg-btn" href="https://safetywing.com/?referenceID=24858745&utm_source=24858745&utm_medium=Ambassador" target="_blank" rel="noopener sponsored">Check SafetyWing Rates →</a>
         <p class="byg-disclosure">Affiliate link — we earn a commission at no extra cost to you. <a href="/legal/affiliate-disclosure/">Full disclosure</a>.</p>
@@ -945,7 +945,7 @@ const MAPS_KEY = 'AIzaSyDH8mQKwqzyfCrgGZVDdP1-E-346QUiods';
 
       <div class="transport-widget-section">
         <p class="transport-widget-heading">Book Buses, Ferries & Flights</p>
-        <p class="transport-widget-sub">Search routes between Philippine destinations — ferries, buses, vans, and domestic flights.</p>
+        <p class="transport-widget-sub">Search routes between Indonesia destinations — ferries, buses, and domestic flights.</p>
         <div class="transport-widget-wrap" id="transportWidget"></div>
         <div class="transport-widget-powered">Powered by <a href="https://12go.asia/?z=15062413&sub_id=discoverph-plan" target="_blank" rel="noopener sponsored">12Go Asia</a></div>
       </div>
