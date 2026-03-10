@@ -55,20 +55,7 @@ const destinations = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).default([]),
-    affiliatePicks: z.array(z.union([
-      z.object({
-        name: z.string().optional(),
-        provider: z.string().optional(),
-        label: z.string().optional(),
-        url: z.string().optional(),
-        type: z.enum(['hotel', 'restaurant', 'tour', 'activity', 'transport']).optional(),
-        price: z.string().optional(),
-        priceNote: z.string().optional(),
-        personalNote: z.string().optional(),
-        affiliateUrl: z.string().optional(),
-        badge: z.string().optional(),
-      }),
-    ])).default([]),
+    affiliatePicks: z.array(z.record(z.string(), z.any())).optional(),
   aeoFacts: z.object({
     currency: z.string(),
     plugType: z.string(),
@@ -85,7 +72,7 @@ const destinations = defineCollection({
     locale: z.string().default('en'),
     translation_status: z.enum(['ai_draft', 'in_review', 'human_reviewed', 'published']).optional(),
     source_file: z.string().optional(),
-  }),
+  }).passthrough(),
 });
 
 // ============================================================
@@ -102,7 +89,15 @@ const blog = defineCollection({
     heroVideo: z.string().default(''),
     author: z.string().default('Scott'),
     tags: z.array(z.string()).default([]),
-    category: z.enum(['destination', 'food', 'festival', 'practical', 'budget', 'culture']).optional(),
+    category: z.enum([
+      'destination', 'outdoor-adventure', 'skiing', 'practical', 'budget',
+      'history', 'food', 'festival', 'culture', 'seasonal', 'planning',
+      'travel-tips', 'itinerary', 'adventure', 'nature', 'wildlife',
+      'architecture', 'nightlife', 'shopping', 'wellness', 'luxury',
+      'family', 'solo', 'couples', 'photography', 'diving', 'surfing',
+      'hiking', 'camping', 'road-trip', 'city-guide', 'island', 'beach',
+      'mountain', 'desert', 'cultural', 'spiritual', 'war-history'
+    ]).optional(),
     relatedDestinations: z.array(z.string()).default([]),
     readingTime: z.number().optional(),
     draft: z.boolean().default(true),
@@ -110,7 +105,7 @@ const blog = defineCollection({
     locale: z.string().default('en'),
     translation_status: z.enum(['ai_draft', 'in_review', 'human_reviewed', 'published']).optional(),
     source_file: z.string().optional(),
-  }),
+  }).passthrough(),
 });
 
 // ============================================================
