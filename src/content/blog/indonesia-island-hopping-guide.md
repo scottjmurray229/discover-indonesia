@@ -5,7 +5,7 @@ pubDate: 2026-03-05
 dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
-category: "Itineraries"
+category: "itinerary"
 tags:
   - "indonesia"
   - "island hopping"

@@ -5,7 +5,7 @@ pubDate: 2026-03-01
 dateModified: 2026-03-08
 author: "Scott Murray"
 heroImage: ""
-category: "Guides"
+category: "destination"
 tags:
   - "bali"
   - "first time"
