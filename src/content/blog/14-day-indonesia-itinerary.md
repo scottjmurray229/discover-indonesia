@@ -3,7 +3,7 @@ title: "14-Day Indonesia Itinerary: Bali, Yogyakarta & Komodo"
 description: "The perfect two-week Indonesia trip — Ubud rice paddies, Borobudur sunrise, Komodo dragons, and Raja Ampat's manta rays. A route we've actually done."
 pubDate: 2026-03-01
 dateModified: 2026-03-08
-heroImage: "/images/blog/indonesia-itinerary.jpg"
+heroImage: ""
 author: "Scott"
 tags: ["itinerary", "bali", "yogyakarta", "komodo", "planning"]
 category: "destination"

@@ -3,7 +3,7 @@ title: "What to Pack for Indonesia: The Complete Packing List"
 description: "From temple sarongs to dive masks, reef-safe sunscreen to anti-malarial medication — everything you actually need for Indonesia, organized by destination type."
 pubDate: 2026-03-01
 dateModified: 2026-03-08
-heroImage: "/images/blog/indonesia-packing.jpg"
+heroImage: ""
 author: "Jenice"
 tags: ["practical", "packing", "indonesia", "gear"]
 category: "practical"
