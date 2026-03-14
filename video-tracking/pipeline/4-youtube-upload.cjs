@@ -7,7 +7,7 @@
  *
  * SETUP REQUIRED:
  *   1. Go to https://console.cloud.google.com
- *   2. Create project "Discover Philippines"
+ *   2. Create project "Discover Indonesia"
  *   3. Enable "YouTube Data API v3"
  *   4. Create OAuth 2.0 credentials (type: Desktop app)
  *   5. Download the JSON, save as video-tracking/pipeline/client_secret.json
@@ -71,20 +71,20 @@ function generateMetadata(filename) {
 
   if (type === 'dest') {
     return {
-      title: `${title} Philippines Travel Guide ${year} | Real Prices & Honest Tips`,
+      title: `${title} Indonesia Travel Guide ${year} | Real Prices & Local Tips`,
       description: generateDestDescription(slug, title, year),
       tags: generateDestTags(slug, title, dest),
       categoryId: '19', // Travel & Events
       privacyStatus: 'private', // Set to private first, review before publishing
-      playlist: `${dest?.region || 'philippines'}-destinations`,
+      playlist: `${dest?.region || 'indonesia'}-destinations`,
     };
   }
 
   if (type === 'pillar') {
     return {
-      title: `${title} — Philippines ${year}`,
-      description: `${title}\n\nFull guide: https://discoverphilippines.com/${slug}/`,
-      tags: [`Philippines ${slug}`, 'Philippines travel', `Philippines ${year}`],
+      title: `${title} — Indonesia ${year}`,
+      description: `${title}\n\nFull guide: https://discoverindonesia.info/${slug}/`,
+      tags: [`Indonesia ${slug}`, 'Indonesia travel', `Indonesia ${year}`],
       categoryId: '19',
       privacyStatus: 'private',
       playlist: 'travel-tips',
@@ -93,9 +93,9 @@ function generateMetadata(filename) {
 
   if (type === 'short') {
     return {
-      title: `${title} Philippines 🇵🇭 #shorts`,
-      description: `${title} — Full guide: https://discoverphilippines.com/destinations/${slug}/`,
-      tags: [`${title} Philippines`, 'Philippines travel', 'shorts'],
+      title: `${title} Indonesia ✈️ #shorts`,
+      description: `${title} — Full guide: https://discoverindonesia.info/destinations/${slug}/`,
+      tags: [`${title} Indonesia`, 'Indonesia travel', 'shorts'],
       categoryId: '19',
       privacyStatus: 'private',
       playlist: 'shorts',
@@ -105,37 +105,36 @@ function generateMetadata(filename) {
   return {
     title: filename.replace('.mp4', ''),
     description: '',
-    tags: ['Philippines travel'],
+    tags: ['Indonesia travel'],
     categoryId: '19',
     privacyStatus: 'private',
   };
 }
 
 function generateDestDescription(slug, title, year) {
-  return `Complete travel guide to ${title}, Philippines — with real prices, how to get there, where to eat, where to stay, and what most tourists miss.
+  return `Complete travel guide to ${title}, Indonesia — with real prices, how to get there, where to eat, where to stay, and what most tourists miss.
 
-We've been traveling to the Philippines for 20+ years. Jenice is Filipina, Scott handles logistics. No sponsored content.
+I've been exploring Indonesia for years with deep local knowledge. No sponsored content.
 
-📖 FULL WRITTEN GUIDE: https://discoverphilippines.com/destinations/${slug}/
-📱 TRIP COMPANION (works offline): https://discoverphilippines.com/companion/
-🆓 FREE BETA ACCESS: https://discoverphilippines.com/founding-explorer/
+📖 FULL WRITTEN GUIDE: https://discoverindonesia.info/destinations/${slug}/
+📱 TRIP COMPANION (works offline): https://discoverindonesia.info/companion/
 
-#Philippines #${title.replace(/\s+/g, '')} #PhilippinesTravel #TravelGuide${year}`;
+#Indonesia #${title.replace(/\s+/g, '')} #IndonesiaTravel #TravelGuide${year}`;
 }
 
 function generateDestTags(slug, title, dest) {
   const tags = [
-    `${title} Philippines`,
+    `${title} Indonesia`,
     `${title} travel guide`,
-    `Philippines ${new Date().getFullYear()}`,
+    `Indonesia ${new Date().getFullYear()}`,
     `${title} things to do`,
     `where to stay ${title}`,
-    'Philippines travel',
-    'Philippines food',
-    'Philippines budget travel',
-    'Philippines tips',
+    'Indonesia travel',
+    'Indonesia food',
+    'Indonesia budget travel',
+    'Indonesia tips',
   ];
-  if (dest?.region) tags.push(`${dest.region} Philippines`);
+  if (dest?.region) tags.push(`${dest.region} Indonesia`);
   return tags.slice(0, 15); // YouTube max 15 tags
 }
 
@@ -314,7 +313,7 @@ async function uploadThumbnail(videoId, thumbPath, token) {
 // Main
 async function main() {
   console.log('╔══════════════════════════════════════════════════════════╗');
-  console.log('║   YOUTUBE UPLOAD — DISCOVER PHILIPPINES                   ║');
+  console.log('║   YOUTUBE UPLOAD — DISCOVER INDONESIA              ║');
   console.log('╚══════════════════════════════════════════════════════════╝\n');
 
   if (!fs.existsSync(EDITED_DIR)) {
